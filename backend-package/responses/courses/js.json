@@ -1,0 +1,591 @@
+{
+  "data": {
+    "id": "js",
+    "slug": "js",
+    "title": "JavaScript",
+    "subtitle": "JavaScript, от первых шагов к инженерной практике",
+    "description": "Понятный путь от вывода текста до массивов, объектов и самостоятельных функций. Продолжение программы включает разработку компонентов, проверку ошибок, архитектуру, производительность и проектные работы",
+    "level": "С нуля до продвинутого",
+    "category": "frontend",
+    "language": "javascript",
+    "base": 0,
+    "hours": 101,
+    "lessons": 60,
+    "teacher": "Редакция LogicKernel",
+    "version": "2026.09.15.1",
+    "prerequisites": "Первые 12 уроков можно пройти без опыта, следующие модули опираются на предыдущие, продвинутые проекты требуют самостоятельной работы и ревью",
+    "outcomes": [
+      "Читать, писать и объяснять код JavaScript",
+      "Проверять контракты, граничные случаи и поведение при отказе",
+      "Обосновывать структуру проекта, работу с данными и ресурсами",
+      "Измерять производительность и сохранять корректность при оптимизации",
+      "Подготовить итоговый проект и защитить инженерные решения"
+    ],
+    "modules": [
+      {
+        "id": "js-module-1",
+        "title": "Первые шаги и устройство кода",
+        "position": 0,
+        "lessons": [
+          {
+            "id": "js-01",
+            "title": "Программа и первое сообщение",
+            "position": 0,
+            "estimatedMinutes": 35,
+            "hasPractice": true
+          },
+          {
+            "id": "js-02",
+            "title": "Синтаксис, комментарии и порядок",
+            "position": 1,
+            "estimatedMinutes": 37,
+            "hasPractice": true
+          },
+          {
+            "id": "js-03",
+            "title": "Переменные: const и let",
+            "position": 2,
+            "estimatedMinutes": 39,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "js-module-2",
+        "title": "Данные и управление программой",
+        "position": 1,
+        "lessons": [
+          {
+            "id": "js-04",
+            "title": "Типы и арифметика",
+            "position": 3,
+            "estimatedMinutes": 41,
+            "hasPractice": true
+          },
+          {
+            "id": "js-05",
+            "title": "Строки и шаблонные сообщения",
+            "position": 4,
+            "estimatedMinutes": 43,
+            "hasPractice": true
+          },
+          {
+            "id": "js-06",
+            "title": "Условия и логические значения",
+            "position": 5,
+            "estimatedMinutes": 45,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "js-module-3",
+        "title": "Коллекции и повторное использование",
+        "position": 2,
+        "lessons": [
+          {
+            "id": "js-07",
+            "title": "Массивы и индексы",
+            "position": 6,
+            "estimatedMinutes": 47,
+            "hasPractice": true
+          },
+          {
+            "id": "js-08",
+            "title": "Циклы и накопление результата",
+            "position": 7,
+            "estimatedMinutes": 49,
+            "hasPractice": true
+          },
+          {
+            "id": "js-09",
+            "title": "Функции, параметры и return",
+            "position": 8,
+            "estimatedMinutes": 51,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "js-module-4",
+        "title": "Надёжность и самостоятельный проект",
+        "position": 3,
+        "lessons": [
+          {
+            "id": "js-10",
+            "title": "Объекты: данные со свойствами",
+            "position": 9,
+            "estimatedMinutes": 53,
+            "hasPractice": true
+          },
+          {
+            "id": "js-11",
+            "title": "Проверка входных данных и ошибки",
+            "position": 10,
+            "estimatedMinutes": 55,
+            "hasPractice": true
+          },
+          {
+            "id": "js-12",
+            "title": "Проект: считаем прогресс курса",
+            "position": 11,
+            "estimatedMinutes": 57,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "js-module-5",
+        "title": "Области видимости и замыкания",
+        "position": 4,
+        "lessons": [
+          {
+            "id": "js-13",
+            "title": "Области видимости и замыкания",
+            "position": 12,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "js-14",
+            "title": "Области видимости и замыкания, проверки и отладка",
+            "position": 13,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "js-15",
+            "title": "Проектная работа, области видимости и замыкания",
+            "position": 14,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "js-module-6",
+        "title": "Прототипы классы и this",
+        "position": 5,
+        "lessons": [
+          {
+            "id": "js-16",
+            "title": "Прототипы классы и this",
+            "position": 15,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "js-17",
+            "title": "Прототипы классы и this, проверки и отладка",
+            "position": 16,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "js-18",
+            "title": "Проектная работа, прототипы классы и this",
+            "position": 17,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "js-module-7",
+        "title": "Копирование и неизменяемые обновления",
+        "position": 6,
+        "lessons": [
+          {
+            "id": "js-19",
+            "title": "Копирование и неизменяемые обновления",
+            "position": 18,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "js-20",
+            "title": "Копирование и неизменяемые обновления, проверки и отладка",
+            "position": 19,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "js-21",
+            "title": "Проектная работа, копирование и неизменяемые обновления",
+            "position": 20,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "js-module-8",
+        "title": "Модули и публичный интерфейс",
+        "position": 7,
+        "lessons": [
+          {
+            "id": "js-22",
+            "title": "Модули и публичный интерфейс",
+            "position": 21,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "js-23",
+            "title": "Модули и публичный интерфейс, проверки и отладка",
+            "position": 22,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "js-24",
+            "title": "Проектная работа, модули и публичный интерфейс",
+            "position": 23,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "js-module-9",
+        "title": "Promise и порядок выполнения",
+        "position": 8,
+        "lessons": [
+          {
+            "id": "js-25",
+            "title": "Promise и порядок выполнения",
+            "position": 24,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "js-26",
+            "title": "Promise и порядок выполнения, проверки и отладка",
+            "position": 25,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "js-27",
+            "title": "Проектная работа, promise и порядок выполнения",
+            "position": 26,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "js-module-10",
+        "title": "Отмена и защита от устаревшего ответа",
+        "position": 9,
+        "lessons": [
+          {
+            "id": "js-28",
+            "title": "Отмена и защита от устаревшего ответа",
+            "position": 27,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "js-29",
+            "title": "Отмена и защита от устаревшего ответа, проверки и отладка",
+            "position": 28,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "js-30",
+            "title": "Проектная работа, отмена и защита от устаревшего ответа",
+            "position": 29,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "js-module-11",
+        "title": "Итераторы генераторы и управление объёмом",
+        "position": 10,
+        "lessons": [
+          {
+            "id": "js-31",
+            "title": "Итераторы генераторы и управление объёмом",
+            "position": 30,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "js-32",
+            "title": "Итераторы генераторы и управление объёмом, проверки и отладка",
+            "position": 31,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "js-33",
+            "title": "Проектная работа, итераторы генераторы и управление объёмом",
+            "position": 32,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "js-module-12",
+        "title": "Ошибки и проверка внешних данных",
+        "position": 11,
+        "lessons": [
+          {
+            "id": "js-34",
+            "title": "Ошибки и проверка внешних данных",
+            "position": 33,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "js-35",
+            "title": "Ошибки и проверка внешних данных, проверки и отладка",
+            "position": 34,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "js-36",
+            "title": "Проектная работа, ошибки и проверка внешних данных",
+            "position": 35,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "js-module-13",
+        "title": "DOM события и жизненный цикл",
+        "position": 12,
+        "lessons": [
+          {
+            "id": "js-37",
+            "title": "DOM события и жизненный цикл",
+            "position": 36,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "js-38",
+            "title": "DOM события и жизненный цикл, проверки и отладка",
+            "position": 37,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "js-39",
+            "title": "Проектная работа, dom события и жизненный цикл",
+            "position": 38,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "js-module-14",
+        "title": "Управление состоянием и переходы",
+        "position": 13,
+        "lessons": [
+          {
+            "id": "js-40",
+            "title": "Управление состоянием и переходы",
+            "position": 39,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "js-41",
+            "title": "Управление состоянием и переходы, проверки и отладка",
+            "position": 40,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "js-42",
+            "title": "Проектная работа, управление состоянием и переходы",
+            "position": 41,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "js-module-15",
+        "title": "Тестирование времени и асинхронности",
+        "position": 14,
+        "lessons": [
+          {
+            "id": "js-43",
+            "title": "Тестирование времени и асинхронности",
+            "position": 42,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "js-44",
+            "title": "Тестирование времени и асинхронности, проверки и отладка",
+            "position": 43,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "js-45",
+            "title": "Проектная работа, тестирование времени и асинхронности",
+            "position": 44,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "js-module-16",
+        "title": "HTTP кеширование и идемпотентность",
+        "position": 15,
+        "lessons": [
+          {
+            "id": "js-46",
+            "title": "HTTP кеширование и идемпотентность",
+            "position": 45,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "js-47",
+            "title": "HTTP кеширование и идемпотентность, проверки и отладка",
+            "position": 46,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "js-48",
+            "title": "Проектная работа, http кеширование и идемпотентность",
+            "position": 47,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "js-module-17",
+        "title": "Производительность и удержание памяти",
+        "position": 16,
+        "lessons": [
+          {
+            "id": "js-49",
+            "title": "Производительность и удержание памяти",
+            "position": 48,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "js-50",
+            "title": "Производительность и удержание памяти, проверки и отладка",
+            "position": 49,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "js-51",
+            "title": "Проектная работа, производительность и удержание памяти",
+            "position": 50,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "js-module-18",
+        "title": "Безопасные границы интерфейса",
+        "position": 17,
+        "lessons": [
+          {
+            "id": "js-52",
+            "title": "Безопасные границы интерфейса",
+            "position": 51,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "js-53",
+            "title": "Безопасные границы интерфейса, проверки и отладка",
+            "position": 52,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "js-54",
+            "title": "Проектная работа, безопасные границы интерфейса",
+            "position": 53,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "js-module-19",
+        "title": "Совместимость и эволюция контракта",
+        "position": 18,
+        "lessons": [
+          {
+            "id": "js-55",
+            "title": "Совместимость и эволюция контракта",
+            "position": 54,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "js-56",
+            "title": "Совместимость и эволюция контракта, проверки и отладка",
+            "position": 55,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "js-57",
+            "title": "Проектная работа, совместимость и эволюция контракта",
+            "position": 56,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "js-module-20",
+        "title": "Клиент образовательной платформы",
+        "position": 19,
+        "lessons": [
+          {
+            "id": "js-58",
+            "title": "Клиент образовательной платформы",
+            "position": 57,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "js-59",
+            "title": "Клиент образовательной платформы, проверки и отладка",
+            "position": 58,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "js-60",
+            "title": "Итоговый проект, Клиент образовательной платформы",
+            "position": 59,
+            "estimatedMinutes": 360,
+            "hasPractice": true
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "schemaVersion": "1.0",
+    "contentVersion": "2026.09.15.1"
+  }
+}

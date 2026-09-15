@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "POST /api/v1/task-submissions",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "taskId",
+    "taskVersion",
+    "language",
+    "runtimeProfileId",
+    "files",
+    "stdin"
+  ],
+  "properties": {
+    "language": {
+      "const": "javascript"
+    },
+    "runtimeProfileId": {
+      "const": "javascript-functions-v1"
+    },
+    "files": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "path",
+          "code"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "code": {
+            "type": "string",
+            "maxLength": 65536
+          }
+        }
+      }
+    },
+    "stdin": {
+      "type": "string",
+      "maxLength": 8192
+    },
+    "taskId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "taskVersion": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "$comment": "Enforce UTF-8 byte limits, allowed paths, runtime/lesson ownership and versions on the server in addition to this schema. User identity comes from the session, never the body."
+}

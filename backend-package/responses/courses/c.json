@@ -1,0 +1,591 @@
+{
+  "data": {
+    "id": "c",
+    "slug": "c",
+    "title": "C",
+    "subtitle": "C, от первых шагов к инженерной практике",
+    "description": "Устройство простой программы, числа, массивы, функции, адреса и безопасные границы. Продолжение программы включает разработку компонентов, проверку ошибок, архитектуру, производительность и проектные работы",
+    "level": "С нуля до продвинутого",
+    "category": "systems",
+    "language": "c",
+    "base": 0,
+    "hours": 101,
+    "lessons": 60,
+    "teacher": "Редакция LogicKernel",
+    "version": "2026.09.15.1",
+    "prerequisites": "Первые 12 уроков можно пройти без опыта, следующие модули опираются на предыдущие, продвинутые проекты требуют самостоятельной работы и ревью",
+    "outcomes": [
+      "Читать, писать и объяснять код C",
+      "Проверять контракты, граничные случаи и поведение при отказе",
+      "Обосновывать структуру проекта, работу с данными и ресурсами",
+      "Измерять производительность и сохранять корректность при оптимизации",
+      "Подготовить итоговый проект и защитить инженерные решения"
+    ],
+    "modules": [
+      {
+        "id": "c-module-1",
+        "title": "Первые шаги и устройство кода",
+        "position": 0,
+        "lessons": [
+          {
+            "id": "c-01",
+            "title": "Программа на C: от текста к запуску",
+            "position": 0,
+            "estimatedMinutes": 35,
+            "hasPractice": true
+          },
+          {
+            "id": "c-02",
+            "title": "Скобки, инструкции и комментарии",
+            "position": 1,
+            "estimatedMinutes": 37,
+            "hasPractice": true
+          },
+          {
+            "id": "c-03",
+            "title": "Тип int и первое присваивание",
+            "position": 2,
+            "estimatedMinutes": 39,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "c-module-2",
+        "title": "Данные и управление программой",
+        "position": 1,
+        "lessons": [
+          {
+            "id": "c-04",
+            "title": "Арифметика и дробные числа",
+            "position": 3,
+            "estimatedMinutes": 41,
+            "hasPractice": true
+          },
+          {
+            "id": "c-05",
+            "title": "Символы и строки",
+            "position": 4,
+            "estimatedMinutes": 43,
+            "hasPractice": true
+          },
+          {
+            "id": "c-06",
+            "title": "Условия и сравнения",
+            "position": 5,
+            "estimatedMinutes": 45,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "c-module-3",
+        "title": "Коллекции и повторное использование",
+        "position": 2,
+        "lessons": [
+          {
+            "id": "c-07",
+            "title": "Массивы и допустимые индексы",
+            "position": 6,
+            "estimatedMinutes": 47,
+            "hasPractice": true
+          },
+          {
+            "id": "c-08",
+            "title": "Цикл for и счётчик",
+            "position": 7,
+            "estimatedMinutes": 49,
+            "hasPractice": true
+          },
+          {
+            "id": "c-09",
+            "title": "Функции и передача аргументов",
+            "position": 8,
+            "estimatedMinutes": 51,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "c-module-4",
+        "title": "Надёжность и самостоятельный проект",
+        "position": 3,
+        "lessons": [
+          {
+            "id": "c-10",
+            "title": "Адреса и указатели без спешки",
+            "position": 9,
+            "estimatedMinutes": 53,
+            "hasPractice": true
+          },
+          {
+            "id": "c-11",
+            "title": "Структуры: объединяем свойства",
+            "position": 10,
+            "estimatedMinutes": 55,
+            "hasPractice": true
+          },
+          {
+            "id": "c-12",
+            "title": "Проект: безопасная сумма массива",
+            "position": 11,
+            "estimatedMinutes": 57,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "c-module-5",
+        "title": "Массивы указатели и длины",
+        "position": 4,
+        "lessons": [
+          {
+            "id": "c-13",
+            "title": "Массивы указатели и длины",
+            "position": 12,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "c-14",
+            "title": "Массивы указатели и длины, проверки и отладка",
+            "position": 13,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "c-15",
+            "title": "Проектная работа, массивы указатели и длины",
+            "position": 14,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "c-module-6",
+        "title": "Строки и ограниченные буферы",
+        "position": 5,
+        "lessons": [
+          {
+            "id": "c-16",
+            "title": "Строки и ограниченные буферы",
+            "position": 15,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "c-17",
+            "title": "Строки и ограниченные буферы, проверки и отладка",
+            "position": 16,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "c-18",
+            "title": "Проектная работа, строки и ограниченные буферы",
+            "position": 17,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "c-module-7",
+        "title": "Динамическая память и владение",
+        "position": 6,
+        "lessons": [
+          {
+            "id": "c-19",
+            "title": "Динамическая память и владение",
+            "position": 18,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "c-20",
+            "title": "Динамическая память и владение, проверки и отладка",
+            "position": 19,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "c-21",
+            "title": "Проектная работа, динамическая память и владение",
+            "position": 20,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "c-module-8",
+        "title": "Изменяемая ёмкость и realloc",
+        "position": 7,
+        "lessons": [
+          {
+            "id": "c-22",
+            "title": "Изменяемая ёмкость и realloc",
+            "position": 21,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "c-23",
+            "title": "Изменяемая ёмкость и realloc, проверки и отладка",
+            "position": 22,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "c-24",
+            "title": "Проектная работа, изменяемая ёмкость и realloc",
+            "position": 23,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "c-module-9",
+        "title": "Структуры и бинарное представление",
+        "position": 8,
+        "lessons": [
+          {
+            "id": "c-25",
+            "title": "Структуры и бинарное представление",
+            "position": 24,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "c-26",
+            "title": "Структуры и бинарное представление, проверки и отладка",
+            "position": 25,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "c-27",
+            "title": "Проектная работа, структуры и бинарное представление",
+            "position": 26,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "c-module-10",
+        "title": "Модули и непрозрачные типы",
+        "position": 9,
+        "lessons": [
+          {
+            "id": "c-28",
+            "title": "Модули и непрозрачные типы",
+            "position": 27,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "c-29",
+            "title": "Модули и непрозрачные типы, проверки и отладка",
+            "position": 28,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "c-30",
+            "title": "Проектная работа, модули и непрозрачные типы",
+            "position": 29,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "c-module-11",
+        "title": "Функциональные указатели и контекст",
+        "position": 10,
+        "lessons": [
+          {
+            "id": "c-31",
+            "title": "Функциональные указатели и контекст",
+            "position": 30,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "c-32",
+            "title": "Функциональные указатели и контекст, проверки и отладка",
+            "position": 31,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "c-33",
+            "title": "Проектная работа, функциональные указатели и контекст",
+            "position": 32,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "c-module-12",
+        "title": "Ошибки и очистка частичной инициализации",
+        "position": 11,
+        "lessons": [
+          {
+            "id": "c-34",
+            "title": "Ошибки и очистка частичной инициализации",
+            "position": 33,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "c-35",
+            "title": "Ошибки и очистка частичной инициализации, проверки и отладка",
+            "position": 34,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "c-36",
+            "title": "Проектная работа, ошибки и очистка частичной инициализации",
+            "position": 35,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "c-module-13",
+        "title": "Файлы и частичный ввод вывод",
+        "position": 12,
+        "lessons": [
+          {
+            "id": "c-37",
+            "title": "Файлы и частичный ввод вывод",
+            "position": 36,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "c-38",
+            "title": "Файлы и частичный ввод вывод, проверки и отладка",
+            "position": 37,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "c-39",
+            "title": "Проектная работа, файлы и частичный ввод вывод",
+            "position": 38,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "c-module-14",
+        "title": "Целые числа и неопределённое поведение",
+        "position": 13,
+        "lessons": [
+          {
+            "id": "c-40",
+            "title": "Целые числа и неопределённое поведение",
+            "position": 39,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "c-41",
+            "title": "Целые числа и неопределённое поведение, проверки и отладка",
+            "position": 40,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "c-42",
+            "title": "Проектная работа, целые числа и неопределённое поведение",
+            "position": 41,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "c-module-15",
+        "title": "Тестирование и санитайзеры",
+        "position": 14,
+        "lessons": [
+          {
+            "id": "c-43",
+            "title": "Тестирование и санитайзеры",
+            "position": 42,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "c-44",
+            "title": "Тестирование и санитайзеры, проверки и отладка",
+            "position": 43,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "c-45",
+            "title": "Проектная работа, тестирование и санитайзеры",
+            "position": 44,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "c-module-16",
+        "title": "Конкурентность и модель памяти",
+        "position": 15,
+        "lessons": [
+          {
+            "id": "c-46",
+            "title": "Конкурентность и модель памяти",
+            "position": 45,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "c-47",
+            "title": "Конкурентность и модель памяти, проверки и отладка",
+            "position": 46,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "c-48",
+            "title": "Проектная работа, конкурентность и модель памяти",
+            "position": 47,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "c-module-17",
+        "title": "Аллокаторы и локальность данных",
+        "position": 16,
+        "lessons": [
+          {
+            "id": "c-49",
+            "title": "Аллокаторы и локальность данных",
+            "position": 48,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "c-50",
+            "title": "Аллокаторы и локальность данных, проверки и отладка",
+            "position": 49,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "c-51",
+            "title": "Проектная работа, аллокаторы и локальность данных",
+            "position": 50,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "c-module-18",
+        "title": "Протоколы и защищённый разбор",
+        "position": 17,
+        "lessons": [
+          {
+            "id": "c-52",
+            "title": "Протоколы и защищённый разбор",
+            "position": 51,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "c-53",
+            "title": "Протоколы и защищённый разбор, проверки и отладка",
+            "position": 52,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "c-54",
+            "title": "Проектная работа, протоколы и защищённый разбор",
+            "position": 53,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "c-module-19",
+        "title": "Переносимость и контракт ABI",
+        "position": 18,
+        "lessons": [
+          {
+            "id": "c-55",
+            "title": "Переносимость и контракт ABI",
+            "position": 54,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "c-56",
+            "title": "Переносимость и контракт ABI, проверки и отладка",
+            "position": 55,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "c-57",
+            "title": "Проектная работа, переносимость и контракт abi",
+            "position": 56,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "c-module-20",
+        "title": "Библиотека обработки бинарных записей",
+        "position": 19,
+        "lessons": [
+          {
+            "id": "c-58",
+            "title": "Библиотека обработки бинарных записей",
+            "position": 57,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "c-59",
+            "title": "Библиотека обработки бинарных записей, проверки и отладка",
+            "position": 58,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "c-60",
+            "title": "Итоговый проект, Библиотека обработки бинарных записей",
+            "position": 59,
+            "estimatedMinutes": 360,
+            "hasPractice": true
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "schemaVersion": "1.0",
+    "contentVersion": "2026.09.15.1"
+  }
+}

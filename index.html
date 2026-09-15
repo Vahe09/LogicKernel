@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="LogicKernel — ваше пространство для изучения программирования. Курсы, практика и достижения.">
+  <title>LogicKernel — учись. практикуйся. создавай.</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script>try{document.documentElement.dataset.theme=JSON.parse(localStorage.getItem('logickernel.v1')||'{}').theme||'light'}catch(e){document.documentElement.dataset.theme='light'}</script>
+  <script src="config.js" defer></script>
+  <script src="api.js" defer></script>
+  <script src="lesson-view.js" defer></script>
+  <script src="content/tasks.js" defer></script>
+  <script src="task-submit.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="icon-button mobile-menu" data-action="sidebar" aria-label="Открыть меню"></button>
+      <a href="#/home" class="brand" aria-label="LogicKernel — главная"><span class="brand-code">&lt;/&gt;</span><span>Logic<strong>Kernel</strong></span></a>
+      <button class="search-trigger" data-action="search"><span class="search-symbol"></span><span>Поиск по курсам, темам и материалам…</span><kbd>Ctrl K</kbd></button>
+      <div class="header-actions">
+        <button class="icon-button theme-button" data-action="theme" aria-label="Включить тёмную тему"></button>
+        <button class="icon-button notification-button" data-action="notifications" aria-label="Уведомления"><i class="notification-dot"></i></button>
+        <button class="profile-button" data-action="profile"><span class="avatar">АП</span><span class="profile-text"><b id="header-name">Алексей П.</b><small>Студент</small></span><span class="profile-chevron"></span></button>
+      </div>
+    </header>
+    <aside class="sidebar" aria-label="Основная навигация">
+      <nav id="navigation"></nav>
+      <div class="sidebar-bottom"><div class="premium-card"><span class="eyebrow">БОЛЬШЕ ВОЗМОЖНОСТЕЙ</span><h3>Премиум-доступ</h3><p>Получите доступ ко всем курсам, материалам и персональной поддержке.</p><button class="button primary" data-action="premium"><span data-icon="crown"></span>Оформить</button></div><div class="sidebar-footer"><span class="status-dot"></span>Всё готово к обучению<span>v.1.0</span></div></div>
+    </aside>
+    <button class="sidebar-scrim" data-action="sidebar" aria-label="Закрыть меню"></button>
+    <main id="main" tabindex="-1"></main>
+  </div>
+  <div id="modal-root"></div>
+  <div id="toast-root" class="toast-root" aria-live="polite"></div>
+</body>
+</html>

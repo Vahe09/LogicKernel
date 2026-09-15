@@ -1,0 +1,2989 @@
+{
+  "assertions": [
+    {
+      "label": "11 courses; React removed",
+      "pass": true
+    },
+    {
+      "label": "Default light theme",
+      "pass": true
+    },
+    {
+      "label": "Home uses courses supplied by API",
+      "pass": true
+    },
+    {
+      "label": "Empty catalog home",
+      "pass": true
+    },
+    {
+      "label": "All course cards",
+      "pass": true
+    },
+    {
+      "label": "Search C#",
+      "pass": true
+    },
+    {
+      "label": "Course outline has 60 lessons",
+      "pass": true
+    },
+    {
+      "label": "Expanded beginner explanation",
+      "pass": true
+    },
+    {
+      "label": "Python editor scaffold",
+      "pass": true
+    },
+    {
+      "label": "Dark text contrast",
+      "pass": true
+    },
+    {
+      "label": "Per-lesson draft restored",
+      "pass": true
+    },
+    {
+      "label": "Reading does not pass practice",
+      "pass": true
+    },
+    {
+      "label": "Development submission neither sends nor passes",
+      "pass": true
+    },
+    {
+      "label": "No simulated attempts",
+      "pass": true
+    },
+    {
+      "label": "Draft survives reload",
+      "pass": true
+    },
+    {
+      "label": "Task never executes reverse",
+      "pass": true
+    },
+    {
+      "label": "No local XP reverse",
+      "pass": true
+    },
+    {
+      "label": "Task never executes sum",
+      "pass": true
+    },
+    {
+      "label": "No local XP sum",
+      "pass": true
+    },
+    {
+      "label": "Task never executes palindrome",
+      "pass": true
+    },
+    {
+      "label": "No local XP palindrome",
+      "pass": true
+    },
+    {
+      "label": "Task never executes unique",
+      "pass": true
+    },
+    {
+      "label": "No local XP unique",
+      "pass": true
+    },
+    {
+      "label": "Task never executes fizzbuzz",
+      "pass": true
+    },
+    {
+      "label": "No local XP fizzbuzz",
+      "pass": true
+    },
+    {
+      "label": "Task never executes binary",
+      "pass": true
+    },
+    {
+      "label": "No local XP binary",
+      "pass": true
+    },
+    {
+      "label": "Keyboard submission also disabled",
+      "pass": true
+    },
+    {
+      "label": "Task draft restored",
+      "pass": true
+    },
+    {
+      "label": "Beginner editor python",
+      "pass": true
+    },
+    {
+      "label": "Final project python",
+      "pass": true
+    },
+    {
+      "label": "Beginner editor js",
+      "pass": true
+    },
+    {
+      "label": "Final project js",
+      "pass": true
+    },
+    {
+      "label": "Beginner editor algorithms",
+      "pass": true
+    },
+    {
+      "label": "Final project algorithms",
+      "pass": true
+    },
+    {
+      "label": "Beginner editor html",
+      "pass": true
+    },
+    {
+      "label": "Final project html",
+      "pass": true
+    },
+    {
+      "label": "Beginner editor sql",
+      "pass": true
+    },
+    {
+      "label": "Final project sql",
+      "pass": true
+    },
+    {
+      "label": "Beginner editor ts",
+      "pass": true
+    },
+    {
+      "label": "Final project ts",
+      "pass": true
+    },
+    {
+      "label": "Beginner editor csharp",
+      "pass": true
+    },
+    {
+      "label": "Final project csharp",
+      "pass": true
+    },
+    {
+      "label": "Beginner editor c",
+      "pass": true
+    },
+    {
+      "label": "Final project c",
+      "pass": true
+    },
+    {
+      "label": "Beginner editor cpp",
+      "pass": true
+    },
+    {
+      "label": "Final project cpp",
+      "pass": true
+    },
+    {
+      "label": "Beginner editor go",
+      "pass": true
+    },
+    {
+      "label": "Final project go",
+      "pass": true
+    },
+    {
+      "label": "Beginner editor rust",
+      "pass": true
+    },
+    {
+      "label": "Final project rust",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-01",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-02",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-03",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-04",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-05",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-06",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-07",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-08",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-09",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-10",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-11",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-12",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-13",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-14",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-15",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-16",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-17",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-18",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-19",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-20",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-21",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-22",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-23",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-24",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-25",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-26",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-27",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-28",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-29",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-30",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-31",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-32",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-33",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-34",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-35",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-36",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-37",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-38",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-39",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-40",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-41",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-42",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-43",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-44",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-45",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-46",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-47",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-48",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-49",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-50",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-51",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-52",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-53",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-54",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-55",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-56",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-57",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-58",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-59",
+      "pass": true
+    },
+    {
+      "label": "Render lesson python-60",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-01",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-02",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-03",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-04",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-05",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-06",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-07",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-08",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-09",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-10",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-11",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-12",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-13",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-14",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-15",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-16",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-17",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-18",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-19",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-20",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-21",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-22",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-23",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-24",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-25",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-26",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-27",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-28",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-29",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-30",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-31",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-32",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-33",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-34",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-35",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-36",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-37",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-38",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-39",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-40",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-41",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-42",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-43",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-44",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-45",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-46",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-47",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-48",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-49",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-50",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-51",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-52",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-53",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-54",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-55",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-56",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-57",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-58",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-59",
+      "pass": true
+    },
+    {
+      "label": "Render lesson js-60",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-01",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-02",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-03",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-04",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-05",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-06",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-07",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-08",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-09",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-10",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-11",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-12",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-13",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-14",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-15",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-16",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-17",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-18",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-19",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-20",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-21",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-22",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-23",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-24",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-25",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-26",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-27",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-28",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-29",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-30",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-31",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-32",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-33",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-34",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-35",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-36",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-37",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-38",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-39",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-40",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-41",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-42",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-43",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-44",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-45",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-46",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-47",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-48",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-49",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-50",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-51",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-52",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-53",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-54",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-55",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-56",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-57",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-58",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-59",
+      "pass": true
+    },
+    {
+      "label": "Render lesson algorithms-60",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-01",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-02",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-03",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-04",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-05",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-06",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-07",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-08",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-09",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-10",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-11",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-12",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-13",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-14",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-15",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-16",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-17",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-18",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-19",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-20",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-21",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-22",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-23",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-24",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-25",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-26",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-27",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-28",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-29",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-30",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-31",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-32",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-33",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-34",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-35",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-36",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-37",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-38",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-39",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-40",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-41",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-42",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-43",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-44",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-45",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-46",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-47",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-48",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-49",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-50",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-51",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-52",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-53",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-54",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-55",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-56",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-57",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-58",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-59",
+      "pass": true
+    },
+    {
+      "label": "Render lesson html-60",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-01",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-02",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-03",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-04",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-05",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-06",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-07",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-08",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-09",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-10",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-11",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-12",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-13",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-14",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-15",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-16",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-17",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-18",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-19",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-20",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-21",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-22",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-23",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-24",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-25",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-26",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-27",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-28",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-29",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-30",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-31",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-32",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-33",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-34",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-35",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-36",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-37",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-38",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-39",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-40",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-41",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-42",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-43",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-44",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-45",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-46",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-47",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-48",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-49",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-50",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-51",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-52",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-53",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-54",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-55",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-56",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-57",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-58",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-59",
+      "pass": true
+    },
+    {
+      "label": "Render lesson sql-60",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-01",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-02",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-03",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-04",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-05",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-06",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-07",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-08",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-09",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-10",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-11",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-12",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-13",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-14",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-15",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-16",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-17",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-18",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-19",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-20",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-21",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-22",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-23",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-24",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-25",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-26",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-27",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-28",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-29",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-30",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-31",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-32",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-33",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-34",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-35",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-36",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-37",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-38",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-39",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-40",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-41",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-42",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-43",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-44",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-45",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-46",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-47",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-48",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-49",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-50",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-51",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-52",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-53",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-54",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-55",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-56",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-57",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-58",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-59",
+      "pass": true
+    },
+    {
+      "label": "Render lesson ts-60",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-01",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-02",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-03",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-04",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-05",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-06",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-07",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-08",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-09",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-10",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-11",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-12",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-13",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-14",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-15",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-16",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-17",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-18",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-19",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-20",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-21",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-22",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-23",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-24",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-25",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-26",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-27",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-28",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-29",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-30",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-31",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-32",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-33",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-34",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-35",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-36",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-37",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-38",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-39",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-40",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-41",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-42",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-43",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-44",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-45",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-46",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-47",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-48",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-49",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-50",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-51",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-52",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-53",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-54",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-55",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-56",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-57",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-58",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-59",
+      "pass": true
+    },
+    {
+      "label": "Render lesson csharp-60",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-01",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-02",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-03",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-04",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-05",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-06",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-07",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-08",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-09",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-10",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-11",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-12",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-13",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-14",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-15",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-16",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-17",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-18",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-19",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-20",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-21",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-22",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-23",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-24",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-25",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-26",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-27",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-28",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-29",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-30",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-31",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-32",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-33",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-34",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-35",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-36",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-37",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-38",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-39",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-40",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-41",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-42",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-43",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-44",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-45",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-46",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-47",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-48",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-49",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-50",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-51",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-52",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-53",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-54",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-55",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-56",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-57",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-58",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-59",
+      "pass": true
+    },
+    {
+      "label": "Render lesson c-60",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-01",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-02",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-03",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-04",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-05",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-06",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-07",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-08",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-09",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-10",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-11",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-12",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-13",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-14",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-15",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-16",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-17",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-18",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-19",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-20",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-21",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-22",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-23",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-24",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-25",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-26",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-27",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-28",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-29",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-30",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-31",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-32",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-33",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-34",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-35",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-36",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-37",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-38",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-39",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-40",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-41",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-42",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-43",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-44",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-45",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-46",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-47",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-48",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-49",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-50",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-51",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-52",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-53",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-54",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-55",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-56",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-57",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-58",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-59",
+      "pass": true
+    },
+    {
+      "label": "Render lesson cpp-60",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-01",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-02",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-03",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-04",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-05",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-06",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-07",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-08",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-09",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-10",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-11",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-12",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-13",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-14",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-15",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-16",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-17",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-18",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-19",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-20",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-21",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-22",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-23",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-24",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-25",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-26",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-27",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-28",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-29",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-30",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-31",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-32",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-33",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-34",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-35",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-36",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-37",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-38",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-39",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-40",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-41",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-42",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-43",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-44",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-45",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-46",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-47",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-48",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-49",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-50",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-51",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-52",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-53",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-54",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-55",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-56",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-57",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-58",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-59",
+      "pass": true
+    },
+    {
+      "label": "Render lesson go-60",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-01",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-02",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-03",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-04",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-05",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-06",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-07",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-08",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-09",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-10",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-11",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-12",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-13",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-14",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-15",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-16",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-17",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-18",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-19",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-20",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-21",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-22",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-23",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-24",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-25",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-26",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-27",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-28",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-29",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-30",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-31",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-32",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-33",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-34",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-35",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-36",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-37",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-38",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-39",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-40",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-41",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-42",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-43",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-44",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-45",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-46",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-47",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-48",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-49",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-50",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-51",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-52",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-53",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-54",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-55",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-56",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-57",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-58",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-59",
+      "pass": true
+    },
+    {
+      "label": "Render lesson rust-60",
+      "pass": true
+    },
+    {
+      "label": "All 660 lesson DTOs load through API",
+      "pass": true
+    },
+    {
+      "label": "SQL fixture",
+      "pass": true
+    },
+    {
+      "label": "Lesson fits 1280",
+      "pass": true
+    },
+    {
+      "label": "Lesson fits 1024",
+      "pass": true
+    },
+    {
+      "label": "Lesson fits 768",
+      "pass": true
+    },
+    {
+      "label": "Lesson fits 390",
+      "pass": true
+    },
+    {
+      "label": "Lesson fits 360",
+      "pass": true
+    },
+    {
+      "label": "Mobile route courses",
+      "pass": true
+    },
+    {
+      "label": "Mobile route course/go",
+      "pass": true
+    },
+    {
+      "label": "Mobile route tasks",
+      "pass": true
+    },
+    {
+      "label": "Mobile route certificates",
+      "pass": true
+    },
+    {
+      "label": "Mobile route achievements",
+      "pass": true
+    },
+    {
+      "label": "Mobile route library",
+      "pass": true
+    },
+    {
+      "label": "Mobile route settings",
+      "pass": true
+    },
+    {
+      "label": "Editor expands",
+      "pass": true
+    },
+    {
+      "label": "Navigation cleans editor",
+      "pass": true
+    },
+    {
+      "label": "Course fetch error",
+      "pass": true
+    },
+    {
+      "label": "Course retry",
+      "pass": true
+    },
+    {
+      "label": "Project has source component and design files",
+      "pass": true
+    },
+    {
+      "label": "Project document draft restored",
+      "pass": true
+    },
+    {
+      "label": "Advanced submission stays disabled locally",
+      "pass": true
+    },
+    {
+      "label": "HTTP body matches contract",
+      "pass": true
+    },
+    {
+      "label": "Idempotency-Key HTTP header",
+      "pass": true
+    },
+    {
+      "label": "Server acceptance updates progress",
+      "pass": true
+    },
+    {
+      "label": "HTTP mode excludes fixture bundle",
+      "pass": true
+    },
+    {
+      "label": "Project source and review evidence sent together",
+      "pass": true
+    },
+    {
+      "label": "Engineering runtime profile sent",
+      "pass": true
+    },
+    {
+      "label": "Stale server acceptance does not complete current exercise",
+      "pass": true
+    },
+    {
+      "label": "Task code sent to HTTP backend",
+      "pass": true
+    },
+    {
+      "label": "Task idempotency header",
+      "pass": true
+    },
+    {
+      "label": "Task result polled from server",
+      "pass": true
+    },
+    {
+      "label": "Task completion comes from server only",
+      "pass": true
+    },
+    {
+      "label": "Direct file mode",
+      "pass": true
+    },
+    {
+      "label": "Direct file submission",
+      "pass": true
+    },
+    {
+      "label": "No browser runtime exceptions",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

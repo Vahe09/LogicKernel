@@ -1,0 +1,591 @@
+{
+  "data": {
+    "id": "html",
+    "slug": "html",
+    "title": "HTML и CSS",
+    "subtitle": "HTML и CSS, от первых шагов к инженерной практике",
+    "description": "Устройство веб-страницы, разметка, оформление, сетки и адаптивная карточка-портфолио. Продолжение программы включает разработку компонентов, проверку ошибок, архитектуру, производительность и проектные работы",
+    "level": "С нуля до продвинутого",
+    "category": "frontend",
+    "language": "html",
+    "base": 0,
+    "hours": 101,
+    "lessons": 60,
+    "teacher": "Редакция LogicKernel",
+    "version": "2026.09.15.1",
+    "prerequisites": "Первые 12 уроков можно пройти без опыта, следующие модули опираются на предыдущие, продвинутые проекты требуют самостоятельной работы и ревью",
+    "outcomes": [
+      "Читать, писать и объяснять код HTML и CSS",
+      "Проверять контракты, граничные случаи и поведение при отказе",
+      "Обосновывать структуру проекта, работу с данными и ресурсами",
+      "Измерять производительность и сохранять корректность при оптимизации",
+      "Подготовить итоговый проект и защитить инженерные решения"
+    ],
+    "modules": [
+      {
+        "id": "html-module-1",
+        "title": "Как устроена веб-страница",
+        "position": 0,
+        "lessons": [
+          {
+            "id": "html-01",
+            "title": "Как браузер превращает HTML в страницу",
+            "position": 0,
+            "estimatedMinutes": 35,
+            "hasPractice": true
+          },
+          {
+            "id": "html-02",
+            "title": "Вложенность и аккуратная структура",
+            "position": 1,
+            "estimatedMinutes": 37,
+            "hasPractice": true
+          },
+          {
+            "id": "html-03",
+            "title": "Заголовки, абзацы и смысл текста",
+            "position": 2,
+            "estimatedMinutes": 39,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "html-module-2",
+        "title": "Содержание и взаимодействие",
+        "position": 1,
+        "lessons": [
+          {
+            "id": "html-04",
+            "title": "Ссылки и атрибуты",
+            "position": 3,
+            "estimatedMinutes": 41,
+            "hasPractice": true
+          },
+          {
+            "id": "html-05",
+            "title": "Списки и изображения",
+            "position": 4,
+            "estimatedMinutes": 43,
+            "hasPractice": true
+          },
+          {
+            "id": "html-06",
+            "title": "Формы и подписи полей",
+            "position": 5,
+            "estimatedMinutes": 45,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "html-module-3",
+        "title": "Оформление и раскладка",
+        "position": 2,
+        "lessons": [
+          {
+            "id": "html-07",
+            "title": "CSS: селектор, свойство, значение",
+            "position": 6,
+            "estimatedMinutes": 47,
+            "hasPractice": true
+          },
+          {
+            "id": "html-08",
+            "title": "Блочная модель и размеры",
+            "position": 7,
+            "estimatedMinutes": 49,
+            "hasPractice": true
+          },
+          {
+            "id": "html-09",
+            "title": "Flexbox: выравниваем в одну линию",
+            "position": 8,
+            "estimatedMinutes": 51,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "html-module-4",
+        "title": "Адаптивность и свой проект",
+        "position": 3,
+        "lessons": [
+          {
+            "id": "html-10",
+            "title": "Grid: строим сетку карточек",
+            "position": 9,
+            "estimatedMinutes": 53,
+            "hasPractice": true
+          },
+          {
+            "id": "html-11",
+            "title": "Адаптивность и читаемость",
+            "position": 10,
+            "estimatedMinutes": 55,
+            "hasPractice": true
+          },
+          {
+            "id": "html-12",
+            "title": "Проект: личная карточка-портфолио",
+            "position": 11,
+            "estimatedMinutes": 57,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "html-module-5",
+        "title": "Семантика документа и landmarks",
+        "position": 4,
+        "lessons": [
+          {
+            "id": "html-13",
+            "title": "Семантика документа и landmarks",
+            "position": 12,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "html-14",
+            "title": "Семантика документа и landmarks, проверки и отладка",
+            "position": 13,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "html-15",
+            "title": "Проектная работа, семантика документа и landmarks",
+            "position": 14,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "html-module-6",
+        "title": "Каскад специфичность и слои",
+        "position": 5,
+        "lessons": [
+          {
+            "id": "html-16",
+            "title": "Каскад специфичность и слои",
+            "position": 15,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "html-17",
+            "title": "Каскад специфичность и слои, проверки и отладка",
+            "position": 16,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "html-18",
+            "title": "Проектная работа, каскад специфичность и слои",
+            "position": 17,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "html-module-7",
+        "title": "Flexbox и ограничения содержимого",
+        "position": 6,
+        "lessons": [
+          {
+            "id": "html-19",
+            "title": "Flexbox и ограничения содержимого",
+            "position": 18,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "html-20",
+            "title": "Flexbox и ограничения содержимого, проверки и отладка",
+            "position": 19,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "html-21",
+            "title": "Проектная работа, flexbox и ограничения содержимого",
+            "position": 20,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "html-module-8",
+        "title": "Grid и двумерные раскладки",
+        "position": 7,
+        "lessons": [
+          {
+            "id": "html-22",
+            "title": "Grid и двумерные раскладки",
+            "position": 21,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "html-23",
+            "title": "Grid и двумерные раскладки, проверки и отладка",
+            "position": 22,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "html-24",
+            "title": "Проектная работа, grid и двумерные раскладки",
+            "position": 23,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "html-module-9",
+        "title": "Адаптивная типографика и масштабирование",
+        "position": 8,
+        "lessons": [
+          {
+            "id": "html-25",
+            "title": "Адаптивная типографика и масштабирование",
+            "position": 24,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "html-26",
+            "title": "Адаптивная типографика и масштабирование, проверки и отладка",
+            "position": 25,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "html-27",
+            "title": "Проектная работа, адаптивная типографика и масштабирование",
+            "position": 26,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "html-module-10",
+        "title": "Формы подписи и сообщения ошибок",
+        "position": 9,
+        "lessons": [
+          {
+            "id": "html-28",
+            "title": "Формы подписи и сообщения ошибок",
+            "position": 27,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "html-29",
+            "title": "Формы подписи и сообщения ошибок, проверки и отладка",
+            "position": 28,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "html-30",
+            "title": "Проектная работа, формы подписи и сообщения ошибок",
+            "position": 29,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "html-module-11",
+        "title": "Клавиатура фокус и диалоги",
+        "position": 10,
+        "lessons": [
+          {
+            "id": "html-31",
+            "title": "Клавиатура фокус и диалоги",
+            "position": 30,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "html-32",
+            "title": "Клавиатура фокус и диалоги, проверки и отладка",
+            "position": 31,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "html-33",
+            "title": "Проектная работа, клавиатура фокус и диалоги",
+            "position": 32,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "html-module-12",
+        "title": "Изображения размеры и адаптивная загрузка",
+        "position": 11,
+        "lessons": [
+          {
+            "id": "html-34",
+            "title": "Изображения размеры и адаптивная загрузка",
+            "position": 33,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "html-35",
+            "title": "Изображения размеры и адаптивная загрузка, проверки и отладка",
+            "position": 34,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "html-36",
+            "title": "Проектная работа, изображения размеры и адаптивная загрузка",
+            "position": 35,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "html-module-13",
+        "title": "Дизайн токены и темы",
+        "position": 12,
+        "lessons": [
+          {
+            "id": "html-37",
+            "title": "Дизайн токены и темы",
+            "position": 36,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "html-38",
+            "title": "Дизайн токены и темы, проверки и отладка",
+            "position": 37,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "html-39",
+            "title": "Проектная работа, дизайн токены и темы",
+            "position": 38,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "html-module-14",
+        "title": "Контейнерные запросы и компоненты",
+        "position": 13,
+        "lessons": [
+          {
+            "id": "html-40",
+            "title": "Контейнерные запросы и компоненты",
+            "position": 39,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "html-41",
+            "title": "Контейнерные запросы и компоненты, проверки и отладка",
+            "position": 40,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "html-42",
+            "title": "Проектная работа, контейнерные запросы и компоненты",
+            "position": 41,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "html-module-15",
+        "title": "Прогрессивное улучшение",
+        "position": 14,
+        "lessons": [
+          {
+            "id": "html-43",
+            "title": "Прогрессивное улучшение",
+            "position": 42,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "html-44",
+            "title": "Прогрессивное улучшение, проверки и отладка",
+            "position": 43,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "html-45",
+            "title": "Проектная работа, прогрессивное улучшение",
+            "position": 44,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "html-module-16",
+        "title": "Анимация и пользовательские предпочтения",
+        "position": 15,
+        "lessons": [
+          {
+            "id": "html-46",
+            "title": "Анимация и пользовательские предпочтения",
+            "position": 45,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "html-47",
+            "title": "Анимация и пользовательские предпочтения, проверки и отладка",
+            "position": 46,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "html-48",
+            "title": "Проектная работа, анимация и пользовательские предпочтения",
+            "position": 47,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "html-module-17",
+        "title": "Производительность и стабильность раскладки",
+        "position": 16,
+        "lessons": [
+          {
+            "id": "html-49",
+            "title": "Производительность и стабильность раскладки",
+            "position": 48,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "html-50",
+            "title": "Производительность и стабильность раскладки, проверки и отладка",
+            "position": 49,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "html-51",
+            "title": "Проектная работа, производительность и стабильность раскладки",
+            "position": 50,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "html-module-18",
+        "title": "Многоязычность и логические свойства",
+        "position": 17,
+        "lessons": [
+          {
+            "id": "html-52",
+            "title": "Многоязычность и логические свойства",
+            "position": 51,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "html-53",
+            "title": "Многоязычность и логические свойства, проверки и отладка",
+            "position": 52,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "html-54",
+            "title": "Проектная работа, многоязычность и логические свойства",
+            "position": 53,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "html-module-19",
+        "title": "Контракт дизайн системы и визуальные проверки",
+        "position": 18,
+        "lessons": [
+          {
+            "id": "html-55",
+            "title": "Контракт дизайн системы и визуальные проверки",
+            "position": 54,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "html-56",
+            "title": "Контракт дизайн системы и визуальные проверки, проверки и отладка",
+            "position": 55,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "html-57",
+            "title": "Проектная работа, контракт дизайн системы и визуальные проверки",
+            "position": 56,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "html-module-20",
+        "title": "Доступный интерфейс образовательной платформы",
+        "position": 19,
+        "lessons": [
+          {
+            "id": "html-58",
+            "title": "Доступный интерфейс образовательной платформы",
+            "position": 57,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "html-59",
+            "title": "Доступный интерфейс образовательной платформы, проверки и отладка",
+            "position": 58,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "html-60",
+            "title": "Итоговый проект, Доступный интерфейс образовательной платформы",
+            "position": 59,
+            "estimatedMinutes": 360,
+            "hasPractice": true
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "schemaVersion": "1.0",
+    "contentVersion": "2026.09.15.1"
+  }
+}

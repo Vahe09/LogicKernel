@@ -1,0 +1,591 @@
+{
+  "data": {
+    "id": "sql",
+    "slug": "sql",
+    "title": "SQL",
+    "subtitle": "SQL, от первых шагов к инженерной практике",
+    "description": "Разбираем строки, колонки, фильтры, группировки и связи на маленькой учебной базе. Продолжение программы включает разработку компонентов, проверку ошибок, архитектуру, производительность и проектные работы",
+    "level": "С нуля до продвинутого",
+    "category": "backend",
+    "language": "sql",
+    "base": 0,
+    "hours": 101,
+    "lessons": 60,
+    "teacher": "Редакция LogicKernel",
+    "version": "2026.09.15.1",
+    "prerequisites": "Первые 12 уроков можно пройти без опыта, следующие модули опираются на предыдущие, продвинутые проекты требуют самостоятельной работы и ревью",
+    "outcomes": [
+      "Читать, писать и объяснять код SQL",
+      "Проверять контракты, граничные случаи и поведение при отказе",
+      "Обосновывать структуру проекта, работу с данными и ресурсами",
+      "Измерять производительность и сохранять корректность при оптимизации",
+      "Подготовить итоговый проект и защитить инженерные решения"
+    ],
+    "modules": [
+      {
+        "id": "sql-module-1",
+        "title": "Основы таблиц и запросов",
+        "position": 0,
+        "lessons": [
+          {
+            "id": "sql-01",
+            "title": "Таблица, строка, колонка и первый SELECT",
+            "position": 0,
+            "estimatedMinutes": 35,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-02",
+            "title": "Читаем запрос и выбираем колонки",
+            "position": 1,
+            "estimatedMinutes": 37,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-03",
+            "title": "WHERE: отбираем подходящие строки",
+            "position": 2,
+            "estimatedMinutes": 39,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "sql-module-2",
+        "title": "Отбор и порядок данных",
+        "position": 1,
+        "lessons": [
+          {
+            "id": "sql-04",
+            "title": "AND, OR и скобки",
+            "position": 3,
+            "estimatedMinutes": 41,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-05",
+            "title": "ORDER BY и LIMIT",
+            "position": 4,
+            "estimatedMinutes": 43,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-06",
+            "title": "NULL: отсутствие значения",
+            "position": 5,
+            "estimatedMinutes": 45,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "sql-module-3",
+        "title": "Агрегации и группы",
+        "position": 2,
+        "lessons": [
+          {
+            "id": "sql-07",
+            "title": "COUNT, SUM и AVG",
+            "position": 6,
+            "estimatedMinutes": 47,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-08",
+            "title": "GROUP BY: итоги по группам",
+            "position": 7,
+            "estimatedMinutes": 49,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-09",
+            "title": "HAVING: фильтруем готовые группы",
+            "position": 8,
+            "estimatedMinutes": 51,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "sql-module-4",
+        "title": "Связи, изменения и отчёты",
+        "position": 3,
+        "lessons": [
+          {
+            "id": "sql-10",
+            "title": "JOIN: соединяем связанные таблицы",
+            "position": 9,
+            "estimatedMinutes": 53,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-11",
+            "title": "Изменения данных и транзакции",
+            "position": 10,
+            "estimatedMinutes": 55,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-12",
+            "title": "Проект: отчёт по учебным курсам",
+            "position": 11,
+            "estimatedMinutes": 57,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "sql-module-5",
+        "title": "Реляционная модель и функциональные зависимости",
+        "position": 4,
+        "lessons": [
+          {
+            "id": "sql-13",
+            "title": "Реляционная модель и функциональные зависимости",
+            "position": 12,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-14",
+            "title": "Реляционная модель и функциональные зависимости, проверки и отладка",
+            "position": 13,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-15",
+            "title": "Проектная работа, реляционная модель и функциональные зависимости",
+            "position": 14,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "sql-module-6",
+        "title": "Соединения и кардинальность",
+        "position": 5,
+        "lessons": [
+          {
+            "id": "sql-16",
+            "title": "Соединения и кардинальность",
+            "position": 15,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-17",
+            "title": "Соединения и кардинальность, проверки и отладка",
+            "position": 16,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-18",
+            "title": "Проектная работа, соединения и кардинальность",
+            "position": 17,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "sql-module-7",
+        "title": "Подзапросы EXISTS и антисоединение",
+        "position": 6,
+        "lessons": [
+          {
+            "id": "sql-19",
+            "title": "Подзапросы EXISTS и антисоединение",
+            "position": 18,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-20",
+            "title": "Подзапросы EXISTS и антисоединение, проверки и отладка",
+            "position": 19,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-21",
+            "title": "Проектная работа, подзапросы exists и антисоединение",
+            "position": 20,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "sql-module-8",
+        "title": "CTE и рекурсивный обход",
+        "position": 7,
+        "lessons": [
+          {
+            "id": "sql-22",
+            "title": "CTE и рекурсивный обход",
+            "position": 21,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-23",
+            "title": "CTE и рекурсивный обход, проверки и отладка",
+            "position": 22,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-24",
+            "title": "Проектная работа, cte и рекурсивный обход",
+            "position": 23,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "sql-module-9",
+        "title": "Оконные функции и рамки",
+        "position": 8,
+        "lessons": [
+          {
+            "id": "sql-25",
+            "title": "Оконные функции и рамки",
+            "position": 24,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-26",
+            "title": "Оконные функции и рамки, проверки и отладка",
+            "position": 25,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-27",
+            "title": "Проектная работа, оконные функции и рамки",
+            "position": 26,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "sql-module-10",
+        "title": "Транзакции и атомарное изменение",
+        "position": 9,
+        "lessons": [
+          {
+            "id": "sql-28",
+            "title": "Транзакции и атомарное изменение",
+            "position": 27,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-29",
+            "title": "Транзакции и атомарное изменение, проверки и отладка",
+            "position": 28,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-30",
+            "title": "Проектная работа, транзакции и атомарное изменение",
+            "position": 29,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "sql-module-11",
+        "title": "Индексы и порядок составных ключей",
+        "position": 10,
+        "lessons": [
+          {
+            "id": "sql-31",
+            "title": "Индексы и порядок составных ключей",
+            "position": 30,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-32",
+            "title": "Индексы и порядок составных ключей, проверки и отладка",
+            "position": 31,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-33",
+            "title": "Проектная работа, индексы и порядок составных ключей",
+            "position": 32,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "sql-module-12",
+        "title": "Планы запросов и измерения",
+        "position": 11,
+        "lessons": [
+          {
+            "id": "sql-34",
+            "title": "Планы запросов и измерения",
+            "position": 33,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-35",
+            "title": "Планы запросов и измерения, проверки и отладка",
+            "position": 34,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-36",
+            "title": "Проектная работа, планы запросов и измерения",
+            "position": 35,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "sql-module-13",
+        "title": "Пагинация и стабильный порядок",
+        "position": 12,
+        "lessons": [
+          {
+            "id": "sql-37",
+            "title": "Пагинация и стабильный порядок",
+            "position": 36,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-38",
+            "title": "Пагинация и стабильный порядок, проверки и отладка",
+            "position": 37,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-39",
+            "title": "Проектная работа, пагинация и стабильный порядок",
+            "position": 38,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "sql-module-14",
+        "title": "Ограничения уникальности и upsert",
+        "position": 13,
+        "lessons": [
+          {
+            "id": "sql-40",
+            "title": "Ограничения уникальности и upsert",
+            "position": 39,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-41",
+            "title": "Ограничения уникальности и upsert, проверки и отладка",
+            "position": 40,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-42",
+            "title": "Проектная работа, ограничения уникальности и upsert",
+            "position": 41,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "sql-module-15",
+        "title": "NULL агрегаты и неизвестные значения",
+        "position": 14,
+        "lessons": [
+          {
+            "id": "sql-43",
+            "title": "NULL агрегаты и неизвестные значения",
+            "position": 42,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-44",
+            "title": "NULL агрегаты и неизвестные значения, проверки и отладка",
+            "position": 43,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-45",
+            "title": "Проектная работа, null агрегаты и неизвестные значения",
+            "position": 44,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "sql-module-16",
+        "title": "Представления и контракт аналитики",
+        "position": 15,
+        "lessons": [
+          {
+            "id": "sql-46",
+            "title": "Представления и контракт аналитики",
+            "position": 45,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-47",
+            "title": "Представления и контракт аналитики, проверки и отладка",
+            "position": 46,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-48",
+            "title": "Проектная работа, представления и контракт аналитики",
+            "position": 47,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "sql-module-17",
+        "title": "PostgreSQL и конкурентные расписания",
+        "position": 16,
+        "lessons": [
+          {
+            "id": "sql-49",
+            "title": "PostgreSQL и конкурентные расписания",
+            "position": 48,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-50",
+            "title": "PostgreSQL и конкурентные расписания, проверки и отладка",
+            "position": 49,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-51",
+            "title": "Проектная работа, postgresql и конкурентные расписания",
+            "position": 50,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "sql-module-18",
+        "title": "PostgreSQL секционирование и жизненный цикл данных",
+        "position": 17,
+        "lessons": [
+          {
+            "id": "sql-52",
+            "title": "PostgreSQL секционирование и жизненный цикл данных",
+            "position": 51,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-53",
+            "title": "PostgreSQL секционирование и жизненный цикл данных, проверки и отладка",
+            "position": 52,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-54",
+            "title": "Проектная работа, postgresql секционирование и жизненный цикл данных",
+            "position": 53,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "sql-module-19",
+        "title": "Миграции резервные копии и восстановление",
+        "position": 18,
+        "lessons": [
+          {
+            "id": "sql-55",
+            "title": "Миграции резервные копии и восстановление",
+            "position": 54,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-56",
+            "title": "Миграции резервные копии и восстановление, проверки и отладка",
+            "position": 55,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-57",
+            "title": "Проектная работа, миграции резервные копии и восстановление",
+            "position": 56,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "sql-module-20",
+        "title": "Хранилище образовательной платформы",
+        "position": 19,
+        "lessons": [
+          {
+            "id": "sql-58",
+            "title": "Хранилище образовательной платформы",
+            "position": 57,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-59",
+            "title": "Хранилище образовательной платформы, проверки и отладка",
+            "position": 58,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "sql-60",
+            "title": "Итоговый проект, Хранилище образовательной платформы",
+            "position": 59,
+            "estimatedMinutes": 360,
+            "hasPractice": true
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "schemaVersion": "1.0",
+    "contentVersion": "2026.09.15.1"
+  }
+}

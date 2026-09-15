@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "1.0",
+  "status": "runner_profiles_to_implement_and_pin_on_server",
+  "profiles": [
+    {
+      "id": "python-intro-v1",
+      "language": "python",
+      "entryFile": "main.py",
+      "requirements": "Python 3; UTF-8; standard library; isolated temporary working directory"
+    },
+    {
+      "id": "javascript-intro-v1",
+      "language": "javascript",
+      "entryFile": "main.js",
+      "requirements": "Server JavaScript runtime supporting ES2022; no DOM; disable network"
+    },
+    {
+      "id": "typescript-intro-v1",
+      "language": "typescript",
+      "entryFile": "main.ts",
+      "requirements": "Type-check with strict=true; emit and execute JavaScript only after successful checking"
+    },
+    {
+      "id": "csharp-intro-v1",
+      "language": "csharp",
+      "entryFile": "Program.cs",
+      "requirements": ".NET console project supporting top-level statements, nullable context and local functions; pin SDK image"
+    },
+    {
+      "id": "c-intro-v1",
+      "language": "c",
+      "entryFile": "main.c",
+      "requirements": "C17 compiler; warnings enabled; bounded process in isolated runner"
+    },
+    {
+      "id": "cpp-intro-v1",
+      "language": "cpp",
+      "entryFile": "main.cpp",
+      "requirements": "C++17 compiler; standard library; warnings enabled"
+    },
+    {
+      "id": "go-intro-v1",
+      "language": "go",
+      "entryFile": "main.go",
+      "requirements": "Go toolchain; standard library only; no dependency downloads during grading"
+    },
+    {
+      "id": "rust-intro-v1",
+      "language": "rust",
+      "entryFile": "main.rs",
+      "requirements": "Rust compiler; edition 2021; standard library; no dependency downloads during grading"
+    },
+    {
+      "id": "sql-intro-v1",
+      "language": "sql",
+      "entryFile": "query.sql",
+      "requirements": "Fresh SQLite database from school-sqlite-v1 for each attempt; no access to application DB"
+    },
+    {
+      "id": "html-intro-v1",
+      "language": "html",
+      "entryFile": "index.html",
+      "requirements": "Isolated browser or document parser; DOM/CSS assertions; network disabled; never insert submitted HTML into application DOM"
+    },
+    {
+      "id": "javascript-functions-v1",
+      "language": "javascript",
+      "entryFile": "solution.js",
+      "requirements": "Server-only function harness, look up the function name from task-import.json by taskId, invoke with private test arguments, compare return values, isolate filesystem and disable network"
+    },
+    {
+      "id": "python-engineering-v1",
+      "language": "python",
+      "entryFile": "main.py",
+      "grading": "review",
+      "requirements": "Python 3.11 or later, standard library, component.py import supported, source plus Markdown evidence reviewed against exercise.review, no automatic acceptance from examples"
+    },
+    {
+      "id": "javascript-engineering-v1",
+      "language": "javascript",
+      "entryFile": "main.js",
+      "grading": "review",
+      "requirements": "Server JavaScript with ES2022 and ESM support, browser examples only in an isolated browser when required by the assignment, source plus Markdown evidence reviewed against exercise.review, no automatic acceptance from examples"
+    },
+    {
+      "id": "typescript-engineering-v1",
+      "language": "typescript",
+      "entryFile": "main.ts",
+      "grading": "review",
+      "requirements": "TypeScript strict checks, ES2022 output, compile component.ts with main.ts, source plus Markdown evidence reviewed against exercise.review, no automatic acceptance from examples"
+    },
+    {
+      "id": "csharp-engineering-v1",
+      "language": "csharp",
+      "entryFile": "Program.cs",
+      "grading": "review",
+      "requirements": ".NET 8 or later, C# 12, implicit usings enabled, Program.cs and Components.cs, source plus Markdown evidence reviewed against exercise.review, no automatic acceptance from examples"
+    },
+    {
+      "id": "c-engineering-v1",
+      "language": "c",
+      "entryFile": "main.c",
+      "grading": "review",
+      "requirements": "C17, warnings and diagnostics, component.h allowed, document compiler and platform, source plus Markdown evidence reviewed against exercise.review, no automatic acceptance from examples"
+    },
+    {
+      "id": "cpp-engineering-v1",
+      "language": "cpp",
+      "entryFile": "main.cpp",
+      "grading": "review",
+      "requirements": "C++17, warnings and diagnostics, component.hpp allowed, pthread support for concurrency workshops, source plus Markdown evidence reviewed against exercise.review, no automatic acceptance from examples"
+    },
+    {
+      "id": "go-engineering-v1",
+      "language": "go",
+      "entryFile": "main.go",
+      "grading": "review",
+      "requirements": "Go modules, standard library, compile main.go and component.go together, source plus Markdown evidence reviewed against exercise.review, no automatic acceptance from examples"
+    },
+    {
+      "id": "rust-engineering-v1",
+      "language": "rust",
+      "entryFile": "main.rs",
+      "grading": "review",
+      "requirements": "Rust edition 2021, standard library, components.rs allowed, async runtime dependency requires explicit reviewer environment setup, source plus Markdown evidence reviewed against exercise.review, no automatic acceptance from examples"
+    },
+    {
+      "id": "html-engineering-v1",
+      "language": "html",
+      "entryFile": "index.html",
+      "grading": "review",
+      "requirements": "Isolated browser, network disabled unless reviewer supplies approved local fixture assets, HTML CSS accessibility and keyboard review, source plus Markdown evidence reviewed against exercise.review, no automatic acceptance from examples"
+    },
+    {
+      "id": "sql-engineering-v1",
+      "language": "sql",
+      "entryFile": "query.sql",
+      "grading": "review",
+      "requirements": "SQLite 3 with recursive CTE, window functions and upsert, reset school fixture then apply schema.sql and query.sql, source plus Markdown evidence reviewed against exercise.review, no automatic acceptance from examples"
+    },
+    {
+      "id": "sql-postgresql-engineering-v1",
+      "language": "sql",
+      "entryFile": "query.sql",
+      "grading": "review",
+      "requirements": "PostgreSQL 16 or later, isolated disposable database, school-postgresql-v1 fixture then schema.sql and query.sql, concurrency workshops need two sessions, partition and migration workshops need database-owner capabilities only inside the disposable database, human review of schedule and recovery evidence"
+    }
+  ],
+  "note": "These describe required capabilities, not installed executable runners. Time/memory limits are proposals and need per-runtime calibration, especially managed runtimes and compilation."
+}

@@ -1,0 +1,39 @@
+{
+  "data": {
+    "id": "sub_example_002",
+    "lessonId": "c-01",
+    "exerciseId": "c-01-practice",
+    "status": "finished",
+    "verdict": "compilation_error",
+    "createdAt": "2026-09-14T12:01:00Z",
+    "updatedAt": "2026-09-14T12:01:02Z",
+    "isDemo": false,
+    "feedback": {
+      "summary": "Проверьте точку с запятой после вызова printf.",
+      "stdout": "",
+      "stderr": "Compilation failed.",
+      "diagnostics": [
+        {
+          "file": "main.c",
+          "line": 5,
+          "column": 1,
+          "severity": "error",
+          "message": "Ожидалась точка с запятой после инструкции на предыдущей строке."
+        }
+      ],
+      "tests": []
+    },
+    "lessonVersion": 1,
+    "exerciseVersion": 1,
+    "stdin": "",
+    "files": [
+      {
+        "path": "main.c",
+        "code": "#include <stdio.h>\nint main(void) {\n    printf(\"Hello\\n\")\n    return 0;\n}\n"
+      }
+    ]
+  },
+  "meta": {
+    "schemaVersion": "1.0"
+  }
+}

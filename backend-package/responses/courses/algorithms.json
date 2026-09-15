@@ -1,0 +1,591 @@
+{
+  "data": {
+    "id": "algorithms",
+    "slug": "algorithms",
+    "title": "Алгоритмы",
+    "subtitle": "Алгоритмы, от первых шагов к инженерной практике",
+    "description": "Сначала учимся описывать решения и читать простой JavaScript, затем искать, сортировать и оценивать сложность. Продолжение программы включает разработку компонентов, проверку ошибок, архитектуру, производительность и проектные работы",
+    "level": "С нуля до продвинутого",
+    "category": "fundamentals",
+    "language": "javascript",
+    "base": 0,
+    "hours": 101,
+    "lessons": 60,
+    "teacher": "Редакция LogicKernel",
+    "version": "2026.09.15.1",
+    "prerequisites": "Первые 12 уроков можно пройти без опыта, следующие модули опираются на предыдущие, продвинутые проекты требуют самостоятельной работы и ревью",
+    "outcomes": [
+      "Читать, писать и объяснять код Алгоритмы",
+      "Проверять контракты, граничные случаи и поведение при отказе",
+      "Обосновывать структуру проекта, работу с данными и ресурсами",
+      "Измерять производительность и сохранять корректность при оптимизации",
+      "Подготовить итоговый проект и защитить инженерные решения"
+    ],
+    "modules": [
+      {
+        "id": "algorithms-module-1",
+        "title": "От задачи к инструкциям",
+        "position": 0,
+        "lessons": [
+          {
+            "id": "algorithms-01",
+            "title": "Что такое алгоритм: вход, шаги, выход",
+            "position": 0,
+            "estimatedMinutes": 35,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-02",
+            "title": "Псевдокод и последовательность",
+            "position": 1,
+            "estimatedMinutes": 37,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-03",
+            "title": "Условия и проверка граничных случаев",
+            "position": 2,
+            "estimatedMinutes": 39,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "algorithms-module-2",
+        "title": "Инструменты решения",
+        "position": 1,
+        "lessons": [
+          {
+            "id": "algorithms-04",
+            "title": "Массивы и цикл как инструмент",
+            "position": 3,
+            "estimatedMinutes": 41,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-05",
+            "title": "Функция как контракт алгоритма",
+            "position": 4,
+            "estimatedMinutes": 43,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-06",
+            "title": "Линейный поиск",
+            "position": 5,
+            "estimatedMinutes": 45,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "algorithms-module-3",
+        "title": "Поиск и оценка сложности",
+        "position": 2,
+        "lessons": [
+          {
+            "id": "algorithms-07",
+            "title": "Минимум и инвариант цикла",
+            "position": 6,
+            "estimatedMinutes": 47,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-08",
+            "title": "Сложность: считаем рост работы",
+            "position": 7,
+            "estimatedMinutes": 49,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-09",
+            "title": "Сортировка выбором",
+            "position": 8,
+            "estimatedMinutes": 51,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "algorithms-module-4",
+        "title": "Структуры и самостоятельный проект",
+        "position": 3,
+        "lessons": [
+          {
+            "id": "algorithms-10",
+            "title": "Бинарный поиск в отсортированных данных",
+            "position": 9,
+            "estimatedMinutes": 53,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-11",
+            "title": "Стек и очередь",
+            "position": 10,
+            "estimatedMinutes": 55,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-12",
+            "title": "Проект: ищем лидера без сортировки",
+            "position": 11,
+            "estimatedMinutes": 57,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "algorithms-module-5",
+        "title": "Инварианты и доказательство цикла",
+        "position": 4,
+        "lessons": [
+          {
+            "id": "algorithms-13",
+            "title": "Инварианты и доказательство цикла",
+            "position": 12,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-14",
+            "title": "Инварианты и доказательство цикла, проверки и отладка",
+            "position": 13,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-15",
+            "title": "Проектная работа, инварианты и доказательство цикла",
+            "position": 14,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "algorithms-module-6",
+        "title": "Асимптотика и модель стоимости",
+        "position": 5,
+        "lessons": [
+          {
+            "id": "algorithms-16",
+            "title": "Асимптотика и модель стоимости",
+            "position": 15,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-17",
+            "title": "Асимптотика и модель стоимости, проверки и отладка",
+            "position": 16,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-18",
+            "title": "Проектная работа, асимптотика и модель стоимости",
+            "position": 17,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "algorithms-module-7",
+        "title": "Рекурсия и разделяй и властвуй",
+        "position": 6,
+        "lessons": [
+          {
+            "id": "algorithms-19",
+            "title": "Рекурсия и разделяй и властвуй",
+            "position": 18,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-20",
+            "title": "Рекурсия и разделяй и властвуй, проверки и отладка",
+            "position": 19,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-21",
+            "title": "Проектная работа, рекурсия и разделяй и властвуй",
+            "position": 20,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "algorithms-module-8",
+        "title": "Сортировка слиянием и стабильность",
+        "position": 7,
+        "lessons": [
+          {
+            "id": "algorithms-22",
+            "title": "Сортировка слиянием и стабильность",
+            "position": 21,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-23",
+            "title": "Сортировка слиянием и стабильность, проверки и отладка",
+            "position": 22,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-24",
+            "title": "Проектная работа, сортировка слиянием и стабильность",
+            "position": 23,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "algorithms-module-9",
+        "title": "Бинарный поиск по монотонному условию",
+        "position": 8,
+        "lessons": [
+          {
+            "id": "algorithms-25",
+            "title": "Бинарный поиск по монотонному условию",
+            "position": 24,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-26",
+            "title": "Бинарный поиск по монотонному условию, проверки и отладка",
+            "position": 25,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-27",
+            "title": "Проектная работа, бинарный поиск по монотонному условию",
+            "position": 26,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "algorithms-module-10",
+        "title": "Хеширование и коллизии",
+        "position": 9,
+        "lessons": [
+          {
+            "id": "algorithms-28",
+            "title": "Хеширование и коллизии",
+            "position": 27,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-29",
+            "title": "Хеширование и коллизии, проверки и отладка",
+            "position": 28,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-30",
+            "title": "Проектная работа, хеширование и коллизии",
+            "position": 29,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "algorithms-module-11",
+        "title": "Кучи и очередь приоритетов",
+        "position": 10,
+        "lessons": [
+          {
+            "id": "algorithms-31",
+            "title": "Кучи и очередь приоритетов",
+            "position": 30,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-32",
+            "title": "Кучи и очередь приоритетов, проверки и отладка",
+            "position": 31,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-33",
+            "title": "Проектная работа, кучи и очередь приоритетов",
+            "position": 32,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "algorithms-module-12",
+        "title": "Деревья поиска и балансировка",
+        "position": 11,
+        "lessons": [
+          {
+            "id": "algorithms-34",
+            "title": "Деревья поиска и балансировка",
+            "position": 33,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-35",
+            "title": "Деревья поиска и балансировка, проверки и отладка",
+            "position": 34,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-36",
+            "title": "Проектная работа, деревья поиска и балансировка",
+            "position": 35,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "algorithms-module-13",
+        "title": "Графы BFS и представление рёбер",
+        "position": 12,
+        "lessons": [
+          {
+            "id": "algorithms-37",
+            "title": "Графы BFS и представление рёбер",
+            "position": 36,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-38",
+            "title": "Графы BFS и представление рёбер, проверки и отладка",
+            "position": 37,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-39",
+            "title": "Проектная работа, графы bfs и представление рёбер",
+            "position": 38,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "algorithms-module-14",
+        "title": "Топологический порядок и зависимости",
+        "position": 13,
+        "lessons": [
+          {
+            "id": "algorithms-40",
+            "title": "Топологический порядок и зависимости",
+            "position": 39,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-41",
+            "title": "Топологический порядок и зависимости, проверки и отладка",
+            "position": 40,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-42",
+            "title": "Проектная работа, топологический порядок и зависимости",
+            "position": 41,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "algorithms-module-15",
+        "title": "Кратчайшие пути и ограничения весов",
+        "position": 14,
+        "lessons": [
+          {
+            "id": "algorithms-43",
+            "title": "Кратчайшие пути и ограничения весов",
+            "position": 42,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-44",
+            "title": "Кратчайшие пути и ограничения весов, проверки и отладка",
+            "position": 43,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-45",
+            "title": "Проектная работа, кратчайшие пути и ограничения весов",
+            "position": 44,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "algorithms-module-16",
+        "title": "Непересекающиеся множества",
+        "position": 15,
+        "lessons": [
+          {
+            "id": "algorithms-46",
+            "title": "Непересекающиеся множества",
+            "position": 45,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-47",
+            "title": "Непересекающиеся множества, проверки и отладка",
+            "position": 46,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-48",
+            "title": "Проектная работа, непересекающиеся множества",
+            "position": 47,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "algorithms-module-17",
+        "title": "Динамическое программирование",
+        "position": 16,
+        "lessons": [
+          {
+            "id": "algorithms-49",
+            "title": "Динамическое программирование",
+            "position": 48,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-50",
+            "title": "Динамическое программирование, проверки и отладка",
+            "position": 49,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-51",
+            "title": "Проектная работа, динамическое программирование",
+            "position": 50,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "algorithms-module-18",
+        "title": "Жадный выбор и контрпримеры",
+        "position": 17,
+        "lessons": [
+          {
+            "id": "algorithms-52",
+            "title": "Жадный выбор и контрпримеры",
+            "position": 51,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-53",
+            "title": "Жадный выбор и контрпримеры, проверки и отладка",
+            "position": 52,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-54",
+            "title": "Проектная работа, жадный выбор и контрпримеры",
+            "position": 53,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "algorithms-module-19",
+        "title": "Строковые алгоритмы и потоковый поиск",
+        "position": 18,
+        "lessons": [
+          {
+            "id": "algorithms-55",
+            "title": "Строковые алгоритмы и потоковый поиск",
+            "position": 54,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-56",
+            "title": "Строковые алгоритмы и потоковый поиск, проверки и отладка",
+            "position": 55,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-57",
+            "title": "Проектная работа, строковые алгоритмы и потоковый поиск",
+            "position": 56,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "algorithms-module-20",
+        "title": "Планировщик маршрутов и зависимых работ",
+        "position": 19,
+        "lessons": [
+          {
+            "id": "algorithms-58",
+            "title": "Планировщик маршрутов и зависимых работ",
+            "position": 57,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-59",
+            "title": "Планировщик маршрутов и зависимых работ, проверки и отладка",
+            "position": 58,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "algorithms-60",
+            "title": "Итоговый проект, Планировщик маршрутов и зависимых работ",
+            "position": 59,
+            "estimatedMinutes": 360,
+            "hasPractice": true
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "schemaVersion": "1.0",
+    "contentVersion": "2026.09.15.1"
+  }
+}

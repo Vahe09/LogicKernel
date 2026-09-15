@@ -1,0 +1,1 @@
+{"error":{"code":"CONTENT_VERSION_MISMATCH","message":"Версия задания изменилась. Обновите урок; ваш код сохранён.","details":{"lessonId":"python-01","expectedLessonVersion":2},"requestId":"req_example_001"}}

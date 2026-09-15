@@ -1,0 +1,4 @@
+{
+  "data":{"id":"sub_example_001","lessonId":"python-01","exerciseId":"python-01-practice","status":"queued","verdict":null,"createdAt":"2026-09-14T12:00:00Z","updatedAt":"2026-09-14T12:00:00Z","isDemo":false,"feedback":null,"pollAfterMs":800},
+  "meta":{"schemaVersion":"1.0"}
+}

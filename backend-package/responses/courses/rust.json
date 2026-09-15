@@ -1,0 +1,591 @@
+{
+  "data": {
+    "id": "rust",
+    "slug": "rust",
+    "title": "Rust",
+    "subtitle": "Rust, от первых шагов к инженерной практике",
+    "description": "Первые выражения, типы, владение и заимствование, коллекции и явная обработка ошибок. Продолжение программы включает разработку компонентов, проверку ошибок, архитектуру, производительность и проектные работы",
+    "level": "С нуля до продвинутого",
+    "category": "systems",
+    "language": "rust",
+    "base": 0,
+    "hours": 101,
+    "lessons": 60,
+    "teacher": "Редакция LogicKernel",
+    "version": "2026.09.15.1",
+    "prerequisites": "Первые 12 уроков можно пройти без опыта, следующие модули опираются на предыдущие, продвинутые проекты требуют самостоятельной работы и ревью",
+    "outcomes": [
+      "Читать, писать и объяснять код Rust",
+      "Проверять контракты, граничные случаи и поведение при отказе",
+      "Обосновывать структуру проекта, работу с данными и ресурсами",
+      "Измерять производительность и сохранять корректность при оптимизации",
+      "Подготовить итоговый проект и защитить инженерные решения"
+    ],
+    "modules": [
+      {
+        "id": "rust-module-1",
+        "title": "Первые шаги и устройство кода",
+        "position": 0,
+        "lessons": [
+          {
+            "id": "rust-01",
+            "title": "Rust, компилятор и первая программа",
+            "position": 0,
+            "estimatedMinutes": 35,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-02",
+            "title": "Читаем код и сообщения об ошибках",
+            "position": 1,
+            "estimatedMinutes": 37,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-03",
+            "title": "let и изменяемость mut",
+            "position": 2,
+            "estimatedMinutes": 39,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "rust-module-2",
+        "title": "Данные и управление программой",
+        "position": 1,
+        "lessons": [
+          {
+            "id": "rust-04",
+            "title": "Типы и числовые выражения",
+            "position": 3,
+            "estimatedMinutes": 41,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-05",
+            "title": "Строковые срезы и String",
+            "position": 4,
+            "estimatedMinutes": 43,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-06",
+            "title": "Условия и boolean",
+            "position": 5,
+            "estimatedMinutes": 45,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "rust-module-3",
+        "title": "Коллекции и повторное использование",
+        "position": 2,
+        "lessons": [
+          {
+            "id": "rust-07",
+            "title": "Массивы и векторы",
+            "position": 6,
+            "estimatedMinutes": 47,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-08",
+            "title": "Циклы, диапазоны и сумма",
+            "position": 7,
+            "estimatedMinutes": 49,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-09",
+            "title": "Функции и последнее выражение",
+            "position": 8,
+            "estimatedMinutes": 51,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "rust-module-4",
+        "title": "Надёжность и самостоятельный проект",
+        "position": 3,
+        "lessons": [
+          {
+            "id": "rust-10",
+            "title": "Владение и заимствование",
+            "position": 9,
+            "estimatedMinutes": 53,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-11",
+            "title": "Option, Result и явная обработка",
+            "position": 10,
+            "estimatedMinutes": 55,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-12",
+            "title": "Проект: сумма без передачи владения",
+            "position": 11,
+            "estimatedMinutes": 57,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "rust-module-5",
+        "title": "Владение и перемещение значений",
+        "position": 4,
+        "lessons": [
+          {
+            "id": "rust-13",
+            "title": "Владение и перемещение значений",
+            "position": 12,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-14",
+            "title": "Владение и перемещение значений, проверки и отладка",
+            "position": 13,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-15",
+            "title": "Проектная работа, владение и перемещение значений",
+            "position": 14,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "rust-module-6",
+        "title": "Заимствование и срезы",
+        "position": 5,
+        "lessons": [
+          {
+            "id": "rust-16",
+            "title": "Заимствование и срезы",
+            "position": 15,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-17",
+            "title": "Заимствование и срезы, проверки и отладка",
+            "position": 16,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-18",
+            "title": "Проектная работа, заимствование и срезы",
+            "position": 17,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "rust-module-7",
+        "title": "Enum и моделирование состояний",
+        "position": 6,
+        "lessons": [
+          {
+            "id": "rust-19",
+            "title": "Enum и моделирование состояний",
+            "position": 18,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-20",
+            "title": "Enum и моделирование состояний, проверки и отладка",
+            "position": 19,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-21",
+            "title": "Проектная работа, enum и моделирование состояний",
+            "position": 20,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "rust-module-8",
+        "title": "Traits и generic функции",
+        "position": 7,
+        "lessons": [
+          {
+            "id": "rust-22",
+            "title": "Traits и generic функции",
+            "position": 21,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-23",
+            "title": "Traits и generic функции, проверки и отладка",
+            "position": 22,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-24",
+            "title": "Проектная работа, traits и generic функции",
+            "position": 23,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "rust-module-9",
+        "title": "Времена жизни в публичном API",
+        "position": 8,
+        "lessons": [
+          {
+            "id": "rust-25",
+            "title": "Времена жизни в публичном API",
+            "position": 24,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-26",
+            "title": "Времена жизни в публичном API, проверки и отладка",
+            "position": 25,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-27",
+            "title": "Проектная работа, времена жизни в публичном api",
+            "position": 26,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "rust-module-10",
+        "title": "Result и проектирование ошибок",
+        "position": 9,
+        "lessons": [
+          {
+            "id": "rust-28",
+            "title": "Result и проектирование ошибок",
+            "position": 27,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-29",
+            "title": "Result и проектирование ошибок, проверки и отладка",
+            "position": 28,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-30",
+            "title": "Проектная работа, result и проектирование ошибок",
+            "position": 29,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "rust-module-11",
+        "title": "Итераторы и потребление последовательностей",
+        "position": 10,
+        "lessons": [
+          {
+            "id": "rust-31",
+            "title": "Итераторы и потребление последовательностей",
+            "position": 30,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-32",
+            "title": "Итераторы и потребление последовательностей, проверки и отладка",
+            "position": 31,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-33",
+            "title": "Проектная работа, итераторы и потребление последовательностей",
+            "position": 32,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "rust-module-12",
+        "title": "Коллекции и стоимость выделений",
+        "position": 11,
+        "lessons": [
+          {
+            "id": "rust-34",
+            "title": "Коллекции и стоимость выделений",
+            "position": 33,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-35",
+            "title": "Коллекции и стоимость выделений, проверки и отладка",
+            "position": 34,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-36",
+            "title": "Проектная работа, коллекции и стоимость выделений",
+            "position": 35,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "rust-module-13",
+        "title": "Тесты свойства и границы",
+        "position": 12,
+        "lessons": [
+          {
+            "id": "rust-37",
+            "title": "Тесты свойства и границы",
+            "position": 36,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-38",
+            "title": "Тесты свойства и границы, проверки и отладка",
+            "position": 37,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-39",
+            "title": "Проектная работа, тесты свойства и границы",
+            "position": 38,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "rust-module-14",
+        "title": "Потоки Send Sync и совместный доступ",
+        "position": 13,
+        "lessons": [
+          {
+            "id": "rust-40",
+            "title": "Потоки Send Sync и совместный доступ",
+            "position": 39,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-41",
+            "title": "Потоки Send Sync и совместный доступ, проверки и отладка",
+            "position": 40,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-42",
+            "title": "Проектная работа, потоки send sync и совместный доступ",
+            "position": 41,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "rust-module-15",
+        "title": "Каналы и ограниченные очереди",
+        "position": 14,
+        "lessons": [
+          {
+            "id": "rust-43",
+            "title": "Каналы и ограниченные очереди",
+            "position": 42,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-44",
+            "title": "Каналы и ограниченные очереди, проверки и отладка",
+            "position": 43,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-45",
+            "title": "Проектная работа, каналы и ограниченные очереди",
+            "position": 44,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "rust-module-16",
+        "title": "Future async и отмена",
+        "position": 15,
+        "lessons": [
+          {
+            "id": "rust-46",
+            "title": "Future async и отмена",
+            "position": 45,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-47",
+            "title": "Future async и отмена, проверки и отладка",
+            "position": 46,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-48",
+            "title": "Проектная работа, future async и отмена",
+            "position": 47,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "rust-module-17",
+        "title": "Unsafe и доказательство инвариантов",
+        "position": 16,
+        "lessons": [
+          {
+            "id": "rust-49",
+            "title": "Unsafe и доказательство инвариантов",
+            "position": 48,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-50",
+            "title": "Unsafe и доказательство инвариантов, проверки и отладка",
+            "position": 49,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-51",
+            "title": "Проектная работа, unsafe и доказательство инвариантов",
+            "position": 50,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "rust-module-18",
+        "title": "FFI и внешние ресурсы",
+        "position": 17,
+        "lessons": [
+          {
+            "id": "rust-52",
+            "title": "FFI и внешние ресурсы",
+            "position": 51,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-53",
+            "title": "FFI и внешние ресурсы, проверки и отладка",
+            "position": 52,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-54",
+            "title": "Проектная работа, ffi и внешние ресурсы",
+            "position": 53,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "rust-module-19",
+        "title": "Профилирование и устройство API",
+        "position": 18,
+        "lessons": [
+          {
+            "id": "rust-55",
+            "title": "Профилирование и устройство API",
+            "position": 54,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-56",
+            "title": "Профилирование и устройство API, проверки и отладка",
+            "position": 55,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-57",
+            "title": "Проектная работа, профилирование и устройство api",
+            "position": 56,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "rust-module-20",
+        "title": "Надёжный движок обработки записей",
+        "position": 19,
+        "lessons": [
+          {
+            "id": "rust-58",
+            "title": "Надёжный движок обработки записей",
+            "position": 57,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-59",
+            "title": "Надёжный движок обработки записей, проверки и отладка",
+            "position": 58,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "rust-60",
+            "title": "Итоговый проект, Надёжный движок обработки записей",
+            "position": 59,
+            "estimatedMinutes": 360,
+            "hasPractice": true
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "schemaVersion": "1.0",
+    "contentVersion": "2026.09.15.1"
+  }
+}

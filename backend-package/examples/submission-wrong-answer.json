@@ -1,0 +1,39 @@
+{
+  "data": {
+    "id": "sub_example_003",
+    "lessonId": "python-01",
+    "exerciseId": "python-01-practice",
+    "status": "finished",
+    "verdict": "wrong_answer",
+    "createdAt": "2026-09-14T12:02:00Z",
+    "updatedAt": "2026-09-14T12:02:02Z",
+    "isDemo": false,
+    "feedback": {
+      "summary": "Получено только первое сообщение. Добавьте второй вызов print.",
+      "stdout": "Привет, LogicKernel!\n",
+      "stderr": "",
+      "diagnostics": [],
+      "tests": [
+        {
+          "name": "Публичный пример",
+          "passed": false,
+          "message": "Количество строк не совпадает.",
+          "expectedOutput": "Привет, LogicKernel!\nЭто моя первая программа\n",
+          "actualOutput": "Привет, LogicKernel!\n"
+        }
+      ]
+    },
+    "lessonVersion": 1,
+    "exerciseVersion": 1,
+    "stdin": "",
+    "files": [
+      {
+        "path": "main.py",
+        "code": "print(\"Привет, LogicKernel!\")\n"
+      }
+    ]
+  },
+  "meta": {
+    "schemaVersion": "1.0"
+  }
+}

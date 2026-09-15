@@ -1,0 +1,591 @@
+{
+  "data": {
+    "id": "csharp",
+    "slug": "csharp",
+    "title": "C#",
+    "subtitle": "C#, от первых шагов к инженерной практике",
+    "description": "Консольная программа, типы и методы, коллекции, классы и первый предметный объект. Продолжение программы включает разработку компонентов, проверку ошибок, архитектуру, производительность и проектные работы",
+    "level": "С нуля до продвинутого",
+    "category": "backend",
+    "language": "csharp",
+    "base": 0,
+    "hours": 101,
+    "lessons": 60,
+    "teacher": "Редакция LogicKernel",
+    "version": "2026.09.15.1",
+    "prerequisites": "Первые 12 уроков можно пройти без опыта, следующие модули опираются на предыдущие, продвинутые проекты требуют самостоятельной работы и ревью",
+    "outcomes": [
+      "Читать, писать и объяснять код C#",
+      "Проверять контракты, граничные случаи и поведение при отказе",
+      "Обосновывать структуру проекта, работу с данными и ресурсами",
+      "Измерять производительность и сохранять корректность при оптимизации",
+      "Подготовить итоговый проект и защитить инженерные решения"
+    ],
+    "modules": [
+      {
+        "id": "csharp-module-1",
+        "title": "Первые шаги и устройство кода",
+        "position": 0,
+        "lessons": [
+          {
+            "id": "csharp-01",
+            "title": "C#, .NET и первая программа",
+            "position": 0,
+            "estimatedMinutes": 35,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-02",
+            "title": "Структура кода и сообщения компилятора",
+            "position": 1,
+            "estimatedMinutes": 37,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-03",
+            "title": "Переменные и явные типы",
+            "position": 2,
+            "estimatedMinutes": 39,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "csharp-module-2",
+        "title": "Данные и управление программой",
+        "position": 1,
+        "lessons": [
+          {
+            "id": "csharp-04",
+            "title": "Вычисления и деление",
+            "position": 3,
+            "estimatedMinutes": 41,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-05",
+            "title": "Строки и интерполяция",
+            "position": 4,
+            "estimatedMinutes": 43,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-06",
+            "title": "Условия if и else",
+            "position": 5,
+            "estimatedMinutes": 45,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "csharp-module-3",
+        "title": "Коллекции и повторное использование",
+        "position": 2,
+        "lessons": [
+          {
+            "id": "csharp-07",
+            "title": "Массивы и длина",
+            "position": 6,
+            "estimatedMinutes": 47,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-08",
+            "title": "Циклы foreach и for",
+            "position": 7,
+            "estimatedMinutes": 49,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-09",
+            "title": "Методы: вход и возвращаемый тип",
+            "position": 8,
+            "estimatedMinutes": 51,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "csharp-module-4",
+        "title": "Надёжность и самостоятельный проект",
+        "position": 3,
+        "lessons": [
+          {
+            "id": "csharp-10",
+            "title": "Списки List и добавление элементов",
+            "position": 9,
+            "estimatedMinutes": 53,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-11",
+            "title": "Класс и объект без магии",
+            "position": 10,
+            "estimatedMinutes": 55,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-12",
+            "title": "Проект: журнал баллов",
+            "position": 11,
+            "estimatedMinutes": 57,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "csharp-module-5",
+        "title": "Типы значений ссылки и nullable",
+        "position": 4,
+        "lessons": [
+          {
+            "id": "csharp-13",
+            "title": "Типы значений ссылки и nullable",
+            "position": 12,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-14",
+            "title": "Типы значений ссылки и nullable, проверки и отладка",
+            "position": 13,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-15",
+            "title": "Проектная работа, типы значений ссылки и nullable",
+            "position": 14,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "csharp-module-6",
+        "title": "Интерфейсы и композиция",
+        "position": 5,
+        "lessons": [
+          {
+            "id": "csharp-16",
+            "title": "Интерфейсы и композиция",
+            "position": 15,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-17",
+            "title": "Интерфейсы и композиция, проверки и отладка",
+            "position": 16,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-18",
+            "title": "Проектная работа, интерфейсы и композиция",
+            "position": 17,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "csharp-module-7",
+        "title": "Коллекции и generic контракты",
+        "position": 6,
+        "lessons": [
+          {
+            "id": "csharp-19",
+            "title": "Коллекции и generic контракты",
+            "position": 18,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-20",
+            "title": "Коллекции и generic контракты, проверки и отладка",
+            "position": 19,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-21",
+            "title": "Проектная работа, коллекции и generic контракты",
+            "position": 20,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "csharp-module-8",
+        "title": "LINQ и отложенное выполнение",
+        "position": 7,
+        "lessons": [
+          {
+            "id": "csharp-22",
+            "title": "LINQ и отложенное выполнение",
+            "position": 21,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-23",
+            "title": "LINQ и отложенное выполнение, проверки и отладка",
+            "position": 22,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-24",
+            "title": "Проектная работа, linq и отложенное выполнение",
+            "position": 23,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "csharp-module-9",
+        "title": "Records и доменные инварианты",
+        "position": 8,
+        "lessons": [
+          {
+            "id": "csharp-25",
+            "title": "Records и доменные инварианты",
+            "position": 24,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-26",
+            "title": "Records и доменные инварианты, проверки и отладка",
+            "position": 25,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-27",
+            "title": "Проектная работа, records и доменные инварианты",
+            "position": 26,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "csharp-module-10",
+        "title": "Исключения и освобождение ресурсов",
+        "position": 9,
+        "lessons": [
+          {
+            "id": "csharp-28",
+            "title": "Исключения и освобождение ресурсов",
+            "position": 27,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-29",
+            "title": "Исключения и освобождение ресурсов, проверки и отладка",
+            "position": 28,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-30",
+            "title": "Проектная работа, исключения и освобождение ресурсов",
+            "position": 29,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "csharp-module-11",
+        "title": "Тестируемые сервисы и детерминизм",
+        "position": 10,
+        "lessons": [
+          {
+            "id": "csharp-31",
+            "title": "Тестируемые сервисы и детерминизм",
+            "position": 30,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-32",
+            "title": "Тестируемые сервисы и детерминизм, проверки и отладка",
+            "position": 31,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-33",
+            "title": "Проектная работа, тестируемые сервисы и детерминизм",
+            "position": 32,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "csharp-module-12",
+        "title": "Асинхронные операции и CancellationToken",
+        "position": 11,
+        "lessons": [
+          {
+            "id": "csharp-34",
+            "title": "Асинхронные операции и CancellationToken",
+            "position": 33,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-35",
+            "title": "Асинхронные операции и CancellationToken, проверки и отладка",
+            "position": 34,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-36",
+            "title": "Проектная работа, асинхронные операции и cancellationtoken",
+            "position": 35,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "csharp-module-13",
+        "title": "Конкурентность и ограничение нагрузки",
+        "position": 12,
+        "lessons": [
+          {
+            "id": "csharp-37",
+            "title": "Конкурентность и ограничение нагрузки",
+            "position": 36,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-38",
+            "title": "Конкурентность и ограничение нагрузки, проверки и отладка",
+            "position": 37,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-39",
+            "title": "Проектная работа, конкурентность и ограничение нагрузки",
+            "position": 38,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "csharp-module-14",
+        "title": "HTTP границы и внедряемые адаптеры",
+        "position": 13,
+        "lessons": [
+          {
+            "id": "csharp-40",
+            "title": "HTTP границы и внедряемые адаптеры",
+            "position": 39,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-41",
+            "title": "HTTP границы и внедряемые адаптеры, проверки и отладка",
+            "position": 40,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-42",
+            "title": "Проектная работа, http границы и внедряемые адаптеры",
+            "position": 41,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "csharp-module-15",
+        "title": "SQL доступ и единица работы",
+        "position": 14,
+        "lessons": [
+          {
+            "id": "csharp-43",
+            "title": "SQL доступ и единица работы",
+            "position": 42,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-44",
+            "title": "SQL доступ и единица работы, проверки и отладка",
+            "position": 43,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-45",
+            "title": "Проектная работа, sql доступ и единица работы",
+            "position": 44,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "csharp-module-16",
+        "title": "Сериализация и версии DTO",
+        "position": 15,
+        "lessons": [
+          {
+            "id": "csharp-46",
+            "title": "Сериализация и версии DTO",
+            "position": 45,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-47",
+            "title": "Сериализация и версии DTO, проверки и отладка",
+            "position": 46,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-48",
+            "title": "Проектная работа, сериализация и версии dto",
+            "position": 47,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "csharp-module-17",
+        "title": "Память Span и измерение выделений",
+        "position": 16,
+        "lessons": [
+          {
+            "id": "csharp-49",
+            "title": "Память Span и измерение выделений",
+            "position": 48,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-50",
+            "title": "Память Span и измерение выделений, проверки и отладка",
+            "position": 49,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-51",
+            "title": "Проектная работа, память span и измерение выделений",
+            "position": 50,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "csharp-module-18",
+        "title": "События диагностики и эксплуатация",
+        "position": 17,
+        "lessons": [
+          {
+            "id": "csharp-52",
+            "title": "События диагностики и эксплуатация",
+            "position": 51,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-53",
+            "title": "События диагностики и эксплуатация, проверки и отладка",
+            "position": 52,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-54",
+            "title": "Проектная работа, события диагностики и эксплуатация",
+            "position": 53,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "csharp-module-19",
+        "title": "Фоновые обработчики и надёжные повторы",
+        "position": 18,
+        "lessons": [
+          {
+            "id": "csharp-55",
+            "title": "Фоновые обработчики и надёжные повторы",
+            "position": 54,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-56",
+            "title": "Фоновые обработчики и надёжные повторы, проверки и отладка",
+            "position": 55,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-57",
+            "title": "Проектная работа, фоновые обработчики и надёжные повторы",
+            "position": 56,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "csharp-module-20",
+        "title": "Сервис заказов на C#",
+        "position": 19,
+        "lessons": [
+          {
+            "id": "csharp-58",
+            "title": "Сервис заказов на C#",
+            "position": 57,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-59",
+            "title": "Сервис заказов на C#, проверки и отладка",
+            "position": 58,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "csharp-60",
+            "title": "Итоговый проект, Сервис заказов на C#",
+            "position": 59,
+            "estimatedMinutes": 360,
+            "hasPractice": true
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "schemaVersion": "1.0",
+    "contentVersion": "2026.09.15.1"
+  }
+}

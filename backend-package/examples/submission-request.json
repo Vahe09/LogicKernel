@@ -1,0 +1,10 @@
+{
+  "lessonId":"python-01",
+  "lessonVersion":1,
+  "exerciseId":"python-01-practice",
+  "exerciseVersion":1,
+  "language":"python",
+  "runtimeProfileId":"python-intro-v1",
+  "files":[{"path":"main.py","code":"print(\"Привет, LogicKernel!\")\nprint(\"Это моя первая программа\")\n"}],
+  "stdin":""
+}

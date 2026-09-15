@@ -1,0 +1,591 @@
+{
+  "data": {
+    "id": "go",
+    "slug": "go",
+    "title": "Go",
+    "subtitle": "Go, от первых шагов к инженерной практике",
+    "description": "Пакеты, функции и типы, срезы, map, ошибки и аккуратная структура программы. Продолжение программы включает разработку компонентов, проверку ошибок, архитектуру, производительность и проектные работы",
+    "level": "С нуля до продвинутого",
+    "category": "backend",
+    "language": "go",
+    "base": 0,
+    "hours": 101,
+    "lessons": 60,
+    "teacher": "Редакция LogicKernel",
+    "version": "2026.09.15.1",
+    "prerequisites": "Первые 12 уроков можно пройти без опыта, следующие модули опираются на предыдущие, продвинутые проекты требуют самостоятельной работы и ревью",
+    "outcomes": [
+      "Читать, писать и объяснять код Go",
+      "Проверять контракты, граничные случаи и поведение при отказе",
+      "Обосновывать структуру проекта, работу с данными и ресурсами",
+      "Измерять производительность и сохранять корректность при оптимизации",
+      "Подготовить итоговый проект и защитить инженерные решения"
+    ],
+    "modules": [
+      {
+        "id": "go-module-1",
+        "title": "Первые шаги и устройство кода",
+        "position": 0,
+        "lessons": [
+          {
+            "id": "go-01",
+            "title": "Пакет main и первая программа",
+            "position": 0,
+            "estimatedMinutes": 35,
+            "hasPractice": true
+          },
+          {
+            "id": "go-02",
+            "title": "Форматирование и понятные ошибки",
+            "position": 1,
+            "estimatedMinutes": 37,
+            "hasPractice": true
+          },
+          {
+            "id": "go-03",
+            "title": "Переменные: var и :=",
+            "position": 2,
+            "estimatedMinutes": 39,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "go-module-2",
+        "title": "Данные и управление программой",
+        "position": 1,
+        "lessons": [
+          {
+            "id": "go-04",
+            "title": "Типы, числа и преобразования",
+            "position": 3,
+            "estimatedMinutes": 41,
+            "hasPractice": true
+          },
+          {
+            "id": "go-05",
+            "title": "Строки и форматированный вывод",
+            "position": 4,
+            "estimatedMinutes": 43,
+            "hasPractice": true
+          },
+          {
+            "id": "go-06",
+            "title": "Условия без лишних скобок",
+            "position": 5,
+            "estimatedMinutes": 45,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "go-module-3",
+        "title": "Коллекции и повторное использование",
+        "position": 2,
+        "lessons": [
+          {
+            "id": "go-07",
+            "title": "Срезы и добавление элементов",
+            "position": 6,
+            "estimatedMinutes": 47,
+            "hasPractice": true
+          },
+          {
+            "id": "go-08",
+            "title": "for и range",
+            "position": 7,
+            "estimatedMinutes": 49,
+            "hasPractice": true
+          },
+          {
+            "id": "go-09",
+            "title": "Функции и тип результата",
+            "position": 8,
+            "estimatedMinutes": 51,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "go-module-4",
+        "title": "Надёжность и самостоятельный проект",
+        "position": 3,
+        "lessons": [
+          {
+            "id": "go-10",
+            "title": "map: данные по ключу",
+            "position": 9,
+            "estimatedMinutes": 53,
+            "hasPractice": true
+          },
+          {
+            "id": "go-11",
+            "title": "Ошибки как возвращаемые значения",
+            "position": 10,
+            "estimatedMinutes": 55,
+            "hasPractice": true
+          },
+          {
+            "id": "go-12",
+            "title": "Проект: отчёт о результатах",
+            "position": 11,
+            "estimatedMinutes": 57,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "go-module-5",
+        "title": "Срезы и базовые массивы",
+        "position": 4,
+        "lessons": [
+          {
+            "id": "go-13",
+            "title": "Срезы и базовые массивы",
+            "position": 12,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "go-14",
+            "title": "Срезы и базовые массивы, проверки и отладка",
+            "position": 13,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "go-15",
+            "title": "Проектная работа, срезы и базовые массивы",
+            "position": 14,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "go-module-6",
+        "title": "Map и стабильные отчёты",
+        "position": 5,
+        "lessons": [
+          {
+            "id": "go-16",
+            "title": "Map и стабильные отчёты",
+            "position": 15,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "go-17",
+            "title": "Map и стабильные отчёты, проверки и отладка",
+            "position": 16,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "go-18",
+            "title": "Проектная работа, map и стабильные отчёты",
+            "position": 17,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "go-module-7",
+        "title": "Интерфейсы у потребителя",
+        "position": 6,
+        "lessons": [
+          {
+            "id": "go-19",
+            "title": "Интерфейсы у потребителя",
+            "position": 18,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "go-20",
+            "title": "Интерфейсы у потребителя, проверки и отладка",
+            "position": 19,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "go-21",
+            "title": "Проектная работа, интерфейсы у потребителя",
+            "position": 20,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "go-module-8",
+        "title": "Ошибки и освобождение ресурсов",
+        "position": 7,
+        "lessons": [
+          {
+            "id": "go-22",
+            "title": "Ошибки и освобождение ресурсов",
+            "position": 21,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "go-23",
+            "title": "Ошибки и освобождение ресурсов, проверки и отладка",
+            "position": 22,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "go-24",
+            "title": "Проектная работа, ошибки и освобождение ресурсов",
+            "position": 23,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "go-module-9",
+        "title": "Пакеты и воспроизводимая сборка",
+        "position": 8,
+        "lessons": [
+          {
+            "id": "go-25",
+            "title": "Пакеты и воспроизводимая сборка",
+            "position": 24,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "go-26",
+            "title": "Пакеты и воспроизводимая сборка, проверки и отладка",
+            "position": 25,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "go-27",
+            "title": "Проектная работа, пакеты и воспроизводимая сборка",
+            "position": 26,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "go-module-10",
+        "title": "Табличные тесты и свойства",
+        "position": 9,
+        "lessons": [
+          {
+            "id": "go-28",
+            "title": "Табличные тесты и свойства",
+            "position": 27,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "go-29",
+            "title": "Табличные тесты и свойства, проверки и отладка",
+            "position": 28,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "go-30",
+            "title": "Проектная работа, табличные тесты и свойства",
+            "position": 29,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "go-module-11",
+        "title": "Goroutine и жизненный цикл",
+        "position": 10,
+        "lessons": [
+          {
+            "id": "go-31",
+            "title": "Goroutine и жизненный цикл",
+            "position": 30,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "go-32",
+            "title": "Goroutine и жизненный цикл, проверки и отладка",
+            "position": 31,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "go-33",
+            "title": "Проектная работа, goroutine и жизненный цикл",
+            "position": 32,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "go-module-12",
+        "title": "Context и дедлайны",
+        "position": 11,
+        "lessons": [
+          {
+            "id": "go-34",
+            "title": "Context и дедлайны",
+            "position": 33,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "go-35",
+            "title": "Context и дедлайны, проверки и отладка",
+            "position": 34,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "go-36",
+            "title": "Проектная работа, context и дедлайны",
+            "position": 35,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "go-module-13",
+        "title": "Worker pool и обратное давление",
+        "position": 12,
+        "lessons": [
+          {
+            "id": "go-37",
+            "title": "Worker pool и обратное давление",
+            "position": 36,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "go-38",
+            "title": "Worker pool и обратное давление, проверки и отладка",
+            "position": 37,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "go-39",
+            "title": "Проектная работа, worker pool и обратное давление",
+            "position": 38,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "go-module-14",
+        "title": "Mutex и составные инварианты",
+        "position": 13,
+        "lessons": [
+          {
+            "id": "go-40",
+            "title": "Mutex и составные инварианты",
+            "position": 39,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "go-41",
+            "title": "Mutex и составные инварианты, проверки и отладка",
+            "position": 40,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "go-42",
+            "title": "Проектная работа, mutex и составные инварианты",
+            "position": 41,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "go-module-15",
+        "title": "HTTP границы и валидация",
+        "position": 14,
+        "lessons": [
+          {
+            "id": "go-43",
+            "title": "HTTP границы и валидация",
+            "position": 42,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "go-44",
+            "title": "HTTP границы и валидация, проверки и отладка",
+            "position": 43,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "go-45",
+            "title": "Проектная работа, http границы и валидация",
+            "position": 44,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "go-module-16",
+        "title": "Транзакции и пул соединений",
+        "position": 15,
+        "lessons": [
+          {
+            "id": "go-46",
+            "title": "Транзакции и пул соединений",
+            "position": 45,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "go-47",
+            "title": "Транзакции и пул соединений, проверки и отладка",
+            "position": 46,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "go-48",
+            "title": "Проектная работа, транзакции и пул соединений",
+            "position": 47,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "go-module-17",
+        "title": "Профилирование и удержание памяти",
+        "position": 16,
+        "lessons": [
+          {
+            "id": "go-49",
+            "title": "Профилирование и удержание памяти",
+            "position": 48,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "go-50",
+            "title": "Профилирование и удержание памяти, проверки и отладка",
+            "position": 49,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "go-51",
+            "title": "Проектная работа, профилирование и удержание памяти",
+            "position": 50,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "go-module-18",
+        "title": "Диагностика и graceful shutdown",
+        "position": 17,
+        "lessons": [
+          {
+            "id": "go-52",
+            "title": "Диагностика и graceful shutdown",
+            "position": 51,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "go-53",
+            "title": "Диагностика и graceful shutdown, проверки и отладка",
+            "position": 52,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "go-54",
+            "title": "Проектная работа, диагностика и graceful shutdown",
+            "position": 53,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "go-module-19",
+        "title": "Идемпотентные команды и outbox",
+        "position": 18,
+        "lessons": [
+          {
+            "id": "go-55",
+            "title": "Идемпотентные команды и outbox",
+            "position": 54,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "go-56",
+            "title": "Идемпотентные команды и outbox, проверки и отладка",
+            "position": 55,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "go-57",
+            "title": "Проектная работа, идемпотентные команды и outbox",
+            "position": 56,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "go-module-20",
+        "title": "Сервис очереди заданий",
+        "position": 19,
+        "lessons": [
+          {
+            "id": "go-58",
+            "title": "Сервис очереди заданий",
+            "position": 57,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "go-59",
+            "title": "Сервис очереди заданий, проверки и отладка",
+            "position": 58,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "go-60",
+            "title": "Итоговый проект, Сервис очереди заданий",
+            "position": 59,
+            "estimatedMinutes": 360,
+            "hasPractice": true
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "schemaVersion": "1.0",
+    "contentVersion": "2026.09.15.1"
+  }
+}

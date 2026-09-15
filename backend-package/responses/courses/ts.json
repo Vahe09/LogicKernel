@@ -1,0 +1,591 @@
+{
+  "data": {
+    "id": "ts",
+    "slug": "ts",
+    "title": "TypeScript",
+    "subtitle": "TypeScript, от первых шагов к инженерной практике",
+    "description": "Основы JavaScript внутри курса, затем типы, функции, интерфейсы и безопасная обработка данных. Продолжение программы включает разработку компонентов, проверку ошибок, архитектуру, производительность и проектные работы",
+    "level": "С нуля до продвинутого",
+    "category": "frontend",
+    "language": "typescript",
+    "base": 0,
+    "hours": 101,
+    "lessons": 60,
+    "teacher": "Редакция LogicKernel",
+    "version": "2026.09.15.1",
+    "prerequisites": "Первые 12 уроков можно пройти без опыта, следующие модули опираются на предыдущие, продвинутые проекты требуют самостоятельной работы и ревью",
+    "outcomes": [
+      "Читать, писать и объяснять код TypeScript",
+      "Проверять контракты, граничные случаи и поведение при отказе",
+      "Обосновывать структуру проекта, работу с данными и ресурсами",
+      "Измерять производительность и сохранять корректность при оптимизации",
+      "Подготовить итоговый проект и защитить инженерные решения"
+    ],
+    "modules": [
+      {
+        "id": "ts-module-1",
+        "title": "Первые шаги и устройство кода",
+        "position": 0,
+        "lessons": [
+          {
+            "id": "ts-01",
+            "title": "Зачем TypeScript и что исполняется",
+            "position": 0,
+            "estimatedMinutes": 35,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-02",
+            "title": "Структура выражения и сообщения проверки",
+            "position": 1,
+            "estimatedMinutes": 37,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-03",
+            "title": "let, const и выведение типов",
+            "position": 2,
+            "estimatedMinutes": 39,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "ts-module-2",
+        "title": "Данные и управление программой",
+        "position": 1,
+        "lessons": [
+          {
+            "id": "ts-04",
+            "title": "Простые типы и массивы",
+            "position": 3,
+            "estimatedMinutes": 41,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-05",
+            "title": "Условия и сужение типа",
+            "position": 4,
+            "estimatedMinutes": 43,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-06",
+            "title": "Функции и тип возвращаемого значения",
+            "position": 5,
+            "estimatedMinutes": 45,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "ts-module-3",
+        "title": "Коллекции и повторное использование",
+        "position": 2,
+        "lessons": [
+          {
+            "id": "ts-07",
+            "title": "Объекты и интерфейсы",
+            "position": 6,
+            "estimatedMinutes": 47,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-08",
+            "title": "Необязательные поля и отсутствие",
+            "position": 7,
+            "estimatedMinutes": 49,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-09",
+            "title": "Литералы и состояния приложения",
+            "position": 8,
+            "estimatedMinutes": 51,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "ts-module-4",
+        "title": "Надёжность и самостоятельный проект",
+        "position": 3,
+        "lessons": [
+          {
+            "id": "ts-10",
+            "title": "Дженерики: сохраняем связь типов",
+            "position": 9,
+            "estimatedMinutes": 53,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-11",
+            "title": "unknown и проверка внешних данных",
+            "position": 10,
+            "estimatedMinutes": 55,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-12",
+            "title": "Проект: типизированный отчёт",
+            "position": 11,
+            "estimatedMinutes": 57,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "ts-module-5",
+        "title": "Структурная типизация и совместимость",
+        "position": 4,
+        "lessons": [
+          {
+            "id": "ts-13",
+            "title": "Структурная типизация и совместимость",
+            "position": 12,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-14",
+            "title": "Структурная типизация и совместимость, проверки и отладка",
+            "position": 13,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-15",
+            "title": "Проектная работа, структурная типизация и совместимость",
+            "position": 14,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "ts-module-6",
+        "title": "Union типы и сужение",
+        "position": 5,
+        "lessons": [
+          {
+            "id": "ts-16",
+            "title": "Union типы и сужение",
+            "position": 15,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-17",
+            "title": "Union типы и сужение, проверки и отладка",
+            "position": 16,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-18",
+            "title": "Проектная работа, union типы и сужение",
+            "position": 17,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "ts-module-7",
+        "title": "Generic функции и сохранение связи типов",
+        "position": 6,
+        "lessons": [
+          {
+            "id": "ts-19",
+            "title": "Generic функции и сохранение связи типов",
+            "position": 18,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-20",
+            "title": "Generic функции и сохранение связи типов, проверки и отладка",
+            "position": 19,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-21",
+            "title": "Проектная работа, generic функции и сохранение связи типов",
+            "position": 20,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "ts-module-8",
+        "title": "keyof и индексируемый доступ",
+        "position": 7,
+        "lessons": [
+          {
+            "id": "ts-22",
+            "title": "keyof и индексируемый доступ",
+            "position": 21,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-23",
+            "title": "keyof и индексируемый доступ, проверки и отладка",
+            "position": 22,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-24",
+            "title": "Проектная работа, keyof и индексируемый доступ",
+            "position": 23,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "ts-module-9",
+        "title": "Mapped типы и модификаторы",
+        "position": 8,
+        "lessons": [
+          {
+            "id": "ts-25",
+            "title": "Mapped типы и модификаторы",
+            "position": 24,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-26",
+            "title": "Mapped типы и модификаторы, проверки и отладка",
+            "position": 25,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-27",
+            "title": "Проектная работа, mapped типы и модификаторы",
+            "position": 26,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "ts-module-10",
+        "title": "Условные типы и infer",
+        "position": 9,
+        "lessons": [
+          {
+            "id": "ts-28",
+            "title": "Условные типы и infer",
+            "position": 27,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-29",
+            "title": "Условные типы и infer, проверки и отладка",
+            "position": 28,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-30",
+            "title": "Проектная работа, условные типы и infer",
+            "position": 29,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "ts-module-11",
+        "title": "unknown и граница валидации",
+        "position": 10,
+        "lessons": [
+          {
+            "id": "ts-31",
+            "title": "unknown и граница валидации",
+            "position": 30,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-32",
+            "title": "unknown и граница валидации, проверки и отладка",
+            "position": 31,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-33",
+            "title": "Проектная работа, unknown и граница валидации",
+            "position": 32,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "ts-module-12",
+        "title": "Доменные значения и единицы измерения",
+        "position": 11,
+        "lessons": [
+          {
+            "id": "ts-34",
+            "title": "Доменные значения и единицы измерения",
+            "position": 33,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-35",
+            "title": "Доменные значения и единицы измерения, проверки и отладка",
+            "position": 34,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-36",
+            "title": "Проектная работа, доменные значения и единицы измерения",
+            "position": 35,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "ts-module-13",
+        "title": "Типизация асинхронных контрактов",
+        "position": 12,
+        "lessons": [
+          {
+            "id": "ts-37",
+            "title": "Типизация асинхронных контрактов",
+            "position": 36,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-38",
+            "title": "Типизация асинхронных контрактов, проверки и отладка",
+            "position": 37,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-39",
+            "title": "Проектная работа, типизация асинхронных контрактов",
+            "position": 38,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "ts-module-14",
+        "title": "Variance и безопасные callback интерфейсы",
+        "position": 13,
+        "lessons": [
+          {
+            "id": "ts-40",
+            "title": "Variance и безопасные callback интерфейсы",
+            "position": 39,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-41",
+            "title": "Variance и безопасные callback интерфейсы, проверки и отладка",
+            "position": 40,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-42",
+            "title": "Проектная работа, variance и безопасные callback интерфейсы",
+            "position": 41,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "ts-module-15",
+        "title": "Типовые тесты и runtime тесты",
+        "position": 14,
+        "lessons": [
+          {
+            "id": "ts-43",
+            "title": "Типовые тесты и runtime тесты",
+            "position": 42,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-44",
+            "title": "Типовые тесты и runtime тесты, проверки и отладка",
+            "position": 43,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-45",
+            "title": "Проектная работа, типовые тесты и runtime тесты",
+            "position": 44,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "ts-module-16",
+        "title": "Конфигурация компилятора и модули",
+        "position": 15,
+        "lessons": [
+          {
+            "id": "ts-46",
+            "title": "Конфигурация компилятора и модули",
+            "position": 45,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-47",
+            "title": "Конфигурация компилятора и модули, проверки и отладка",
+            "position": 46,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-48",
+            "title": "Проектная работа, конфигурация компилятора и модули",
+            "position": 47,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "ts-module-17",
+        "title": "Контракты API и совместимость",
+        "position": 16,
+        "lessons": [
+          {
+            "id": "ts-49",
+            "title": "Контракты API и совместимость",
+            "position": 48,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-50",
+            "title": "Контракты API и совместимость, проверки и отладка",
+            "position": 49,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-51",
+            "title": "Проектная работа, контракты api и совместимость",
+            "position": 50,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "ts-module-18",
+        "title": "Типобезопасный автомат процесса",
+        "position": 17,
+        "lessons": [
+          {
+            "id": "ts-52",
+            "title": "Типобезопасный автомат процесса",
+            "position": 51,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-53",
+            "title": "Типобезопасный автомат процесса, проверки и отладка",
+            "position": 52,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-54",
+            "title": "Проектная работа, типобезопасный автомат процесса",
+            "position": 53,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "ts-module-19",
+        "title": "Границы пакетов и стоимость типов",
+        "position": 18,
+        "lessons": [
+          {
+            "id": "ts-55",
+            "title": "Границы пакетов и стоимость типов",
+            "position": 54,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-56",
+            "title": "Границы пакетов и стоимость типов, проверки и отладка",
+            "position": 55,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-57",
+            "title": "Проектная работа, границы пакетов и стоимость типов",
+            "position": 56,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "ts-module-20",
+        "title": "Типизированная платформа обработки команд",
+        "position": 19,
+        "lessons": [
+          {
+            "id": "ts-58",
+            "title": "Типизированная платформа обработки команд",
+            "position": 57,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-59",
+            "title": "Типизированная платформа обработки команд, проверки и отладка",
+            "position": 58,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "ts-60",
+            "title": "Итоговый проект, Типизированная платформа обработки команд",
+            "position": 59,
+            "estimatedMinutes": 360,
+            "hasPractice": true
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "schemaVersion": "1.0",
+    "contentVersion": "2026.09.15.1"
+  }
+}

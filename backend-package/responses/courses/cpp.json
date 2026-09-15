@@ -1,0 +1,591 @@
+{
+  "data": {
+    "id": "cpp",
+    "slug": "cpp",
+    "title": "C++",
+    "subtitle": "C++, от первых шагов к инженерной практике",
+    "description": "Первые инструкции, строгие типы, функции, vector, ссылки и простые классы. Продолжение программы включает разработку компонентов, проверку ошибок, архитектуру, производительность и проектные работы",
+    "level": "С нуля до продвинутого",
+    "category": "systems",
+    "language": "cpp",
+    "base": 0,
+    "hours": 101,
+    "lessons": 60,
+    "teacher": "Редакция LogicKernel",
+    "version": "2026.09.15.1",
+    "prerequisites": "Первые 12 уроков можно пройти без опыта, следующие модули опираются на предыдущие, продвинутые проекты требуют самостоятельной работы и ревью",
+    "outcomes": [
+      "Читать, писать и объяснять код C++",
+      "Проверять контракты, граничные случаи и поведение при отказе",
+      "Обосновывать структуру проекта, работу с данными и ресурсами",
+      "Измерять производительность и сохранять корректность при оптимизации",
+      "Подготовить итоговый проект и защитить инженерные решения"
+    ],
+    "modules": [
+      {
+        "id": "cpp-module-1",
+        "title": "Первые шаги и устройство кода",
+        "position": 0,
+        "lessons": [
+          {
+            "id": "cpp-01",
+            "title": "Что такое C++ и точка входа main",
+            "position": 0,
+            "estimatedMinutes": 35,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-02",
+            "title": "Читаем структуру программы",
+            "position": 1,
+            "estimatedMinutes": 37,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-03",
+            "title": "Типы и инициализация",
+            "position": 2,
+            "estimatedMinutes": 39,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "cpp-module-2",
+        "title": "Данные и управление программой",
+        "position": 1,
+        "lessons": [
+          {
+            "id": "cpp-04",
+            "title": "Арифметика и преобразование типов",
+            "position": 3,
+            "estimatedMinutes": 41,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-05",
+            "title": "Строки std::string",
+            "position": 4,
+            "estimatedMinutes": 43,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-06",
+            "title": "Ветвление if/else",
+            "position": 5,
+            "estimatedMinutes": 45,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "cpp-module-3",
+        "title": "Коллекции и повторное использование",
+        "position": 2,
+        "lessons": [
+          {
+            "id": "cpp-07",
+            "title": "vector: коллекция изменяемой длины",
+            "position": 6,
+            "estimatedMinutes": 47,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-08",
+            "title": "Цикл по коллекции",
+            "position": 7,
+            "estimatedMinutes": 49,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-09",
+            "title": "Функции и возвращаемый результат",
+            "position": 8,
+            "estimatedMinutes": 51,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "cpp-module-4",
+        "title": "Надёжность и самостоятельный проект",
+        "position": 3,
+        "lessons": [
+          {
+            "id": "cpp-10",
+            "title": "Ссылки: второе имя существующего объекта",
+            "position": 9,
+            "estimatedMinutes": 53,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-11",
+            "title": "Структуры и объекты",
+            "position": 10,
+            "estimatedMinutes": 55,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-12",
+            "title": "Проект: отчёт по коллекции",
+            "position": 11,
+            "estimatedMinutes": 57,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "cpp-module-5",
+        "title": "RAII и время жизни ресурсов",
+        "position": 4,
+        "lessons": [
+          {
+            "id": "cpp-13",
+            "title": "RAII и время жизни ресурсов",
+            "position": 12,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-14",
+            "title": "RAII и время жизни ресурсов, проверки и отладка",
+            "position": 13,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-15",
+            "title": "Проектная работа, raii и время жизни ресурсов",
+            "position": 14,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "cpp-module-6",
+        "title": "Ссылки const и представления",
+        "position": 5,
+        "lessons": [
+          {
+            "id": "cpp-16",
+            "title": "Ссылки const и представления",
+            "position": 15,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-17",
+            "title": "Ссылки const и представления, проверки и отладка",
+            "position": 16,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-18",
+            "title": "Проектная работа, ссылки const и представления",
+            "position": 17,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "cpp-module-7",
+        "title": "Копирование перемещение и правило нуля",
+        "position": 6,
+        "lessons": [
+          {
+            "id": "cpp-19",
+            "title": "Копирование перемещение и правило нуля",
+            "position": 18,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-20",
+            "title": "Копирование перемещение и правило нуля, проверки и отладка",
+            "position": 19,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-21",
+            "title": "Проектная работа, копирование перемещение и правило нуля",
+            "position": 20,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "cpp-module-8",
+        "title": "Smart pointers и граф владения",
+        "position": 7,
+        "lessons": [
+          {
+            "id": "cpp-22",
+            "title": "Smart pointers и граф владения",
+            "position": 21,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-23",
+            "title": "Smart pointers и граф владения, проверки и отладка",
+            "position": 22,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-24",
+            "title": "Проектная работа, smart pointers и граф владения",
+            "position": 23,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "cpp-module-9",
+        "title": "Контейнеры и инвалидирование",
+        "position": 8,
+        "lessons": [
+          {
+            "id": "cpp-25",
+            "title": "Контейнеры и инвалидирование",
+            "position": 24,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-26",
+            "title": "Контейнеры и инвалидирование, проверки и отладка",
+            "position": 25,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-27",
+            "title": "Проектная работа, контейнеры и инвалидирование",
+            "position": 26,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "cpp-module-10",
+        "title": "Алгоритмы и предикаты",
+        "position": 9,
+        "lessons": [
+          {
+            "id": "cpp-28",
+            "title": "Алгоритмы и предикаты",
+            "position": 27,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-29",
+            "title": "Алгоритмы и предикаты, проверки и отладка",
+            "position": 28,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-30",
+            "title": "Проектная работа, алгоритмы и предикаты",
+            "position": 29,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "cpp-module-11",
+        "title": "Шаблоны и ограничения интерфейса",
+        "position": 10,
+        "lessons": [
+          {
+            "id": "cpp-31",
+            "title": "Шаблоны и ограничения интерфейса",
+            "position": 30,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-32",
+            "title": "Шаблоны и ограничения интерфейса, проверки и отладка",
+            "position": 31,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-33",
+            "title": "Проектная работа, шаблоны и ограничения интерфейса",
+            "position": 32,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "cpp-module-12",
+        "title": "Исключения и гарантии операции",
+        "position": 11,
+        "lessons": [
+          {
+            "id": "cpp-34",
+            "title": "Исключения и гарантии операции",
+            "position": 33,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-35",
+            "title": "Исключения и гарантии операции, проверки и отладка",
+            "position": 34,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-36",
+            "title": "Проектная работа, исключения и гарантии операции",
+            "position": 35,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "cpp-module-13",
+        "title": "Тесты инварианты и диагностические сборки",
+        "position": 12,
+        "lessons": [
+          {
+            "id": "cpp-37",
+            "title": "Тесты инварианты и диагностические сборки",
+            "position": 36,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-38",
+            "title": "Тесты инварианты и диагностические сборки, проверки и отладка",
+            "position": 37,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-39",
+            "title": "Проектная работа, тесты инварианты и диагностические сборки",
+            "position": 38,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "cpp-module-14",
+        "title": "Потоки и синхронизация инвариантов",
+        "position": 13,
+        "lessons": [
+          {
+            "id": "cpp-40",
+            "title": "Потоки и синхронизация инвариантов",
+            "position": 39,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-41",
+            "title": "Потоки и синхронизация инвариантов, проверки и отладка",
+            "position": 40,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-42",
+            "title": "Проектная работа, потоки и синхронизация инвариантов",
+            "position": 41,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "cpp-module-15",
+        "title": "Атомики и публикация данных",
+        "position": 14,
+        "lessons": [
+          {
+            "id": "cpp-43",
+            "title": "Атомики и публикация данных",
+            "position": 42,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-44",
+            "title": "Атомики и публикация данных, проверки и отладка",
+            "position": 43,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-45",
+            "title": "Проектная работа, атомики и публикация данных",
+            "position": 44,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "cpp-module-16",
+        "title": "Форматы и сериализация",
+        "position": 15,
+        "lessons": [
+          {
+            "id": "cpp-46",
+            "title": "Форматы и сериализация",
+            "position": 45,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-47",
+            "title": "Форматы и сериализация, проверки и отладка",
+            "position": 46,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-48",
+            "title": "Проектная работа, форматы и сериализация",
+            "position": 47,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "cpp-module-17",
+        "title": "Локальность и стоимость выделений",
+        "position": 16,
+        "lessons": [
+          {
+            "id": "cpp-49",
+            "title": "Локальность и стоимость выделений",
+            "position": 48,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-50",
+            "title": "Локальность и стоимость выделений, проверки и отладка",
+            "position": 49,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-51",
+            "title": "Проектная работа, локальность и стоимость выделений",
+            "position": 50,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "cpp-module-18",
+        "title": "Границы библиотек и ABI",
+        "position": 17,
+        "lessons": [
+          {
+            "id": "cpp-52",
+            "title": "Границы библиотек и ABI",
+            "position": 51,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-53",
+            "title": "Границы библиотек и ABI, проверки и отладка",
+            "position": 52,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-54",
+            "title": "Проектная работа, границы библиотек и abi",
+            "position": 53,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "cpp-module-19",
+        "title": "Сборка зависимости и переносимость",
+        "position": 18,
+        "lessons": [
+          {
+            "id": "cpp-55",
+            "title": "Сборка зависимости и переносимость",
+            "position": 54,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-56",
+            "title": "Сборка зависимости и переносимость, проверки и отладка",
+            "position": 55,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-57",
+            "title": "Проектная работа, сборка зависимости и переносимость",
+            "position": 56,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "cpp-module-20",
+        "title": "Движок обработки данных",
+        "position": 19,
+        "lessons": [
+          {
+            "id": "cpp-58",
+            "title": "Движок обработки данных",
+            "position": 57,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-59",
+            "title": "Движок обработки данных, проверки и отладка",
+            "position": 58,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "cpp-60",
+            "title": "Итоговый проект, Движок обработки данных",
+            "position": 59,
+            "estimatedMinutes": 360,
+            "hasPractice": true
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "schemaVersion": "1.0",
+    "contentVersion": "2026.09.15.1"
+  }
+}

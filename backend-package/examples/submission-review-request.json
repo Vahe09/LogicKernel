@@ -1,0 +1,23 @@
+{
+  "lessonId": "python-60",
+  "lessonVersion": 1,
+  "exerciseId": "python-60-practice",
+  "exerciseVersion": 1,
+  "language": "python",
+  "runtimeProfileId": "python-engineering-v1",
+  "files": [
+    {
+      "path": "main.py",
+      "code": "# Напишите решение ниже\n"
+    },
+    {
+      "path": "component.py",
+      "code": "# Компонент проекта\n"
+    },
+    {
+      "path": "design.md",
+      "code": "# Решение для проекта\n\n## Требования\n\n## Варианты и выбор\n\n## Границы ответственности\n\n## Проверка и наблюдаемость\n\n## Выпуск и откат\n"
+    }
+  ],
+  "stdin": ""
+}

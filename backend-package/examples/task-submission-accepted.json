@@ -1,0 +1,29 @@
+{
+  "data": {
+    "id": "task_example_001",
+    "taskId": "reverse",
+    "taskVersion": 1,
+    "status": "finished",
+    "verdict": "accepted",
+    "createdAt": "2026-09-14T12:00:00Z",
+    "updatedAt": "2026-09-14T12:00:02Z",
+    "isDemo": false,
+    "files": [
+      {
+        "path": "solution.js",
+        "code": "function reverseString(str) { return [...str].reverse().join(''); }"
+      }
+    ],
+    "stdin": "",
+    "feedback": {
+      "summary": "Server accepted the solution",
+      "stdout": "",
+      "stderr": "",
+      "diagnostics": [],
+      "tests": []
+    }
+  },
+  "meta": {
+    "schemaVersion": "1.0"
+  }
+}

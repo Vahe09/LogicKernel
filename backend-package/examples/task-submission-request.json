@@ -1,0 +1,13 @@
+{
+  "taskId": "reverse",
+  "taskVersion": 1,
+  "language": "javascript",
+  "runtimeProfileId": "javascript-functions-v1",
+  "files": [
+    {
+      "path": "solution.js",
+      "code": "function reverseString(str) { return [...str].reverse().join(''); }"
+    }
+  ],
+  "stdin": ""
+}

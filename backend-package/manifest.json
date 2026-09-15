@@ -1,0 +1,3430 @@
+{
+  "package": "logickernel-curriculum",
+  "schemaVersion": "1.0",
+  "contentVersion": "2026.09.15.1",
+  "courseCount": 11,
+  "lessonCount": 660,
+  "exerciseCount": 660,
+  "editorialStatus": "requires_review_before_publication",
+  "contentLanguage": "ru",
+  "gradingStatus": "public_exercises_only_hidden_tests_and_runners_not_implemented",
+  "courseFiles": [
+    {
+      "courseId": "python",
+      "json": "courses/python.json",
+      "markdown": "courses/python.md"
+    },
+    {
+      "courseId": "js",
+      "json": "courses/js.json",
+      "markdown": "courses/js.md"
+    },
+    {
+      "courseId": "algorithms",
+      "json": "courses/algorithms.json",
+      "markdown": "courses/algorithms.md"
+    },
+    {
+      "courseId": "html",
+      "json": "courses/html.json",
+      "markdown": "courses/html.md"
+    },
+    {
+      "courseId": "sql",
+      "json": "courses/sql.json",
+      "markdown": "courses/sql.md"
+    },
+    {
+      "courseId": "ts",
+      "json": "courses/ts.json",
+      "markdown": "courses/ts.md"
+    },
+    {
+      "courseId": "csharp",
+      "json": "courses/csharp.json",
+      "markdown": "courses/csharp.md"
+    },
+    {
+      "courseId": "c",
+      "json": "courses/c.json",
+      "markdown": "courses/c.md"
+    },
+    {
+      "courseId": "cpp",
+      "json": "courses/cpp.json",
+      "markdown": "courses/cpp.md"
+    },
+    {
+      "courseId": "go",
+      "json": "courses/go.json",
+      "markdown": "courses/go.md"
+    },
+    {
+      "courseId": "rust",
+      "json": "courses/rust.json",
+      "markdown": "courses/rust.md"
+    }
+  ],
+  "files": [
+    {
+      "endpoint": "/api/v1/lessons/python-01",
+      "file": "responses/lessons/python-01.json",
+      "sha256": "c7cb8d1925a5a945f596db6df7abea9f558d6890dcadc172f7ed1ccb5b29960a"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-02",
+      "file": "responses/lessons/python-02.json",
+      "sha256": "a4720586e54e0b3a97f00e4c156509a7cab48c2631c3bf9eafa293a23d9f2c4e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-03",
+      "file": "responses/lessons/python-03.json",
+      "sha256": "be25c3c8cc0add00991cf9ccc3488065b2e97bf429b1366ae456689d52fb40fb"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-04",
+      "file": "responses/lessons/python-04.json",
+      "sha256": "4fdefc0eea1fbea5febd4677478d4b2e117517e4104e22080335e2c8bd6df77e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-05",
+      "file": "responses/lessons/python-05.json",
+      "sha256": "f10f56a1695519cbb0f8623a9c3488b21e8ef33adbe893c2c5e51b0d401b708b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-06",
+      "file": "responses/lessons/python-06.json",
+      "sha256": "35348d7c2e3f3c47f7581cb03b59e2ef0f13aff7f00373cb7d1e83958f9c1ee3"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-07",
+      "file": "responses/lessons/python-07.json",
+      "sha256": "160a5ab6a5082ea88fa3354c24778473d7abfe176a3544e2d1132155b993432b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-08",
+      "file": "responses/lessons/python-08.json",
+      "sha256": "111cbdb84e2f23cd2cebb17153229f40f08483478acbf603652a165f0f887e35"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-09",
+      "file": "responses/lessons/python-09.json",
+      "sha256": "c39514fa620e229a9257d81ef1fd098ccb690512521f636fca99441562eb9783"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-10",
+      "file": "responses/lessons/python-10.json",
+      "sha256": "b1acea0518801b37aa5dfcdad91737f9039a5fae2008afec67d7a04f1f7941dd"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-11",
+      "file": "responses/lessons/python-11.json",
+      "sha256": "3e246b74e9790ca4759e20b565dd1df7f9bc77374bc114da753e9f6197643678"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-12",
+      "file": "responses/lessons/python-12.json",
+      "sha256": "bfa39e7de14e30e27518b9124c374202aa89aedca5893089cc7230cc2f137499"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-13",
+      "file": "responses/lessons/python-13.json",
+      "sha256": "85a16d36ae3f71b6d496187f9ae6fdd427ded6e314c39ec6ddc4cce19bbb59bf"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-14",
+      "file": "responses/lessons/python-14.json",
+      "sha256": "190b51268d81ccdf63ffd407c0a8f829836ab9418146501530cad2f0079e426a"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-15",
+      "file": "responses/lessons/python-15.json",
+      "sha256": "14bb8e1ba04a7a09f8f2a6bcda6484911b087e28a5b9a6d09a150d01c6c4dca4"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-16",
+      "file": "responses/lessons/python-16.json",
+      "sha256": "01d156574b84d0a95063fc58232b3a364cb52ade4e503b5fb794c2f9ff62304f"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-17",
+      "file": "responses/lessons/python-17.json",
+      "sha256": "67282457780e00f042b96ce06994d9572d8a43e99c09cb5442a0f3e6c37a7e46"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-18",
+      "file": "responses/lessons/python-18.json",
+      "sha256": "29bdbf3a049e3f39988dcf3baee00a182a72f4513b51f805249220ff619fe391"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-19",
+      "file": "responses/lessons/python-19.json",
+      "sha256": "33b85cf466322d727c2d86b7bd38f7fb0276ef84b48d838a096518ce1c060a92"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-20",
+      "file": "responses/lessons/python-20.json",
+      "sha256": "6174aed71d4fc083c3b604aad1ae7cedd53e8f204e672e773f3d0ddabef13e61"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-21",
+      "file": "responses/lessons/python-21.json",
+      "sha256": "904c8fd9a2c131b0c4858724e93b9d9d3de7e347bb188bbeddd9e24524e2750e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-22",
+      "file": "responses/lessons/python-22.json",
+      "sha256": "78428d3054ad14e859ad1e0cb5d8c02138aa97b5b037effa20828d0b4c7aeff4"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-23",
+      "file": "responses/lessons/python-23.json",
+      "sha256": "d2171a41a0b21e22e123191947b54aee4ed24e56f5d0885a0287b10eb936797c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-24",
+      "file": "responses/lessons/python-24.json",
+      "sha256": "2b849b78c89a124478f2aa1c417b1197f51e7c452ba6ea2f5077b56d9bedf0a2"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-25",
+      "file": "responses/lessons/python-25.json",
+      "sha256": "449952a56059a145e090cdfd8bc8b1fd8665763f149ab8fe09bd7050cfdc7477"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-26",
+      "file": "responses/lessons/python-26.json",
+      "sha256": "3e9761c9c64d110fe611bcc82b6f5139c9c17fbee87ab3d8de642152fe6cbac5"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-27",
+      "file": "responses/lessons/python-27.json",
+      "sha256": "53688cf5fabc180e50faf7fd14405fe31203a4da957a0377105fc67d6ec0bd8e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-28",
+      "file": "responses/lessons/python-28.json",
+      "sha256": "9cb3bd9927a9bdfe8ea23a759df5ff8b129b5cac638f22946824ddeb99c8c5b1"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-29",
+      "file": "responses/lessons/python-29.json",
+      "sha256": "c24575eeac8f612f92a278dfa2bac3d96257923dc77d27b52ef91bb615a58c69"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-30",
+      "file": "responses/lessons/python-30.json",
+      "sha256": "fad7d5be5f738918fe4145cdc0c3726fe4f20dca602ab9f02f014b5ccf15f2b8"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-31",
+      "file": "responses/lessons/python-31.json",
+      "sha256": "efc0dc57fbe715bbba1c2c6b2505249aecca0f58cd8adf74f630ef39d912c367"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-32",
+      "file": "responses/lessons/python-32.json",
+      "sha256": "93287611a6b5c8e07eaa8f294c2c46dee0d12c14b9db3308c91a37c2983fb34f"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-33",
+      "file": "responses/lessons/python-33.json",
+      "sha256": "299d8d161eebc9890adccd7340b8fee3b6c21a837a32b9708fd39193ad8aede2"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-34",
+      "file": "responses/lessons/python-34.json",
+      "sha256": "892e14a0603b026aebdce66e49709d27a54e4716debe382e5a6bf0088013660d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-35",
+      "file": "responses/lessons/python-35.json",
+      "sha256": "b57409e941b3c28953b8c0a68d96f9070a24a7cb03a950cc145db380d21e5350"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-36",
+      "file": "responses/lessons/python-36.json",
+      "sha256": "2a56002c975ab5c1124e4f6ad342983582d6bce7bb34563cd91fb84bf8f8de1f"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-37",
+      "file": "responses/lessons/python-37.json",
+      "sha256": "b0b01f63727585b0cb4ecd11bd4962a99950957b3c2f6fbbc96a9124721f1d06"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-38",
+      "file": "responses/lessons/python-38.json",
+      "sha256": "36acff22fdefe75b58dd52965e7e88696ebd52c52cabe34b3be7d02618ee2791"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-39",
+      "file": "responses/lessons/python-39.json",
+      "sha256": "688bcb70de46f9d50a818a087006ccc6ce0c05866e9a2f9d2670ec927939d554"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-40",
+      "file": "responses/lessons/python-40.json",
+      "sha256": "080e35b62aace153246e46ccc17b929947711421064dad6aee965a7b9a898319"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-41",
+      "file": "responses/lessons/python-41.json",
+      "sha256": "ea09c32e6e747b419268b7a0e91006172d3db50a8e420d34c76bd3d80be7ff70"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-42",
+      "file": "responses/lessons/python-42.json",
+      "sha256": "e760deb9670885dcb9896dd5cd9dcb9b489a6b784a11e3c060d832de92ccbe6d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-43",
+      "file": "responses/lessons/python-43.json",
+      "sha256": "248cd45c3b575659d137a4028a5b9b1736c6d0b7d288c7ab626edce554ab573b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-44",
+      "file": "responses/lessons/python-44.json",
+      "sha256": "6f06235d1d187bf5f0ba0ccd2f2d9919a536c7c2a249296d3d792f56f782c90d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-45",
+      "file": "responses/lessons/python-45.json",
+      "sha256": "631a1305c66adb55554ef0810873c0422eec1f3bc57d7924a51ec76382c59825"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-46",
+      "file": "responses/lessons/python-46.json",
+      "sha256": "964f1ff0d6caa0814133d2854094ab4a707f6153d440bed2b1522dea956b7de6"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-47",
+      "file": "responses/lessons/python-47.json",
+      "sha256": "1beb65d5148349086096cfbf2c2b03d0ba848615b9b1bb2b9b0565d3f5dec1a8"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-48",
+      "file": "responses/lessons/python-48.json",
+      "sha256": "6cdec81ff63fade8231ff624aec43718f2f506e290fcb0983fe2fc7db7a3076f"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-49",
+      "file": "responses/lessons/python-49.json",
+      "sha256": "3426ba9e6e6ac65dafd7b3b69189802689145909335c90ee4f6a8efe9f124089"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-50",
+      "file": "responses/lessons/python-50.json",
+      "sha256": "8b734869e5c447abc9fef6b366fbaf77fa5ee9248624c1393c0a9c422d049b89"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-51",
+      "file": "responses/lessons/python-51.json",
+      "sha256": "4a5b21fa5de8d58e53c9a459d8b508cf4cb5fb2dbf9dcd03440a54bcffdbb1c3"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-52",
+      "file": "responses/lessons/python-52.json",
+      "sha256": "92029b01919e2be62b1d268647c33d74fb29e364676f564c205e65d941b5cfc5"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-53",
+      "file": "responses/lessons/python-53.json",
+      "sha256": "bc3f03169df9a98fdb6f9ed74efc17203befdf9adc21d6548a5fbb9882326f60"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-54",
+      "file": "responses/lessons/python-54.json",
+      "sha256": "d0913df1f653034fbb25622be68cf8872976fb53e1944f596e83638707a110fa"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-55",
+      "file": "responses/lessons/python-55.json",
+      "sha256": "0929a585dadd5990d97d6b55fd9186301101212a0b5f1db39861651fdb88c9d5"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-56",
+      "file": "responses/lessons/python-56.json",
+      "sha256": "a56a301fdc32e5cdb3e4b041f0b1a7483db1b7788a2b21e1f58bcc0acddb9f83"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-57",
+      "file": "responses/lessons/python-57.json",
+      "sha256": "3ec7d0ac3a79b2d70e60e782a19fdf299b165711033acd24de7f514d3015da7c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-58",
+      "file": "responses/lessons/python-58.json",
+      "sha256": "694aefdc2bd32af957f970e27db87a626e705a6273b55cc825386406b78a5793"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-59",
+      "file": "responses/lessons/python-59.json",
+      "sha256": "57e0e1346278dc0956ee71ba2badc0bdb5c90e08179408a44b202f1eddc241b0"
+    },
+    {
+      "endpoint": "/api/v1/lessons/python-60",
+      "file": "responses/lessons/python-60.json",
+      "sha256": "a23f76be1743d82c32f6698486a3f466e0d51e7dda0dc2e88d9a366507aa05a6"
+    },
+    {
+      "endpoint": "/api/v1/courses/python",
+      "file": "responses/courses/python.json",
+      "sha256": "43a22dfb61ee3837a6974fef2c08c0f39777f893e65c5de0206e7a23bca8b197"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-01",
+      "file": "responses/lessons/js-01.json",
+      "sha256": "78e28e21a0d72290451120793bff016953d5d54e6e36eda9773041aae07a44cb"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-02",
+      "file": "responses/lessons/js-02.json",
+      "sha256": "c1f9ec35123ed9134c95bb04a6734adca5b1e6832a7000442613249b5a52f71e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-03",
+      "file": "responses/lessons/js-03.json",
+      "sha256": "1aab56473cdd5b99faaa8d94ada3e3a9bb533aaf926e96bc7ad6b0fd6902741b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-04",
+      "file": "responses/lessons/js-04.json",
+      "sha256": "9f05488bb30d109596e61f037d989f3e7a1c6d69299347f4a19bcbc5b94f7576"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-05",
+      "file": "responses/lessons/js-05.json",
+      "sha256": "5bea6aae6f1a22121c01ad20993d11047ff1da706ef19c5dd9326f9777cf556b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-06",
+      "file": "responses/lessons/js-06.json",
+      "sha256": "05706e9114d194fffb003d1eec26fd58e03c51f50bd8a0f354a24c9f1f250e43"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-07",
+      "file": "responses/lessons/js-07.json",
+      "sha256": "e08fc9218cf7ca56ed46861ad883b3c69aab1f1309f52cf38bb05b0eb3b06e22"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-08",
+      "file": "responses/lessons/js-08.json",
+      "sha256": "9c3305a19fed00c8d119e2180d47412e3e8de2fcaa1e9c1cec4934fd089a46ac"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-09",
+      "file": "responses/lessons/js-09.json",
+      "sha256": "6ee56a9fc385fc182c1bcc7aec7deb322df504b9f10c4abae9b004f79634e08d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-10",
+      "file": "responses/lessons/js-10.json",
+      "sha256": "f079b4032f3578fc3837e52c453c7773f6cdc4c111bc6e8c4ddd8970d4a5e15c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-11",
+      "file": "responses/lessons/js-11.json",
+      "sha256": "589c6987ae5c606b2fbe446e49a2243d3b2bcebdc08b613b669236e744c9d8d6"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-12",
+      "file": "responses/lessons/js-12.json",
+      "sha256": "06e952ff89b2341b0ca6192b423cb693c8ad0211bc404a31a817e7369e999cf2"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-13",
+      "file": "responses/lessons/js-13.json",
+      "sha256": "de8b78893b364e4233bdc5ca0b19724ee1905f5f2602d9516e12087cf3874595"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-14",
+      "file": "responses/lessons/js-14.json",
+      "sha256": "f77e2f39a864c06a28a61badac1d21568c2864f209e5424e614839c4266865aa"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-15",
+      "file": "responses/lessons/js-15.json",
+      "sha256": "6c41885997566979c1c39886c42ce15ce38a3de8653c3ad0e1f00aa34edb59c8"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-16",
+      "file": "responses/lessons/js-16.json",
+      "sha256": "d5c8b4d78d9dd75b59f18f38ad1aa8ce816ccd56b6b51882d90ab6860cc5c264"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-17",
+      "file": "responses/lessons/js-17.json",
+      "sha256": "1d1ac0c6227690b7342626d92c4e026a8bbb45c010a4c8aefc735e5e931c9222"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-18",
+      "file": "responses/lessons/js-18.json",
+      "sha256": "7062d8c12b460847d743af1a3ae348fa79416a568053da9dfe1648690b8ac645"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-19",
+      "file": "responses/lessons/js-19.json",
+      "sha256": "3c4a5144c4049ac9c277a846f5ca2e97af7412eb6ff9106463e15520e2b0224d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-20",
+      "file": "responses/lessons/js-20.json",
+      "sha256": "52187ecad7fb4baf8a793df5b60ebafea73f4ba820003210ae3bdc5c781e7fad"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-21",
+      "file": "responses/lessons/js-21.json",
+      "sha256": "072d7fd27bc89c230f41b1cb78b40a589a06ae10a0b54063bc00b36b1c30428d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-22",
+      "file": "responses/lessons/js-22.json",
+      "sha256": "6b7641f911eca2f44c9a51d1a568ceeba61c0f74d812c4f8d51ef6b6fb926bdd"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-23",
+      "file": "responses/lessons/js-23.json",
+      "sha256": "13fb31725539ac3b6811ca16243da6ecee2431afd7840e5a8c85661a0583ac81"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-24",
+      "file": "responses/lessons/js-24.json",
+      "sha256": "51e1c1446d255e3a03965504fcaa044aa5e9b6973ef0620e51a82b5a3b9ea97a"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-25",
+      "file": "responses/lessons/js-25.json",
+      "sha256": "f344adbeb17626a89a822edb405fa5a34cc9b943222bc180855e589413bb0864"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-26",
+      "file": "responses/lessons/js-26.json",
+      "sha256": "02d6ec845846221ef7b1115b5e5140003376892eff740627c3b70eae28516e4c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-27",
+      "file": "responses/lessons/js-27.json",
+      "sha256": "2aa919395f7a0c05db5512a118d623bb4303c9d0e28f5c8e9f064c349c74606d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-28",
+      "file": "responses/lessons/js-28.json",
+      "sha256": "0513694a4dd76eef3b25eb5539104c55f615e7cc2fdd784ab720e9c0c9ed4df9"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-29",
+      "file": "responses/lessons/js-29.json",
+      "sha256": "f6c4269a05fa8031f34644d7bdaa53791f8e6c9adb847decea1c46055ba67406"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-30",
+      "file": "responses/lessons/js-30.json",
+      "sha256": "7e78a1bb3fc1a7164b3dfdd5af358651a3f6571e42982282438768f37d0f8b12"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-31",
+      "file": "responses/lessons/js-31.json",
+      "sha256": "02d12e7b90b9ecb28e22dd993da1416491227be7990f7ebdd3f111bdaa2302b6"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-32",
+      "file": "responses/lessons/js-32.json",
+      "sha256": "a20015269076003ca04403ade70a9922920b88cdd601ebbed4facde5f18e6d6b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-33",
+      "file": "responses/lessons/js-33.json",
+      "sha256": "acf72cdff39b26c591295d7a539c638d9db989fe5832db21bc1910c6370a0663"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-34",
+      "file": "responses/lessons/js-34.json",
+      "sha256": "655c1c074db175dd1b7b22c843d1c772e453d7cf22d76db4762374239ee14b62"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-35",
+      "file": "responses/lessons/js-35.json",
+      "sha256": "72dfab395a2b5c2ecc0c27fd38e8a48d78dc628d348a1b2750ba87c324b3b7ba"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-36",
+      "file": "responses/lessons/js-36.json",
+      "sha256": "9af17801d880c316e1bdf97c6a12ed722aa51786efd03ca10351a808fe8e622c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-37",
+      "file": "responses/lessons/js-37.json",
+      "sha256": "2dd1e06c5911a54a35eb89ac18635895987211cc81f273ab872f6ed327c5222a"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-38",
+      "file": "responses/lessons/js-38.json",
+      "sha256": "463db855da944a63f1a87f40b7198d8d160d28313918959eda6b9d51c7c9a167"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-39",
+      "file": "responses/lessons/js-39.json",
+      "sha256": "298bbdb7f1a27ee0afc29aac11e8bf36224dfd218932ee625844877987ae31fc"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-40",
+      "file": "responses/lessons/js-40.json",
+      "sha256": "daff639be97cf362702cea9db5344e20ac8840368bd4b101a4792c0acc61dca6"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-41",
+      "file": "responses/lessons/js-41.json",
+      "sha256": "0b9a092ed5dec2d7d405047768731e477e8b96377692062f04da31c3c919cc3d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-42",
+      "file": "responses/lessons/js-42.json",
+      "sha256": "5e88d903eb5995695fa2f69fbec517c3ba5b7c38e17615d1db6cc447bba8fb51"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-43",
+      "file": "responses/lessons/js-43.json",
+      "sha256": "44e4064f79e04e98b763e4864634d9b9e3a30d73de854cf39d0078e78549a88a"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-44",
+      "file": "responses/lessons/js-44.json",
+      "sha256": "591ca9a3ba517377e49beaa553cc84e95269f8979510df58796cc3fc5c0800fd"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-45",
+      "file": "responses/lessons/js-45.json",
+      "sha256": "b9b1af5bcfcfecbc5c2a4ca869b39fc480e244744d95ecd50f38633b24b6c9f6"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-46",
+      "file": "responses/lessons/js-46.json",
+      "sha256": "4913bb3fe749fe7d19b50280863abec7d2b8428c96216250b4518c99aaaec2a5"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-47",
+      "file": "responses/lessons/js-47.json",
+      "sha256": "9ab1adb6dcedc14b9b371049b6264beb95f84e5dfc7397a72fc3c3bbc9d34173"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-48",
+      "file": "responses/lessons/js-48.json",
+      "sha256": "8f92c52543a9d70c182534f582bf16d6c831f60720046083ed791fbd18dba20a"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-49",
+      "file": "responses/lessons/js-49.json",
+      "sha256": "6e413f342e5bfceafe9b808ba5f877413af34e2101141ba51234be620ea48cd6"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-50",
+      "file": "responses/lessons/js-50.json",
+      "sha256": "20b8c5919edeeb3fffd915f7235ea0bea5ba3722c58bc8a2057fa47111d606eb"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-51",
+      "file": "responses/lessons/js-51.json",
+      "sha256": "0a9ae129e825c9c7dc72ce0b9036f4e06ace94f2ff2c5459ac6bf13b598982ef"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-52",
+      "file": "responses/lessons/js-52.json",
+      "sha256": "79d75bfcd262dff861c692f700696298904c47c53cd557e8fa49690bc42bab38"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-53",
+      "file": "responses/lessons/js-53.json",
+      "sha256": "39490866b3a1fdc75418f4e02238a381997e56c5e330aa90aa5b493372e54332"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-54",
+      "file": "responses/lessons/js-54.json",
+      "sha256": "415caf7911ce02c85f03eade0c8cd8c60b4a2709f994db6fed98809698afaad4"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-55",
+      "file": "responses/lessons/js-55.json",
+      "sha256": "77a6c60ce48dc49fc80aed6e0b4a247fd874cab25a3baa8d301129f6e36b7022"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-56",
+      "file": "responses/lessons/js-56.json",
+      "sha256": "72d3d1800d8a34ea9bafd7217fe0ffec548e6e7b9ba0174a805fa159234991cf"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-57",
+      "file": "responses/lessons/js-57.json",
+      "sha256": "17477e854dc525a5c6e2c6f01d0b39dda47ce64f8b2e7d96b5a7160174ec3880"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-58",
+      "file": "responses/lessons/js-58.json",
+      "sha256": "bb2619e36c72c0913242a09e842cdfaa2e7c308b420ec86b29a53baba1f4abbf"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-59",
+      "file": "responses/lessons/js-59.json",
+      "sha256": "d96a5187a50f498490bf430cb9bd873fbb384527e598ba0e3463a8c37a8f2b4c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/js-60",
+      "file": "responses/lessons/js-60.json",
+      "sha256": "5d445c13f3ab98abc7470e122b9be0072a38a1c39d0b0b5f012a301ad2d0f228"
+    },
+    {
+      "endpoint": "/api/v1/courses/js",
+      "file": "responses/courses/js.json",
+      "sha256": "c77b8fcd39c43fb11d70457d6b56c7bca5770e22884109853d516e50b202881b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-01",
+      "file": "responses/lessons/algorithms-01.json",
+      "sha256": "eee7f4bc2362cd3f10d0d2e9bbde6c4f499db842b26326971fc91513a6c7393d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-02",
+      "file": "responses/lessons/algorithms-02.json",
+      "sha256": "fd0e1e23faa425a9d8bdd52917be41937ad77393b35f8e1b87720111ebc2982b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-03",
+      "file": "responses/lessons/algorithms-03.json",
+      "sha256": "b69ddc7b86eb6ea4537eb64bb90472b24bef6e9302cad98f100f22d3f1e2b762"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-04",
+      "file": "responses/lessons/algorithms-04.json",
+      "sha256": "b51cee32d57b7481e81330a873988bae33a653036d569d89a4b9c2f2a0db4c6d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-05",
+      "file": "responses/lessons/algorithms-05.json",
+      "sha256": "5c2181c198d42b870bf2e2f798c81ee722260c3e99641b02b9fe25fcd73dfeca"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-06",
+      "file": "responses/lessons/algorithms-06.json",
+      "sha256": "8b2973e4f5be3f0df337a5f3fc2600f281c392d384ba9f6ab132370d75b3ef78"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-07",
+      "file": "responses/lessons/algorithms-07.json",
+      "sha256": "f7d6b147d88eb0c2620f40ac5da33f03ec52e0321fc3df97b720aab807df1e23"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-08",
+      "file": "responses/lessons/algorithms-08.json",
+      "sha256": "860f32149c8b5708152f866992fa02f0a32959ded2e89e4dc80d2d3dcb0c7858"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-09",
+      "file": "responses/lessons/algorithms-09.json",
+      "sha256": "2a8589a817850fffb2212fdedaa5517437c2570a7b961287f3af812a4b4ca34f"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-10",
+      "file": "responses/lessons/algorithms-10.json",
+      "sha256": "3c63333efef71491f3565c4f93d9f57ca86f6e4843e429c1a1f8d94cdf367b54"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-11",
+      "file": "responses/lessons/algorithms-11.json",
+      "sha256": "6fa1152b563033d0c726772a3392cd4f5a3a75c39fcf253e8cb5ed900e6bf64d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-12",
+      "file": "responses/lessons/algorithms-12.json",
+      "sha256": "6c040ff10dad7aa49b62577edc43833d73c5c927488870b5b24a54d0a655bb9f"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-13",
+      "file": "responses/lessons/algorithms-13.json",
+      "sha256": "8623ee8e59abcde7db17d43631866a62df1ae065eb0cc47f284ccc92ad8620b0"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-14",
+      "file": "responses/lessons/algorithms-14.json",
+      "sha256": "214820cf6e574f976f719871e7b17d0a88f75cc9f420f64b9658e19c857a982a"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-15",
+      "file": "responses/lessons/algorithms-15.json",
+      "sha256": "4469c749e45b3d370c056a25a30f36e21161b6b04bc8d6d7d6abb407807f1946"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-16",
+      "file": "responses/lessons/algorithms-16.json",
+      "sha256": "2dd3001b575e864e6cada062672aafb0c6101ffe64d6bd28b5204286e91720f9"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-17",
+      "file": "responses/lessons/algorithms-17.json",
+      "sha256": "e06c862e0dedac1d0820d278557fbbb4d2f878ea67d2e82c7bd9d91fc8acbd3b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-18",
+      "file": "responses/lessons/algorithms-18.json",
+      "sha256": "553fdb32d2c73b4cc91ff83d4e0dbc12794b5b6ade3adfdeab869368b1d10321"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-19",
+      "file": "responses/lessons/algorithms-19.json",
+      "sha256": "ed1b49dc785d0dd8bc20b94c5d12c22e7dbddc937c0bed37e2c0c9f5d3b2ddc2"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-20",
+      "file": "responses/lessons/algorithms-20.json",
+      "sha256": "cd9a5b04e84d11574da40151e98391122cbf87a1669ba3b566ce5b00bc731e42"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-21",
+      "file": "responses/lessons/algorithms-21.json",
+      "sha256": "72836dae01f769ce59595cae2dd3663cb308a345aadb40aa18ed72ffd46ed2da"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-22",
+      "file": "responses/lessons/algorithms-22.json",
+      "sha256": "ebf87f0664e3c3be075de798e54bcad6bf9b0301a894f7f4d63cfb280a2111c7"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-23",
+      "file": "responses/lessons/algorithms-23.json",
+      "sha256": "4599644101fefd760405ca84d2d144f1bc23e294ffd86ca3619732645b55e15f"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-24",
+      "file": "responses/lessons/algorithms-24.json",
+      "sha256": "f926b1d90ca86be9048ba532f8d599cbea8c4f0f6426a442d692f2cec2a25b38"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-25",
+      "file": "responses/lessons/algorithms-25.json",
+      "sha256": "f0d7ad0980e57e8d487919f2b61b437ca95a07ef7994a4b430a1a268d9b4890e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-26",
+      "file": "responses/lessons/algorithms-26.json",
+      "sha256": "5576cd9a7481944b795ee3b30f9f443168f922c4d9fff0100925a33716e8a3af"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-27",
+      "file": "responses/lessons/algorithms-27.json",
+      "sha256": "20aa0438f1903bb48fec09d042f123cd53019ff69c940d77b03ef5cb327e5324"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-28",
+      "file": "responses/lessons/algorithms-28.json",
+      "sha256": "b867b4a2fb1057378eefc85d62ea39227ae1eb97c8a64c1ddf562782e62d8a0b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-29",
+      "file": "responses/lessons/algorithms-29.json",
+      "sha256": "83f59532128f2a3f821103a4c85daedccbfdae9f06c6fbf52e73f60c3243cf3f"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-30",
+      "file": "responses/lessons/algorithms-30.json",
+      "sha256": "ca30577f10ab5b33fff2d0296bbef8304eb7e30ea9eca0b94541859522fbe866"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-31",
+      "file": "responses/lessons/algorithms-31.json",
+      "sha256": "55562ed7727396a1696e36b45dd1fad815f5845d180612390ff5bdf768af1d17"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-32",
+      "file": "responses/lessons/algorithms-32.json",
+      "sha256": "423d003a1560735b26a7efcc5b10ad866ffcd28a39d925835db491e1633d988e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-33",
+      "file": "responses/lessons/algorithms-33.json",
+      "sha256": "4b6ed2df53bdd5594852d589f7ac45840e366f44ae62d9129cf7b44bb4410a76"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-34",
+      "file": "responses/lessons/algorithms-34.json",
+      "sha256": "a6767ed96f1f207fcf686bc7a6d6da95fa5d5f95fff2f45134a5eda76f9d5763"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-35",
+      "file": "responses/lessons/algorithms-35.json",
+      "sha256": "8a054edea2099b6094cf731832c940ebd59d87082edd5d682629a3a44cb17b93"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-36",
+      "file": "responses/lessons/algorithms-36.json",
+      "sha256": "7b2a29fc9db907107a2d95caccfddadec60550e03b0bd5f60bb41143dea1322b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-37",
+      "file": "responses/lessons/algorithms-37.json",
+      "sha256": "7fb461c6c0e4429221ca24a07169777b898ff38174bb64ccf4c5e87812213b81"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-38",
+      "file": "responses/lessons/algorithms-38.json",
+      "sha256": "058f483e99572530338e3503915de7ae98ceee02f5166a0ac7be383d70a5c771"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-39",
+      "file": "responses/lessons/algorithms-39.json",
+      "sha256": "5d156431649b85809f6822700bdf471ca25ce51b252eafaeca4fe2c7921156aa"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-40",
+      "file": "responses/lessons/algorithms-40.json",
+      "sha256": "542c24a6e7d538d45f5ada9d1b8bef2e44421a2a80e065e7ed5b1574728da9bd"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-41",
+      "file": "responses/lessons/algorithms-41.json",
+      "sha256": "f2fb0e6cc2027ef9c563d764b1e6640097bd35489505576f34f90571ea86a0b5"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-42",
+      "file": "responses/lessons/algorithms-42.json",
+      "sha256": "30c75fccd93fe43a968e0323f61fca28f8969853ae5f029d6fe8bb2a26613b7d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-43",
+      "file": "responses/lessons/algorithms-43.json",
+      "sha256": "d8a5e15daa6522d312dce7f3d75dcd32f4b1c3673990403dca328de937b56931"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-44",
+      "file": "responses/lessons/algorithms-44.json",
+      "sha256": "c86c52b035a890900bbbf19ab1f7bde2605b6d571946a5761e9bf8c6a30129f3"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-45",
+      "file": "responses/lessons/algorithms-45.json",
+      "sha256": "b79cae2c758456092fdb6dbf922a630d1321f5163a620d6a31edfda842336705"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-46",
+      "file": "responses/lessons/algorithms-46.json",
+      "sha256": "e67cc48b7ba40ddbace023b7ec81dd8c062046b7b44f88261470b88824c710cf"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-47",
+      "file": "responses/lessons/algorithms-47.json",
+      "sha256": "d8cd4c249dc1efa672fe9b8d76f08e47fe066df7393ee1f2ff8bd55f6885f553"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-48",
+      "file": "responses/lessons/algorithms-48.json",
+      "sha256": "fa99a0000d50ba74423b867dc3703f3f7e2e685caf132142ba02bb0b4c31cafd"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-49",
+      "file": "responses/lessons/algorithms-49.json",
+      "sha256": "a8e66234f2d9c4fdf4003d3514dfb0c5de9b26aad3c0574f08c38219d23dfb8f"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-50",
+      "file": "responses/lessons/algorithms-50.json",
+      "sha256": "45bd0d4bb3298f007bea9e93d45c00e56fee0006208761c930d9a0bc04b05863"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-51",
+      "file": "responses/lessons/algorithms-51.json",
+      "sha256": "17c09b53a63daadeae55d63d3b33c749401747830ff3152efda317ab8ef3b634"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-52",
+      "file": "responses/lessons/algorithms-52.json",
+      "sha256": "30e7dd8d92b6c4f0764bbd05a89975dd535d8d9346373c43f5b54db19a8d61f0"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-53",
+      "file": "responses/lessons/algorithms-53.json",
+      "sha256": "a73b8e898d564fe62f143dfc72c9a7fa355394ed8b03109ab686359104b42947"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-54",
+      "file": "responses/lessons/algorithms-54.json",
+      "sha256": "1f76b393fa74a06d680ebb3e01255b8dee0936f7e9972ff9c8ba46fc57b10e29"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-55",
+      "file": "responses/lessons/algorithms-55.json",
+      "sha256": "d1fdf710c358951e8d8aab2c8c0c7f4b71066635268cfbce34167f511c14daa2"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-56",
+      "file": "responses/lessons/algorithms-56.json",
+      "sha256": "5b86a69952b3fded56b9a9b10ac238d4c2a6694416dac543bb469e6bb47dba53"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-57",
+      "file": "responses/lessons/algorithms-57.json",
+      "sha256": "806dba3f003a163e182a20446d9e42f71b14f4effdd44827dbf9af1de3c914fb"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-58",
+      "file": "responses/lessons/algorithms-58.json",
+      "sha256": "1593fcd7ce4bb73d410010d05c3bc76bf5ab88a0312aac0b6324e20163a29796"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-59",
+      "file": "responses/lessons/algorithms-59.json",
+      "sha256": "72a773b7f6a7fc76f9a8928d9b1cee222a199d99923045774295c4f7e75bdcb2"
+    },
+    {
+      "endpoint": "/api/v1/lessons/algorithms-60",
+      "file": "responses/lessons/algorithms-60.json",
+      "sha256": "a46db7f91ad4140b09e34fa363c37263b2439b53998d52642590eba4b17199f1"
+    },
+    {
+      "endpoint": "/api/v1/courses/algorithms",
+      "file": "responses/courses/algorithms.json",
+      "sha256": "fda1f814c249278a7cef0a36e0c855e1d8e03aaa6387e7a2872970c49f7e9631"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-01",
+      "file": "responses/lessons/html-01.json",
+      "sha256": "caf5f3c1b0d7a4742568ac79fa1a6081a3dc348364f2aedf4f0465564a07916b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-02",
+      "file": "responses/lessons/html-02.json",
+      "sha256": "a910d32b7049228bf52dcab5b4d61fa27848e54b4da2dc06b37ebe4f390e7fc5"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-03",
+      "file": "responses/lessons/html-03.json",
+      "sha256": "7dc49a9df28a62ec6793f5ce4da1dc16321e1f397573061e9a4ddc638a8c6e2d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-04",
+      "file": "responses/lessons/html-04.json",
+      "sha256": "8a6babb7bcd8cf8a3b4846a03dd9cc76327489ce2c23cf25844ebc367fc2f5e7"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-05",
+      "file": "responses/lessons/html-05.json",
+      "sha256": "a2e9651118fce749f23df9dfd96d79f6a893620e0b1ec21c4c6138e6dff195b3"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-06",
+      "file": "responses/lessons/html-06.json",
+      "sha256": "ed9cad8826c2587e6b8be951c2bababf27f40073e3a0ff21d2cb282836abb00d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-07",
+      "file": "responses/lessons/html-07.json",
+      "sha256": "c5b586fba6f3fa40b7fa2b927ae531ccaa9a28b0c37eb9ef603650df3c5f8ba3"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-08",
+      "file": "responses/lessons/html-08.json",
+      "sha256": "59fb2a72569aee2f2e10f9fa365b1c6fa5e2a1bbede889f4fb2ae1aa354c73b8"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-09",
+      "file": "responses/lessons/html-09.json",
+      "sha256": "82ff02387e035279bdcdc84ede8feb3f0aa3a4a742876ee308d0461c5dc9e2ae"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-10",
+      "file": "responses/lessons/html-10.json",
+      "sha256": "abbc7fcf9896fdff03a409371b9fb441dfbd43e7ffce069b37b209385e0595f0"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-11",
+      "file": "responses/lessons/html-11.json",
+      "sha256": "06005d5b2b6accda8b6d2c41cf89e6bc4d997bcee9f9af16265b435f76bfd1ef"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-12",
+      "file": "responses/lessons/html-12.json",
+      "sha256": "56444efba06ee1e8edecf43d4f4b1f7402ea4ef5bcbe3670da2bd8bb824e0fb5"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-13",
+      "file": "responses/lessons/html-13.json",
+      "sha256": "fd28685f6b6d17e5f410f5782ca5d526325b9aa8bdea423a0c5fc33041602324"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-14",
+      "file": "responses/lessons/html-14.json",
+      "sha256": "41f6a455fe3372ac8c73e9a18e75d95f37c5fd616ada55d14b3b41f035b51b08"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-15",
+      "file": "responses/lessons/html-15.json",
+      "sha256": "009d0fbe195e632d4ca9755a710b46b5265236ae3d5b0d65ba9249d1d419e406"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-16",
+      "file": "responses/lessons/html-16.json",
+      "sha256": "02d4b1c1395be813637b8e0097fa7487b428dd2c6d3775e245aa4f9165c8485d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-17",
+      "file": "responses/lessons/html-17.json",
+      "sha256": "a31a4fc636e654ff073162137e147064a341819d9cca458856d1e0d8a68ff452"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-18",
+      "file": "responses/lessons/html-18.json",
+      "sha256": "d8032275c5f0aef0931f0d9dd5b5e93a58c60084c0a8969e1f09b2b5b406020f"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-19",
+      "file": "responses/lessons/html-19.json",
+      "sha256": "200516c32f85098dfa949ab8ee4f4179706edf03490921962bcac5823f906946"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-20",
+      "file": "responses/lessons/html-20.json",
+      "sha256": "43c877cb99223ad153b2cdf41022fc5827783e977bff5508884507c041b326f1"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-21",
+      "file": "responses/lessons/html-21.json",
+      "sha256": "845984f5bcb31c707181869d013d1d0e5561d49be4c5f031349c2fa1dbc304a3"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-22",
+      "file": "responses/lessons/html-22.json",
+      "sha256": "31238dfa9ff4de1979e17956385f16fc771db2fdb3ecab0d1deae85a54a30f34"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-23",
+      "file": "responses/lessons/html-23.json",
+      "sha256": "95563b476806eb5329974083dfe3561a2f9341b6f2d50a0e31c4ca36c53fe1d5"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-24",
+      "file": "responses/lessons/html-24.json",
+      "sha256": "b66074831a780e9cf760525db5f39d0fba8ec366dc962a5ded2f934d3ef87cda"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-25",
+      "file": "responses/lessons/html-25.json",
+      "sha256": "2fd689564322f55ad73090f4494692768fa5976b2c2b16be158f92254eed189d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-26",
+      "file": "responses/lessons/html-26.json",
+      "sha256": "2a6ac0da8479d174df6696c887e26f999b16643764485ffc32ff9c3cfdd6121e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-27",
+      "file": "responses/lessons/html-27.json",
+      "sha256": "19c95ec94c30436671dccfd0c04bd6e6d18b6ab3a623cb469018c3e9b08dee34"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-28",
+      "file": "responses/lessons/html-28.json",
+      "sha256": "6972a9c29750ea60443ac4183dc6ab193eee41cbac900896f0468cf31db211f1"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-29",
+      "file": "responses/lessons/html-29.json",
+      "sha256": "1cda4a756d62eace9e2a1bb6ba52303f83257441f6a1f886a50bef7fb3961811"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-30",
+      "file": "responses/lessons/html-30.json",
+      "sha256": "29803f9b6e40dba9b1f77ae1746fd0a1c3269eae0a756659739e55de168730a9"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-31",
+      "file": "responses/lessons/html-31.json",
+      "sha256": "d6bc7500f8e315c7a7fb23a7cf771d51f4719ab021650f50122b0ea2d2ecc069"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-32",
+      "file": "responses/lessons/html-32.json",
+      "sha256": "87c8caeb0b50e8aa0b7faa36e8af4f8e37eb57a3adad0187a0137eebb923f60d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-33",
+      "file": "responses/lessons/html-33.json",
+      "sha256": "eb1bbe4f732366719ae46238817c570c13663567160c4b55829c7e4425522adb"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-34",
+      "file": "responses/lessons/html-34.json",
+      "sha256": "03f05e49f7260c7030a517d6705d6c687f228854c1d829a6e13e7fe370392bab"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-35",
+      "file": "responses/lessons/html-35.json",
+      "sha256": "8699979d0078b7bb86f96264be5296e5536994eeb030f29f6d6e75a3a831f9bb"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-36",
+      "file": "responses/lessons/html-36.json",
+      "sha256": "66a44cb7c985e970b2334dbbd90b0bef1427d4fbcd389a8dd59f5c85391b9f7c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-37",
+      "file": "responses/lessons/html-37.json",
+      "sha256": "52b2c99c4181263f7b783e66603d744aea42a3c698042fbf2925cdac2f55e355"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-38",
+      "file": "responses/lessons/html-38.json",
+      "sha256": "6088a05b561781bafa275d57648f6d8ec20875cafac314832955b0a40cda3fb8"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-39",
+      "file": "responses/lessons/html-39.json",
+      "sha256": "0681c6d18d25b54b8dd4f97014721df9572dbc93f8ea16b15a40ee277f96944e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-40",
+      "file": "responses/lessons/html-40.json",
+      "sha256": "4b539b9ea74818f0643790c5cbcbbebd40b07e9846eed4617d5c4f0051a90ffe"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-41",
+      "file": "responses/lessons/html-41.json",
+      "sha256": "0fdfe26cda970d62d7cf287ad83f90e1a9a1dc9c58d9e643302227b3cb42f79e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-42",
+      "file": "responses/lessons/html-42.json",
+      "sha256": "d76ce9d63a1bef564a1a90006c887ca7e68528c975dd004d173de77204aff072"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-43",
+      "file": "responses/lessons/html-43.json",
+      "sha256": "fe0c11cc4a16faaee1f7b0b1ad55feab8ff38fbbcf5ed0eb7c97be9e984d7860"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-44",
+      "file": "responses/lessons/html-44.json",
+      "sha256": "5d53806fde3aabb7736a428bdf2baa2d17ca7bd4474047648293b51a9d3ea0c0"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-45",
+      "file": "responses/lessons/html-45.json",
+      "sha256": "661acd98ac4a2a3f8062d6b84e62f540323b01f4f56da321b09a109219d7ca39"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-46",
+      "file": "responses/lessons/html-46.json",
+      "sha256": "6a00585aacfcf09cf8a6649242907bb0ca564bf3421503608c01303a5b948e5c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-47",
+      "file": "responses/lessons/html-47.json",
+      "sha256": "729de99711a364d5cb549063867739e1876b83ece3b3e1975bab84765824f91a"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-48",
+      "file": "responses/lessons/html-48.json",
+      "sha256": "13fbecdfe2c33cc8ef6a5e058a5d93d52d865ea7622ea216a54f402328a2a741"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-49",
+      "file": "responses/lessons/html-49.json",
+      "sha256": "481a03fb131d64d78c2c5be04c9e43fef915282f5a4cd58a66edaceb67b1ed8d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-50",
+      "file": "responses/lessons/html-50.json",
+      "sha256": "5aad557d91f9f55a9c6b986cc2e65114c723b32ea4a7104c10d8fc359dfd8f33"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-51",
+      "file": "responses/lessons/html-51.json",
+      "sha256": "60158002b125fb2b40dd3d09711aedadf525d040ac8d9a34e673b79c8bff82b9"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-52",
+      "file": "responses/lessons/html-52.json",
+      "sha256": "570c4374e5e1f0613a315a64b2003e21dce82cd564ef88988acf767c4c2f1cae"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-53",
+      "file": "responses/lessons/html-53.json",
+      "sha256": "13b9a0d21aa1d2e5d45c16cad22c4428b3345f2cabc98adf5efa6ac8f000855c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-54",
+      "file": "responses/lessons/html-54.json",
+      "sha256": "84e3eb57ea8630448e909f97591f0252c3d878be0cf649ccd9301810c2d92f3c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-55",
+      "file": "responses/lessons/html-55.json",
+      "sha256": "d015758b24c0dda414de16e51b804358abdac7c8efa002b3713addd0bf41b138"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-56",
+      "file": "responses/lessons/html-56.json",
+      "sha256": "2fa6f1e71be7c5348928b003502a9c1b710f751af4d049cd69015fcfaca36448"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-57",
+      "file": "responses/lessons/html-57.json",
+      "sha256": "b697f17361d56164793840c1169379f82243e241e313bd06c6927d78cc8fddbe"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-58",
+      "file": "responses/lessons/html-58.json",
+      "sha256": "968850739391e6035ec481f313811f094cacb2962866b91074a28808c9bb32ef"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-59",
+      "file": "responses/lessons/html-59.json",
+      "sha256": "3813a5cbc294c715d5a611eb14e8e2032f98b2ec918ee332bb174fa7a00cead1"
+    },
+    {
+      "endpoint": "/api/v1/lessons/html-60",
+      "file": "responses/lessons/html-60.json",
+      "sha256": "afb25ba5e37e1637072d2a1ebc204eb5dd156d37f36e4f9dc4398d12376c3edd"
+    },
+    {
+      "endpoint": "/api/v1/courses/html",
+      "file": "responses/courses/html.json",
+      "sha256": "127e964cb5c423656ffc7ebfc59cdcf1d55e28276a5f78100645189e2e22fc55"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-01",
+      "file": "responses/lessons/sql-01.json",
+      "sha256": "7077ff20270553fb6b2baedccb7d0e261e0af47ceee8fdb93cc69dca57434b41"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-02",
+      "file": "responses/lessons/sql-02.json",
+      "sha256": "fea742e236de882b3bfe7f1661badd16ee2e714da6df92ebe556bc4535deedf4"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-03",
+      "file": "responses/lessons/sql-03.json",
+      "sha256": "f4bf396f7fe081f617b06d4a09d64a0adc44fd55f86f1639667ef5db383e434e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-04",
+      "file": "responses/lessons/sql-04.json",
+      "sha256": "25a730de6799f160822c04977f19b5711afeac761b47fa0857e0066468c75c33"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-05",
+      "file": "responses/lessons/sql-05.json",
+      "sha256": "80a1190cb2717bab17bc1e1bcc8960e2e1d236f6cf47789da914a88d4be6cae5"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-06",
+      "file": "responses/lessons/sql-06.json",
+      "sha256": "943e92fdc8f88abe079d71250402aa0879ecdf9b1a8c9b0b600aa064d4625210"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-07",
+      "file": "responses/lessons/sql-07.json",
+      "sha256": "3a84a6c2426b33e00beaf10e6def4f2a08fcfaee5d812b4096f9a0ed87e43b05"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-08",
+      "file": "responses/lessons/sql-08.json",
+      "sha256": "8622311413e6f3ab7a5169a7c82eb40603c4ead91e4c55f78cc7e3e1d9b82069"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-09",
+      "file": "responses/lessons/sql-09.json",
+      "sha256": "fbf791d1ea3195a49b9b244bd0f1470c16903a5ec1ee8a1ab8bf488ef1019acf"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-10",
+      "file": "responses/lessons/sql-10.json",
+      "sha256": "5b8a584f17bc8e29c741e7dce3424c40f64a66ddd95536dba31c1c15d50e5ac2"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-11",
+      "file": "responses/lessons/sql-11.json",
+      "sha256": "b53827aaffed722b512223c6466fa97200da063386f6fef0e32b7f299540be4e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-12",
+      "file": "responses/lessons/sql-12.json",
+      "sha256": "a7cb033c42c7c9cc598393a0be84c73189800f18905199bcba6997e64b9c699b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-13",
+      "file": "responses/lessons/sql-13.json",
+      "sha256": "feb0c3f23774d96b0fc790f398ac05410f4458f0f49c1c6093f7528f8be08167"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-14",
+      "file": "responses/lessons/sql-14.json",
+      "sha256": "bc0f0054112bfb656389af6f870a6c6018333063cff44bb1093b749e7688f316"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-15",
+      "file": "responses/lessons/sql-15.json",
+      "sha256": "22bbffbd5a07a4455b2a2f975bce13725c97d0c37330943666eab5d2742f18b6"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-16",
+      "file": "responses/lessons/sql-16.json",
+      "sha256": "2d0ff3208fdc920e5bf9bff7b8b486279a1c9a3b021d987bd355044310371d53"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-17",
+      "file": "responses/lessons/sql-17.json",
+      "sha256": "104c82f0309891e1b9cf75b61c86f124957b456f0987b3a1f04d2e38bcaaa91d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-18",
+      "file": "responses/lessons/sql-18.json",
+      "sha256": "c0c159c4fafe7b30c7fda3ed86e6e1f3f0622886eef3194b925030de1757d105"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-19",
+      "file": "responses/lessons/sql-19.json",
+      "sha256": "b91b11849a0a2574ecaeb3de3a81303b97d69846191f8e2f5f262240ef5f09d3"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-20",
+      "file": "responses/lessons/sql-20.json",
+      "sha256": "b0e6a1f9f0497f94864b5b45a2592f4ab78422124a6c81589c78463ce0d62977"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-21",
+      "file": "responses/lessons/sql-21.json",
+      "sha256": "83b32ead880bd20864f57d83477ce7101cdbc37aad751b0f203f13a7a6e5c9cc"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-22",
+      "file": "responses/lessons/sql-22.json",
+      "sha256": "0c2901a4c9996bbee87824dc307a47d315d93572926e9feaafef7ab19b9e04cc"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-23",
+      "file": "responses/lessons/sql-23.json",
+      "sha256": "dfc744d2cb537b9676102f275c72d952e361bba9d0d5d828aa61f5b29125e9ed"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-24",
+      "file": "responses/lessons/sql-24.json",
+      "sha256": "89dbbfc8b55b781f54c738577116b03b672ca9b7f290cf5792458dc8d28fe5c5"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-25",
+      "file": "responses/lessons/sql-25.json",
+      "sha256": "874302f4f0bfd48ce2ff1cd800aca122a75f2da7acbf064123b43e86cb0e8057"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-26",
+      "file": "responses/lessons/sql-26.json",
+      "sha256": "32ded229bd2ef2cb7b2464261920041a959c5e868942fd072f0156d3caaac59b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-27",
+      "file": "responses/lessons/sql-27.json",
+      "sha256": "a288edf3aa2f8be31daadc607b0da350b8fb1fe419e2f46783c11678557bdf0c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-28",
+      "file": "responses/lessons/sql-28.json",
+      "sha256": "c2093d5133dc37c3b7448345f4496d160ac3b3faeabbdef69a9ebed5e48602d9"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-29",
+      "file": "responses/lessons/sql-29.json",
+      "sha256": "914602aacd417604ea7899c485d6ab67dd48982180dc4d914f6a78a7b5d02a04"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-30",
+      "file": "responses/lessons/sql-30.json",
+      "sha256": "1baea51014eb8752705e96dd136b33cb59a939955ce941a991a3a61e59f12fc6"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-31",
+      "file": "responses/lessons/sql-31.json",
+      "sha256": "adf40209dc8ad7896612e1114143f59d420a7867a34509ac1dd51752f2e1edfc"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-32",
+      "file": "responses/lessons/sql-32.json",
+      "sha256": "a68effc69e240f70b681e6bcf743040df32db29037d5559c2df0458e70a84d97"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-33",
+      "file": "responses/lessons/sql-33.json",
+      "sha256": "aa40f54974d560a6e5e840dbcc3f9d641d2719521b8509d5a40230b530faa51d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-34",
+      "file": "responses/lessons/sql-34.json",
+      "sha256": "8a3dc08aff2b0b8db3ec5a8af9f7f4612273e745f5d9fb354096cd0c64c3503b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-35",
+      "file": "responses/lessons/sql-35.json",
+      "sha256": "af030811e263164c5fb6aa0b2cbb29384d6465d97b33c6bd250db3033b4ed770"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-36",
+      "file": "responses/lessons/sql-36.json",
+      "sha256": "f83baca591e509caf2ad7d4ea9aa67d553fe1d227cc07255a0b29d96bb89696d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-37",
+      "file": "responses/lessons/sql-37.json",
+      "sha256": "20f311b0043abacc5917ec597af2c9e2bcabb870a979b7603a2019a7c405fd5a"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-38",
+      "file": "responses/lessons/sql-38.json",
+      "sha256": "ebf8663b1f1a969ff413044133a7f631426a317df4c84577366895f2acd0db88"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-39",
+      "file": "responses/lessons/sql-39.json",
+      "sha256": "95d4c20a1d24c76d90c9b485be4d47b14cdb18b31149471b176f2b72f3bf991a"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-40",
+      "file": "responses/lessons/sql-40.json",
+      "sha256": "0387f70e6c7d2560a0afbc6c93823b3f945201f2e45a24d42b3ea79b349aaaf0"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-41",
+      "file": "responses/lessons/sql-41.json",
+      "sha256": "cb1d6a88b4bf01b8b28ff7430d3ebfb3c6710becbe624aa62cbfecd31673dee3"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-42",
+      "file": "responses/lessons/sql-42.json",
+      "sha256": "57c925b1bbab9c73f31c8b2bdbdef4b1d0405fa648dd984d476fc7c4203ec1f8"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-43",
+      "file": "responses/lessons/sql-43.json",
+      "sha256": "fcc4e8bd2c28cffd550dba434e80c0a8ce6b20fd4739e98e4e2faf4875b98cdf"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-44",
+      "file": "responses/lessons/sql-44.json",
+      "sha256": "55e12ddb8b1cf7b4025ad4454833381e23c50533cdbeab84c4e5bbd04760b4af"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-45",
+      "file": "responses/lessons/sql-45.json",
+      "sha256": "8803c96bfeaca8495c3e2987a2cbbe015efde7852bb321268d5a1a9ec40858df"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-46",
+      "file": "responses/lessons/sql-46.json",
+      "sha256": "b75a64f23101d7cb653c7f6a91bf727718f943907fd2e471b2721642fc66cc04"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-47",
+      "file": "responses/lessons/sql-47.json",
+      "sha256": "9bc7ff12ffe08153f1d639bd60acf446801d36317b2f5fccc005fde95dc01b68"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-48",
+      "file": "responses/lessons/sql-48.json",
+      "sha256": "efc65f3d96c598983776ee26e5f989b6659dde98a3dc002f4c2b84f30b257aa1"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-49",
+      "file": "responses/lessons/sql-49.json",
+      "sha256": "695556c2c574445355e13b1cd1aceedafca7b293b8c621014ffcea074a6c9a61"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-50",
+      "file": "responses/lessons/sql-50.json",
+      "sha256": "8ae063edce092e2bd7e238701017f843b5ab1045a1fd1c695402d7995a980d49"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-51",
+      "file": "responses/lessons/sql-51.json",
+      "sha256": "ab18c3701212cb5357fec1274ead22844fcadefc5ebc8ab10bbfcf1483a796a9"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-52",
+      "file": "responses/lessons/sql-52.json",
+      "sha256": "df0767578d4f4daea1f5da9f1f50853a298390907c2ba06ff4e68fea0120679b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-53",
+      "file": "responses/lessons/sql-53.json",
+      "sha256": "54b2cda9a1871bf097562c8c85c8f6491125f94d622a5fb674631ada198f85f6"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-54",
+      "file": "responses/lessons/sql-54.json",
+      "sha256": "6750112bf1a08e303fb41479a8fd12b6de7fa9eacc784abc5ad5ba26ad816a1f"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-55",
+      "file": "responses/lessons/sql-55.json",
+      "sha256": "28bc55070b64001fa9ab101fb3db433cf396dfea0b7c605949043635b2f64144"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-56",
+      "file": "responses/lessons/sql-56.json",
+      "sha256": "48add58b6a9edc5f4d56ea19c880e85e85fe5e278237597a40a58ac104bc3ea1"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-57",
+      "file": "responses/lessons/sql-57.json",
+      "sha256": "5e25854f4087e6fb80ac75afb08d05505d911d2f5f6ecd9c373315a58d0483cb"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-58",
+      "file": "responses/lessons/sql-58.json",
+      "sha256": "b15ef94b71e84682fb16d8b2c5ba66edc58f7919b71f787af61df9060d898bb5"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-59",
+      "file": "responses/lessons/sql-59.json",
+      "sha256": "747186606ed196ccf722fb2a85b063f8b876b3a4c644dbea541cd3b0d5c0f6ba"
+    },
+    {
+      "endpoint": "/api/v1/lessons/sql-60",
+      "file": "responses/lessons/sql-60.json",
+      "sha256": "7b3043a92c0566ecc7179fa5f35b580cc009e2cd222d12d98c3ad0b8ed4bb59b"
+    },
+    {
+      "endpoint": "/api/v1/courses/sql",
+      "file": "responses/courses/sql.json",
+      "sha256": "20324e58931497f6764296248290317366533b14229b7747116716d8a519afc5"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-01",
+      "file": "responses/lessons/ts-01.json",
+      "sha256": "9646da8119fe2ef067d53014985d6213a75467706ddaddffb4c54382079f5c52"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-02",
+      "file": "responses/lessons/ts-02.json",
+      "sha256": "4470f88105eb132667803928d600e8c1d384b4b6e620fcc9d7077e07891c5eeb"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-03",
+      "file": "responses/lessons/ts-03.json",
+      "sha256": "ec43b3d525c7ce5d2cfe99b2236cd6465c2dc0d1eb586befdf13c40ebd556199"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-04",
+      "file": "responses/lessons/ts-04.json",
+      "sha256": "f0db95f9e907f2b8a3d9d86b46627b7fd306115b7b5569763db77f002c793b3c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-05",
+      "file": "responses/lessons/ts-05.json",
+      "sha256": "21fe8577a40cff0a9eb6bc93d50ab782cb45e8db58449fc015a4676fa1b98e5e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-06",
+      "file": "responses/lessons/ts-06.json",
+      "sha256": "b6a7525f85ad56d1be49dd5c9227b2c780b4b24137efcaecc31d5c08c86f7f0d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-07",
+      "file": "responses/lessons/ts-07.json",
+      "sha256": "4bd86ccb17eb772400dc2929526501a5ea7ec2f8e534d7da402ca68e1305d281"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-08",
+      "file": "responses/lessons/ts-08.json",
+      "sha256": "233c46ca97a5d5d1f5a84999ee8f5cd9c919b4dea9ae5157def93acda567e28c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-09",
+      "file": "responses/lessons/ts-09.json",
+      "sha256": "09ac8720c8eaa5f5e35b4e1ce74ac64c361f8256e79e6f0b96013e00f8d573ee"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-10",
+      "file": "responses/lessons/ts-10.json",
+      "sha256": "30968134460d07f138386f59a1ed3b20579bd73ca486cc71d5b59e3730663dff"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-11",
+      "file": "responses/lessons/ts-11.json",
+      "sha256": "b67e1d360d6a313d6f58129d97e17a4877e7126c14d6bdd947f36006a2b0bb8d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-12",
+      "file": "responses/lessons/ts-12.json",
+      "sha256": "854f127fedff4c91a908f5784c48da4d951d371eb21ddc5d1341aeb8394a1ac9"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-13",
+      "file": "responses/lessons/ts-13.json",
+      "sha256": "79d571279489ace7f53e13d9b51839a5d320653f831d6c357acff02cb0e418fd"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-14",
+      "file": "responses/lessons/ts-14.json",
+      "sha256": "9f8cfa5e9d2448572eb2068192afc7925267f73adbe128e3c9b79b98f23f3c9b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-15",
+      "file": "responses/lessons/ts-15.json",
+      "sha256": "c3057af447544e047e0e994a2ece39f8f091db7e655bfebebb73ffeda1e628a8"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-16",
+      "file": "responses/lessons/ts-16.json",
+      "sha256": "a0845adb00059760fc43c3e2ecefc9ca9353429ff7161e1ed4166e3a07956617"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-17",
+      "file": "responses/lessons/ts-17.json",
+      "sha256": "b4c7c21bc7b5f9417d285e152e8b99eecb23c15d376770608bf2585e0d9f7764"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-18",
+      "file": "responses/lessons/ts-18.json",
+      "sha256": "c4810f7bf937061b956705247df2652bb3fc93c284e72dc97f61da675eba9489"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-19",
+      "file": "responses/lessons/ts-19.json",
+      "sha256": "d0d58e997c20debedb5d602429a434e6262b0ba5a1480fecc5ed2723f3d09626"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-20",
+      "file": "responses/lessons/ts-20.json",
+      "sha256": "6cc6385be1c3110790e8e42ec14e2522a1978e198409626397ccd15639153b70"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-21",
+      "file": "responses/lessons/ts-21.json",
+      "sha256": "24e5789947278f7135f287a76c5fca854b0c1981513721528885f7474c94aa5e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-22",
+      "file": "responses/lessons/ts-22.json",
+      "sha256": "555877a8b5b1e8c0fb6c226df7fae54c6cfee646e653a2853804054530a20417"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-23",
+      "file": "responses/lessons/ts-23.json",
+      "sha256": "6034d8b5724f65138267b88386c81f1a2b5e699d67d5b40ecb319af063ec50f6"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-24",
+      "file": "responses/lessons/ts-24.json",
+      "sha256": "53fb6a33e69c798bfa65bbcf9841b85124f6a3814db822767f5d19242b766275"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-25",
+      "file": "responses/lessons/ts-25.json",
+      "sha256": "0bd6ca3ea058c7a6638b4292eb2130c2a42993b30e7af2f4eb20b4ebf332d969"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-26",
+      "file": "responses/lessons/ts-26.json",
+      "sha256": "4ed7f7a259a22bfd68903d266db10956f613e07d0e5a39c0de2ac053132a3c1f"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-27",
+      "file": "responses/lessons/ts-27.json",
+      "sha256": "57c927419000026d85179c92959c04355c33d9efa0a550e80879fecfc81fe0b1"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-28",
+      "file": "responses/lessons/ts-28.json",
+      "sha256": "5f1b4613b0c76b350b64f4ea59ee5e46086883dc54e4f2971515dd2e350504d2"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-29",
+      "file": "responses/lessons/ts-29.json",
+      "sha256": "6bcfd4e37fc49b5926f4785b7098e0c4de1627abb7e238bc1784dbf4693a2730"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-30",
+      "file": "responses/lessons/ts-30.json",
+      "sha256": "8824714281cd72239ce029b0eafe20cf271184065e5b7fc6a44d4d3a01fa6d2a"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-31",
+      "file": "responses/lessons/ts-31.json",
+      "sha256": "fe5437b5c6c9cd640633034db3742b5a7f2c823eefd6a8c6992a298cc0e923d9"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-32",
+      "file": "responses/lessons/ts-32.json",
+      "sha256": "7081a66b1eba5bbf26d380dffcec4f41f32a5533888f59142c023d99cee90e88"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-33",
+      "file": "responses/lessons/ts-33.json",
+      "sha256": "c406944a7853e20daa246f0de1f0d2ee0491f24f70a3066e2e81a7f58c4241d9"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-34",
+      "file": "responses/lessons/ts-34.json",
+      "sha256": "c6d824b9d435758051f36000a227a1a63e5a960c2ab268d6c8bd0a0b0b02e2b0"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-35",
+      "file": "responses/lessons/ts-35.json",
+      "sha256": "fb1ae1bd01132475f3986869b35628d8c779c49c2d074820a6e8f6d3331fa0f4"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-36",
+      "file": "responses/lessons/ts-36.json",
+      "sha256": "90185e1e26b636b6c909795431f483f95e749b90e1d150180d83482311df9e64"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-37",
+      "file": "responses/lessons/ts-37.json",
+      "sha256": "eb6f411311bf4b3ac6ce1306f73426ee541c7cc44830fb123a3e2ef808cf6061"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-38",
+      "file": "responses/lessons/ts-38.json",
+      "sha256": "d816e45d64245220d5a4fd0225ec33927a817cb5904df06c25b98f2f471be0dd"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-39",
+      "file": "responses/lessons/ts-39.json",
+      "sha256": "bd9da3b16d0aff94c44bc4eb667940cb1de1f1897dec5f56fcc8c115374ca931"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-40",
+      "file": "responses/lessons/ts-40.json",
+      "sha256": "458bd58bc5955eea7fcc133f494bac438edec7d31841f310a7906e54abad1364"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-41",
+      "file": "responses/lessons/ts-41.json",
+      "sha256": "c70b445c5ce1c37500179f21f5037bb3a52dbe403a5d6242f4b7c113c204c2c7"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-42",
+      "file": "responses/lessons/ts-42.json",
+      "sha256": "3bb64a6e9e6af7265b35bb7473531b0949e07487e5e64d1c0839f061fd660b9a"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-43",
+      "file": "responses/lessons/ts-43.json",
+      "sha256": "83086ccb5f38b19645c38865e9b625b6248ecbfdeccfeaadcb0fb183b93b8a88"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-44",
+      "file": "responses/lessons/ts-44.json",
+      "sha256": "da25da1ea0a9183bb4ca8192dcaf280bf00003b4548a652176976db50fbcb2b8"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-45",
+      "file": "responses/lessons/ts-45.json",
+      "sha256": "41db880b004cf70c3e09a0c404d181015e058a9924f0f9db008898ffdf196a4c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-46",
+      "file": "responses/lessons/ts-46.json",
+      "sha256": "1fb568a496b8939a7f58f18881e2a0f114da54e9fd2fb54a3290e975bf422214"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-47",
+      "file": "responses/lessons/ts-47.json",
+      "sha256": "be60f9284bac4c667ffa779cd33ff090d037891c4c39cdb97b483b22ea33a992"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-48",
+      "file": "responses/lessons/ts-48.json",
+      "sha256": "65fcc0bb4a15235f4d0afafe334a864f4b4e1acbb22b744cad201b81efce3824"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-49",
+      "file": "responses/lessons/ts-49.json",
+      "sha256": "48e4f84410b3d58c3c012c9e6d26c5265a159bb6e8060f66cacb50753b164c41"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-50",
+      "file": "responses/lessons/ts-50.json",
+      "sha256": "ef6ab98092324c4aca8fab0006b03e39cef13250dc7a48f54e23fd5efbf189db"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-51",
+      "file": "responses/lessons/ts-51.json",
+      "sha256": "5d122e3517ccfb906824e9efc514af7e7cc3745033bf7438bd3f602167dff202"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-52",
+      "file": "responses/lessons/ts-52.json",
+      "sha256": "57d24178c5e4ea380fee32a8fbe00fc47558869c87ffe2d5215e1cdd471a3091"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-53",
+      "file": "responses/lessons/ts-53.json",
+      "sha256": "7d73e788f4d957d68ba1952c9925d6a6b96c7f5c78bedfcdc0a61777dcb55ea9"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-54",
+      "file": "responses/lessons/ts-54.json",
+      "sha256": "781b7c25032d490018410556da9ee2d4ca5edbc7b4ae2a72daaf58678b6ab633"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-55",
+      "file": "responses/lessons/ts-55.json",
+      "sha256": "c634c3359df060a342b4a4939b89d82565875ca23512ac0795e49216e736bddb"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-56",
+      "file": "responses/lessons/ts-56.json",
+      "sha256": "6a5fe5ac82541af16647deaa18a797ee479c10504ad795692d99f84a9bf0e04d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-57",
+      "file": "responses/lessons/ts-57.json",
+      "sha256": "fd088ca9d994ae83969b0cd49df16d0f1a8b87fd9b659d54200a0800e1b55dab"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-58",
+      "file": "responses/lessons/ts-58.json",
+      "sha256": "f349990f09f6ea3fab6645f8665cb110e70b092403531c6d76d9514542b7ddb4"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-59",
+      "file": "responses/lessons/ts-59.json",
+      "sha256": "772c0f40790b6ee1eb850d5d6a2ca585df084093ea46a51140fad8f138222934"
+    },
+    {
+      "endpoint": "/api/v1/lessons/ts-60",
+      "file": "responses/lessons/ts-60.json",
+      "sha256": "4c642f0aeb430e0ef56264e63bd1996f15ff0be77c45b396f1f5902fa09c1163"
+    },
+    {
+      "endpoint": "/api/v1/courses/ts",
+      "file": "responses/courses/ts.json",
+      "sha256": "9d259deb682e1daa3017eff05843a1cde13e88986f0d20b7bed14575c095a081"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-01",
+      "file": "responses/lessons/csharp-01.json",
+      "sha256": "fb34aa23a77343c565e8a3d5042a150898530cb6b0d416b8a713ded36f470658"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-02",
+      "file": "responses/lessons/csharp-02.json",
+      "sha256": "698450774e11143cf064dc1ac7af9884824c7ff3d20d194104173754708a4407"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-03",
+      "file": "responses/lessons/csharp-03.json",
+      "sha256": "6c8aa9bc0ac25197ffd95dd4671aaaa12d81f7ad14de354a1aef4d302141d3bc"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-04",
+      "file": "responses/lessons/csharp-04.json",
+      "sha256": "164287e0dbcc455a0e29f58c5752926560935acfee03a8707c3cea12504f4b7a"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-05",
+      "file": "responses/lessons/csharp-05.json",
+      "sha256": "44c8d7f28f3edcab590980244eab98e51f268a6804fb6ec332449a920e7cef97"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-06",
+      "file": "responses/lessons/csharp-06.json",
+      "sha256": "4bb7c95b17bde82f754ca1c65e9cb9d2ac4a77137a55ae2dac57ddae99b46344"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-07",
+      "file": "responses/lessons/csharp-07.json",
+      "sha256": "6f85a408f16030a6bd5b178d8de0485ff1b59568afaf4b57166f4e603c2ec555"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-08",
+      "file": "responses/lessons/csharp-08.json",
+      "sha256": "839197e91a6f6203849c2ae26029538fe00ffdfdce15af8449914199b51ca6e7"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-09",
+      "file": "responses/lessons/csharp-09.json",
+      "sha256": "97a8572ead6407ea1942dab79881eb9be33d2a97c75311e05725e615b7f09de5"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-10",
+      "file": "responses/lessons/csharp-10.json",
+      "sha256": "bdc06ba61c66ecca0e8eb653d70a139029bfe20a5275a36903dde0e72a26443b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-11",
+      "file": "responses/lessons/csharp-11.json",
+      "sha256": "8720008b864b8767194c618f9f74065098291840a3dbba9d87712f570ef002bc"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-12",
+      "file": "responses/lessons/csharp-12.json",
+      "sha256": "335faae0c5373727a7f06740dc4dc451b8fc95344a81ea6eff65a6fd6a0a972e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-13",
+      "file": "responses/lessons/csharp-13.json",
+      "sha256": "ddaa36645f23c799fec4a7371b7a165a152666dac0689bbd17d30227f2b2f1a5"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-14",
+      "file": "responses/lessons/csharp-14.json",
+      "sha256": "53b4f787300f82b7d0aa63d46752478c51af56c96b98b1421f28b1dd1498a73a"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-15",
+      "file": "responses/lessons/csharp-15.json",
+      "sha256": "0dbfd6be81e6f09904a39fe2ef441d4f2f4080bb995d7a8faa71c2d61ce1c7c8"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-16",
+      "file": "responses/lessons/csharp-16.json",
+      "sha256": "5a096e995228500148e7ccd2e7a6b018049304d95dbb22fc1e7e0d5f715c4408"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-17",
+      "file": "responses/lessons/csharp-17.json",
+      "sha256": "b1b5a8f04176dbe781123eb6a7a839b8a76aef91f90b63cededa89ee55010a19"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-18",
+      "file": "responses/lessons/csharp-18.json",
+      "sha256": "243a771780800962f1f0ca4c922537e67ba5ca2d17fc65f345d1310b763d8a74"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-19",
+      "file": "responses/lessons/csharp-19.json",
+      "sha256": "15d906d579c11efaeeea70d61f44b823a75eb731d40919e45b664d816923e84f"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-20",
+      "file": "responses/lessons/csharp-20.json",
+      "sha256": "e1a2d726b6be9cd0dae2f2355c6020ead4eccdfaed1bcd86663e13bf5e94a531"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-21",
+      "file": "responses/lessons/csharp-21.json",
+      "sha256": "413c94166f672ddc081843765b938d57ec06069f604f776b348963ae4296b6f9"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-22",
+      "file": "responses/lessons/csharp-22.json",
+      "sha256": "e4f31529f565328b66b3e509a999dd0dd4e0a99ce7a150d6eb4310ace152003c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-23",
+      "file": "responses/lessons/csharp-23.json",
+      "sha256": "1d9d3a1c8099e2041b37499385c189a1e64615f3dd455b1a7bca4f494d673bc9"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-24",
+      "file": "responses/lessons/csharp-24.json",
+      "sha256": "05a88c58430c8b6921d07d01fac27816da0bd35f045a3e5b8f167a97705e2bec"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-25",
+      "file": "responses/lessons/csharp-25.json",
+      "sha256": "1211a3905349601b7e6a450ad5e32c1ebab4ebbcbba806c3ef73334ea8dc804e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-26",
+      "file": "responses/lessons/csharp-26.json",
+      "sha256": "b87e256e53a7f489fa3d640d68dc201cd848f8186b7a1ec4801783f72a334982"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-27",
+      "file": "responses/lessons/csharp-27.json",
+      "sha256": "56a165872b563e9f6d627f7a76acbd416f4a0e13997607b1901422038578be92"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-28",
+      "file": "responses/lessons/csharp-28.json",
+      "sha256": "9a6d6789d2f7982dd482f911a56d09701ecdf870e618b396a2abe5bf7168f8ee"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-29",
+      "file": "responses/lessons/csharp-29.json",
+      "sha256": "b4ff911b2d6233b204b4d0b38e66922fb96a1cf02363378924cac2972a26c13f"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-30",
+      "file": "responses/lessons/csharp-30.json",
+      "sha256": "7cf66d92c33b9059af42fd869af6001d26d939d77a2a30bebf6296b7d80c480b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-31",
+      "file": "responses/lessons/csharp-31.json",
+      "sha256": "6244e0ad4b83ccdbdf4296dfcd6ebca50e7ccc5ee598a7320a16cbb82773c535"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-32",
+      "file": "responses/lessons/csharp-32.json",
+      "sha256": "3e0960a383ad075539997488361d711ed546c8df0281133b780bc862f9427271"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-33",
+      "file": "responses/lessons/csharp-33.json",
+      "sha256": "caffbd26d2cb755ac1b0d08114972fdcac209efb26413ab0eb30f248bd87048b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-34",
+      "file": "responses/lessons/csharp-34.json",
+      "sha256": "dc90c2e149eb612a57c081e59db8a4c3458d5c441e400b70be391df84fba12d6"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-35",
+      "file": "responses/lessons/csharp-35.json",
+      "sha256": "36f61156d1f930e7fb7669c08dd2b1ecee5cfff80135b835c7f0b7c9af96023c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-36",
+      "file": "responses/lessons/csharp-36.json",
+      "sha256": "e1f0ec191322c318575aab2e7fe4bbfc40520d89d7a17aef4e7b053953b3c717"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-37",
+      "file": "responses/lessons/csharp-37.json",
+      "sha256": "626faae90f027d6a8de59f8926a543031c64c538504b0dd7501247ecf3e9a8c0"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-38",
+      "file": "responses/lessons/csharp-38.json",
+      "sha256": "918c2fd2cb2d5d31b1dbf6ff61d00c7b3b142dbba225d0e9d9fdf27989b7edeb"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-39",
+      "file": "responses/lessons/csharp-39.json",
+      "sha256": "c888e4728edacc3b9de4e28fd170c05dd5d0716c6eefc9dd84d158fe4b34e528"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-40",
+      "file": "responses/lessons/csharp-40.json",
+      "sha256": "09ef21bed575aba1747cc80a326c439391074715c0b24f345d5a44a88e54371b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-41",
+      "file": "responses/lessons/csharp-41.json",
+      "sha256": "603f235cad982c3dbb2ddcf00428414ddf236619a3e211f03eb3c604ec25921a"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-42",
+      "file": "responses/lessons/csharp-42.json",
+      "sha256": "398fb46a2b36e8d8e72093ba660044d78535b6839ce86ecdaec0ead13aa4cce7"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-43",
+      "file": "responses/lessons/csharp-43.json",
+      "sha256": "499f9b0769bcf03a785acb38946a7503144f3b0cd8575be10a33a1c85219eaf8"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-44",
+      "file": "responses/lessons/csharp-44.json",
+      "sha256": "1beeee3620ac2e38f5fb724058412bb9e2d0bb9ab1f60b1b8377b3a6e6c4d155"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-45",
+      "file": "responses/lessons/csharp-45.json",
+      "sha256": "03ea231ecee601b4d036f2c5880635a9552366ae59e686d8c09fe29bb994f596"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-46",
+      "file": "responses/lessons/csharp-46.json",
+      "sha256": "3331b6faa3e121fc626e3c673f9e09b9e86c49619fa227d764cc15df0da58328"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-47",
+      "file": "responses/lessons/csharp-47.json",
+      "sha256": "1b71d9d396100f624137d35a954f6282da63ee3cc14b354e0c21a48731b2d893"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-48",
+      "file": "responses/lessons/csharp-48.json",
+      "sha256": "a6fbac9b91fdd105169d5b94a445d6f1f6170577cf8a4133c3ea6756cb267eb4"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-49",
+      "file": "responses/lessons/csharp-49.json",
+      "sha256": "e24c3bb0cc89ac99de3213c9ae9b169f61d665e9504308cd9718b9748805cbdf"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-50",
+      "file": "responses/lessons/csharp-50.json",
+      "sha256": "5adf06cf85c5eada69703c72ce42786be26b14ffda934847265c06e3d0128a42"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-51",
+      "file": "responses/lessons/csharp-51.json",
+      "sha256": "da62a06f97ce114bf831d4f27076d3d544e58e9e9016b80e2a797c8107494d29"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-52",
+      "file": "responses/lessons/csharp-52.json",
+      "sha256": "6354f0c4bb2e1ef89e2ce7a929e9d8be67eabcd2c5c7e90c544c76ae5c7ae4db"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-53",
+      "file": "responses/lessons/csharp-53.json",
+      "sha256": "1bd73beecfcdcccb82937bb5b9de62a4dd559bf681f957afc64574acfc9afc8d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-54",
+      "file": "responses/lessons/csharp-54.json",
+      "sha256": "25c2cac7ca5cec663bc93af4a490f7c82c6de6efef997811a989ce0971097dea"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-55",
+      "file": "responses/lessons/csharp-55.json",
+      "sha256": "aa2ae353a2b8e963bafdfb2b2085d2ad3df4c5eac81e77dec6f6594b91cabcf8"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-56",
+      "file": "responses/lessons/csharp-56.json",
+      "sha256": "8df65abc7fa73182d133a77fd5791a2566cf17a951d32b389459523dfe305826"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-57",
+      "file": "responses/lessons/csharp-57.json",
+      "sha256": "91a9c1c5d8ded1734b5f85095150cdc33a9a3711f7915881e7247b6390f1d97f"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-58",
+      "file": "responses/lessons/csharp-58.json",
+      "sha256": "d90f9f80dc5b290bf3fd73f56f64e51fb98d4c2c4b1064887f8d493c4c9a4ac0"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-59",
+      "file": "responses/lessons/csharp-59.json",
+      "sha256": "8766584e98a6e0fd5de7210bc39588fcd46da382c3dc43abbd9a8134c1c07eb4"
+    },
+    {
+      "endpoint": "/api/v1/lessons/csharp-60",
+      "file": "responses/lessons/csharp-60.json",
+      "sha256": "8a84f0fbe42d2b1e6a2ed0d4b7c344b0b428e2bce61a97a64efd8a4a4c1b7758"
+    },
+    {
+      "endpoint": "/api/v1/courses/csharp",
+      "file": "responses/courses/csharp.json",
+      "sha256": "e6e5f021ee1e3cd8e2fb9db7d73df5ab619aa92e384c8d5a8d9d0d35f18f2c60"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-01",
+      "file": "responses/lessons/c-01.json",
+      "sha256": "4bf7f5d1d7c3cdcd1b523cfee4627758e2a9f98bb42fba66e2fd73f5ae2e386f"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-02",
+      "file": "responses/lessons/c-02.json",
+      "sha256": "ec013746d4eac571ffa87742f103cb0505a8c763d1ee2b5a929ac661d6803a8e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-03",
+      "file": "responses/lessons/c-03.json",
+      "sha256": "c53787469240782f56d498a6e501ffa73f630e8a35e8209f083c96ede44e67a1"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-04",
+      "file": "responses/lessons/c-04.json",
+      "sha256": "f994cc179a98fdc1cc523bc34201a476da50346929eb5df1b695ca92e2eb0066"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-05",
+      "file": "responses/lessons/c-05.json",
+      "sha256": "82f6508dc4b403baaf48c597872f67589c0f9ff103f87b1d7a8547fbf01233b3"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-06",
+      "file": "responses/lessons/c-06.json",
+      "sha256": "4af4c1d618260b06ba73e49ec370a07d1ff4ad77be98938c89f5c2d161f7dd6b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-07",
+      "file": "responses/lessons/c-07.json",
+      "sha256": "5b8dc4fe976769ebbfa7ef004d7e43c32aa077fd81cf6419631bf83a9384dae9"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-08",
+      "file": "responses/lessons/c-08.json",
+      "sha256": "2d3c459d62c36f38171ce0596de5ddd34a661148efaf6853860b832208b0ebe9"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-09",
+      "file": "responses/lessons/c-09.json",
+      "sha256": "2e735ace74d0bfaa333c236f1feafc4d3e73da22f5b86a8bb4882f2c5b64c9f2"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-10",
+      "file": "responses/lessons/c-10.json",
+      "sha256": "6bfd9137bc24d2346364ccc4a490cc02d46610061b68fdca3be19b9932c7c8be"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-11",
+      "file": "responses/lessons/c-11.json",
+      "sha256": "c7fd248e76d6f07121bc664475cc27a472fbd4e462f8525c9ec16fdf0503a7bf"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-12",
+      "file": "responses/lessons/c-12.json",
+      "sha256": "10e6680cf926744aed716a26aaf7b991d9ad7a3a56759e536cb413c3697d58bc"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-13",
+      "file": "responses/lessons/c-13.json",
+      "sha256": "2e59b762f418829da15472e3f105678d0cd3817736536f0641efdd257958774e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-14",
+      "file": "responses/lessons/c-14.json",
+      "sha256": "a995b1086704d1846e169e2378855c88773a233c442853acbfca6523a85da823"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-15",
+      "file": "responses/lessons/c-15.json",
+      "sha256": "b75ba6710031472329aa90b3042bca540f6490c33f04d358f0f479b9989ef80c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-16",
+      "file": "responses/lessons/c-16.json",
+      "sha256": "1990553de7b67668927c19ad95328df3781098e62cacae25877ab435b9dacec4"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-17",
+      "file": "responses/lessons/c-17.json",
+      "sha256": "a1c7ae768407004e9b522a860bca311b86b95fc8382f54a108c55aee182b3a0f"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-18",
+      "file": "responses/lessons/c-18.json",
+      "sha256": "46fdcbd7baf60dab4ceb95a524ed0418b02d2b8f19d7d6ca7684e92d2c6af267"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-19",
+      "file": "responses/lessons/c-19.json",
+      "sha256": "2db0131a9f19d1f376509055d4c4ccfd143c1a7cc99a08b2d4248fec093b4e9f"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-20",
+      "file": "responses/lessons/c-20.json",
+      "sha256": "02673481d96be8ca80a01eba39de1cfb49a7e12e11d29fc041c1cf2788f8132f"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-21",
+      "file": "responses/lessons/c-21.json",
+      "sha256": "57d022474253e411804e4283daaed1a7f6ede9e3238cd6f2bfef155d9b3f24cd"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-22",
+      "file": "responses/lessons/c-22.json",
+      "sha256": "8d28585c4ccd92eb2d3616c7c43e44e514b094dd573472604327cc21b15a076d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-23",
+      "file": "responses/lessons/c-23.json",
+      "sha256": "f823ddb1f6f644c226b53a12e5b9c24f66b73542c02f4851a2f28c9c170f775a"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-24",
+      "file": "responses/lessons/c-24.json",
+      "sha256": "81bd3a7e61e0603cb46e243e28a8dd5ff6640da8cc202e5b20a6abdf47bbc509"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-25",
+      "file": "responses/lessons/c-25.json",
+      "sha256": "d18e210987257b255d125ecd853223c96dce367826f36b7cac083457d911fd3b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-26",
+      "file": "responses/lessons/c-26.json",
+      "sha256": "30a497fda4e43ce3faf3755174090516e1c441721efb4319f1a377d215bb88e3"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-27",
+      "file": "responses/lessons/c-27.json",
+      "sha256": "2d77bb555fa78cd7dd7f57f687957c25452f06cdab754e1a3e86a943e8a14e74"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-28",
+      "file": "responses/lessons/c-28.json",
+      "sha256": "567b83acc2c048efe86c90cea2f773572361191d406ac7643c3b863158567079"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-29",
+      "file": "responses/lessons/c-29.json",
+      "sha256": "60d429a954dbcf9996892112029a920e1ad648dba5ec317f88aeb99118fa3e77"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-30",
+      "file": "responses/lessons/c-30.json",
+      "sha256": "cf34501aabe2ea5d29eb843df43770518ba3bedeecbf05950bacde4a736d2507"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-31",
+      "file": "responses/lessons/c-31.json",
+      "sha256": "160fb36862842a215ce552ea0cdf404217e38ffdac5ca3399645ea25aae4ee12"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-32",
+      "file": "responses/lessons/c-32.json",
+      "sha256": "c1cfe161ed451a3e7876c4ef86172528e0377a7b003573a0eef1ae3ed793c72e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-33",
+      "file": "responses/lessons/c-33.json",
+      "sha256": "c72ebd2ae630bd81834b8e4582bfb11c18027b6ead9ca604acf52550ec6684fe"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-34",
+      "file": "responses/lessons/c-34.json",
+      "sha256": "301a42dc9410bf47cc2f5d24b3e1e852b849bc69bde3df2d0dd412e1138f64ee"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-35",
+      "file": "responses/lessons/c-35.json",
+      "sha256": "be79646850e9fe592994f5a866d7f2e3098355bcd376daea458414bc65a76c35"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-36",
+      "file": "responses/lessons/c-36.json",
+      "sha256": "d5935b22d0f1f039fd4cb206cb1c850cfafa9939128d6081e0585bec47b9789d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-37",
+      "file": "responses/lessons/c-37.json",
+      "sha256": "ac7d1c336bb73c002e3e8ecd515cde1be5bb5cce325040012fd2f6f0cc43f2e3"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-38",
+      "file": "responses/lessons/c-38.json",
+      "sha256": "fefe29422430fa4d2c9926c8588f77f28a1e812af659978a20d3fbec08b55cd7"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-39",
+      "file": "responses/lessons/c-39.json",
+      "sha256": "80476b4e81f16588625e7fb21e92447576043acc421e091e0ad778615563b2ef"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-40",
+      "file": "responses/lessons/c-40.json",
+      "sha256": "e9d8b68642eb5618bfe1cbd750886cdac7f7a135acd219153babc828bef6c68d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-41",
+      "file": "responses/lessons/c-41.json",
+      "sha256": "67bb6303a105486748a5d201148f2479dcc5aa6666ee4fe4f0ac453becd10420"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-42",
+      "file": "responses/lessons/c-42.json",
+      "sha256": "1cb1b2b4e1f3aca18e569b9eedad0a8f0abd2df9b6a1b73bc381fa0b3760db49"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-43",
+      "file": "responses/lessons/c-43.json",
+      "sha256": "c2d132cf9cfee7e629513a0a7a5909f448ef284e46f308a0184a9c89be05a2b2"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-44",
+      "file": "responses/lessons/c-44.json",
+      "sha256": "cc5fc1a6aa13387410031b000b8935c98e426822ce0afa2e3d5ec92da267eaa8"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-45",
+      "file": "responses/lessons/c-45.json",
+      "sha256": "bf4f8fda4c1fc25d5ad6bff38acf15051b2fc72a28b4dbbdfb3cf12062d34546"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-46",
+      "file": "responses/lessons/c-46.json",
+      "sha256": "c919958f4a0c844bc25f6bdad49bacddb64906959538fbf68a2afe10d8548cfe"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-47",
+      "file": "responses/lessons/c-47.json",
+      "sha256": "0c106d915f5e239f16746fd9769cdf6769ea806ca0a415acb1a112c85da7efca"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-48",
+      "file": "responses/lessons/c-48.json",
+      "sha256": "30e06a309c66046aa1a0995b13c099f45e675729b7a59f9c10ec7be43598232e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-49",
+      "file": "responses/lessons/c-49.json",
+      "sha256": "3b9d602a32e3697d5232e0e8cab23f87b8d68f7baa8ad5c397c71ffba07ae74f"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-50",
+      "file": "responses/lessons/c-50.json",
+      "sha256": "188de52113391bc58ab13df5c196e60541e61877fb216a6693caffbb78a8ae26"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-51",
+      "file": "responses/lessons/c-51.json",
+      "sha256": "8619dbbff8f09c6439c3ed4184a931978594c758ca12c05b706c659f1545d373"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-52",
+      "file": "responses/lessons/c-52.json",
+      "sha256": "020284cb5441135214d40bfb385f07ca97dacfe62d00540b280cf5975a20664d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-53",
+      "file": "responses/lessons/c-53.json",
+      "sha256": "f695e5e900581e0a4ab9ca75fd091ff81c0e33e7c2ac8177e3d175781337fbf5"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-54",
+      "file": "responses/lessons/c-54.json",
+      "sha256": "170a49fef670accb8f9a437a737f1a99372c59f3bd1055e4df4880f56d9060e7"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-55",
+      "file": "responses/lessons/c-55.json",
+      "sha256": "9ad4f47c6f2632f3804197982ecbaed4ee1053843ed69ddcb943e90978f82ac7"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-56",
+      "file": "responses/lessons/c-56.json",
+      "sha256": "eb3728473d7c0fe3920052e50e39d041d9aadfc88016ef09f00f6b2f21397cb8"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-57",
+      "file": "responses/lessons/c-57.json",
+      "sha256": "b9d5e3a66d1bb1e2a380a726fa48046d459d1e5a4d4a109124e865a319d7dd8c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-58",
+      "file": "responses/lessons/c-58.json",
+      "sha256": "8b7e9ba6b85c60da51507a26bb32297e0facda5652924d7283be8adb642ff1fb"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-59",
+      "file": "responses/lessons/c-59.json",
+      "sha256": "819160c587338fea42630bb8130ba97e305064b67a9e30ef3d9df68d7aedbd79"
+    },
+    {
+      "endpoint": "/api/v1/lessons/c-60",
+      "file": "responses/lessons/c-60.json",
+      "sha256": "a4fda4474501a0afa245016b72df083d79fac3a063dd36019591f0c0260bce17"
+    },
+    {
+      "endpoint": "/api/v1/courses/c",
+      "file": "responses/courses/c.json",
+      "sha256": "63f8667d25f23cd70743bb41883a19c184c20586a9c40bdfd769fe0f8f7f0e54"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-01",
+      "file": "responses/lessons/cpp-01.json",
+      "sha256": "fc5157f17c4ec1c2235ae552af10258451e0baee434a70fd9db87df7c556540c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-02",
+      "file": "responses/lessons/cpp-02.json",
+      "sha256": "709868732e168ae6a79954c9bda4f2b3449471919445a832f48d9702288f017b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-03",
+      "file": "responses/lessons/cpp-03.json",
+      "sha256": "6d50141e9c59adddcd043db5c880cdbecb3e0b7d24d82791a575fa72bd9aed2c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-04",
+      "file": "responses/lessons/cpp-04.json",
+      "sha256": "71ddd91babceca2d28a0654cdd2fa6f5762bc9e6add9b37d0cdd73f2b197df72"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-05",
+      "file": "responses/lessons/cpp-05.json",
+      "sha256": "2e0de677c3004871f7d80e4467a56efe60723b51d251fb4b76386d4a23ae5407"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-06",
+      "file": "responses/lessons/cpp-06.json",
+      "sha256": "5e5487af088e0373f7770a2bc59bde3030d0fb3dce57bb8202d28ec7fb8b7a17"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-07",
+      "file": "responses/lessons/cpp-07.json",
+      "sha256": "8fb0fc497b355cf3f3cd4f9da777173e1f2929eaaf76094cff4aca70e104359f"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-08",
+      "file": "responses/lessons/cpp-08.json",
+      "sha256": "cc6cd66061b2231a5e0c248655f1a72963202f4e4f2ef65367ee641cf38e7553"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-09",
+      "file": "responses/lessons/cpp-09.json",
+      "sha256": "87ba0d329adf7f545d087b94611bcde63a6cae253283f50792e7946ce5327c59"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-10",
+      "file": "responses/lessons/cpp-10.json",
+      "sha256": "9fb0c78d35de8dc19eb6f6fec73d72fdb700076cfbd2d5612f1becff1fa84726"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-11",
+      "file": "responses/lessons/cpp-11.json",
+      "sha256": "9f23fa598b22453936f7a93c00647a479cbae89cc521cf8f678d322fb7331b2e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-12",
+      "file": "responses/lessons/cpp-12.json",
+      "sha256": "053b3e9acd48118cd60d458cdf02efb29c5f75e55332cff5d97ffb202d2c4e30"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-13",
+      "file": "responses/lessons/cpp-13.json",
+      "sha256": "cb2dc8db5d588e6f696cafde514b0379892cbca38038be45a195c5f231fd0e6a"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-14",
+      "file": "responses/lessons/cpp-14.json",
+      "sha256": "8ef61cedd2063ca9b145c428f7905f7eeef6c97be50459a03fe7a99f139af69d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-15",
+      "file": "responses/lessons/cpp-15.json",
+      "sha256": "76d0ac20206d35704f56c681ac99ed8b0f1db70c78afaf10ec45166d76221e9e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-16",
+      "file": "responses/lessons/cpp-16.json",
+      "sha256": "4ee1a1392996353b3a5397d6858abab285e957a15a78a363fee60cc5ae91e379"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-17",
+      "file": "responses/lessons/cpp-17.json",
+      "sha256": "9ae67fb800563019f4b5583a01e1d508a2f9b80f0731c5e2cf7e2956ca9f9e1a"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-18",
+      "file": "responses/lessons/cpp-18.json",
+      "sha256": "ff248435f0140e3c92ef2d712f557d36332f3b9270f40bfd35ee9096b3f59a87"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-19",
+      "file": "responses/lessons/cpp-19.json",
+      "sha256": "6933d78b0dce03e7f101fa7862d60124f81a34ae77ab620007593cab6985bd4b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-20",
+      "file": "responses/lessons/cpp-20.json",
+      "sha256": "c9a05b914ca401d0b51d7437fe4088bae22e9bd5f9545e9f851c9a0a329fd0cc"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-21",
+      "file": "responses/lessons/cpp-21.json",
+      "sha256": "c5ef41e08ef4f64b4471c597badacbf5bf9e954a1fa4bc1405f74480ed95eb9c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-22",
+      "file": "responses/lessons/cpp-22.json",
+      "sha256": "a6d68acfdf3b0a733b0ea9362b39654dba535801cf65123517245c6af7a602e5"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-23",
+      "file": "responses/lessons/cpp-23.json",
+      "sha256": "bf11bf8e3358e2daea260adf827aa003a743bab9244f8859b59b54719e307df6"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-24",
+      "file": "responses/lessons/cpp-24.json",
+      "sha256": "4cdd030e97c683aa998e4b29a1c87ee400c3451f5aa0b85cd087339f88731ec5"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-25",
+      "file": "responses/lessons/cpp-25.json",
+      "sha256": "49e08046537d5ca12ca91d8e344a9fba772d175e4019348cd90dfdf65bab64fc"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-26",
+      "file": "responses/lessons/cpp-26.json",
+      "sha256": "d36e8269c9255727cbe4103eff88ceef77ebd3e110a007151cb8ce7744322188"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-27",
+      "file": "responses/lessons/cpp-27.json",
+      "sha256": "e0a0794aab4ef48c53e8620699d54bc77cc77c8eb8beb6299e9eed96bdd3d3f6"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-28",
+      "file": "responses/lessons/cpp-28.json",
+      "sha256": "67c80cb6fff8af7fb2c570c3ded0bdb3d6ad182a026ced87ed046726bbedfb58"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-29",
+      "file": "responses/lessons/cpp-29.json",
+      "sha256": "9008384e926fcb95959f61a725f6755f359092009a51a3d699b964fe5d94924d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-30",
+      "file": "responses/lessons/cpp-30.json",
+      "sha256": "46eed7a13310d1194ace909b5e76da1d732fe42c93bfa7c967538d3de8dd294e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-31",
+      "file": "responses/lessons/cpp-31.json",
+      "sha256": "cede36d752942f12ac1942798295943f5873502c1e8fe4e19ffefc04209cd6ac"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-32",
+      "file": "responses/lessons/cpp-32.json",
+      "sha256": "901ed086e6108a41d5150b8d64c75f207f99118b7f997cae7b08d478bd2c8551"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-33",
+      "file": "responses/lessons/cpp-33.json",
+      "sha256": "01c2afc0bbe21cfc75807dce6aeddcbe4052f0a38afcdd82f6de6c90b76354d9"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-34",
+      "file": "responses/lessons/cpp-34.json",
+      "sha256": "fc7f3e613568de2d75ba36c482c6b5c7e004112357865797a011d4be8597685b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-35",
+      "file": "responses/lessons/cpp-35.json",
+      "sha256": "4ddad83b3019d2b963cdd4bd4aa5b97169552e23c76dd57fafc581ad2826f255"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-36",
+      "file": "responses/lessons/cpp-36.json",
+      "sha256": "b32467a469635a1e03ba7bb129ac225d11001c6ab6c821915621f62099a0f577"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-37",
+      "file": "responses/lessons/cpp-37.json",
+      "sha256": "31a4db4c03b6b72495e9db70a427624deedae27c8e88fc0ec7c5eee8436b0b47"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-38",
+      "file": "responses/lessons/cpp-38.json",
+      "sha256": "ca999a0c35f2f2e7ce0a522cdd52e50834bcfe708517eb3d89d015ae390b00f4"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-39",
+      "file": "responses/lessons/cpp-39.json",
+      "sha256": "42013dfa712e53a1fe2fecc7a84d40b4e24ae2c47e00e526f4d56bf0cccc4464"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-40",
+      "file": "responses/lessons/cpp-40.json",
+      "sha256": "5cdecd99fc98bd84c58be19800418c2bf0d37c1825ff757ddaa0297be18a65d1"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-41",
+      "file": "responses/lessons/cpp-41.json",
+      "sha256": "f461c2ce8ce59ff450e4456ccb9464c5f55641495906f8dbadc731868a42dcd9"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-42",
+      "file": "responses/lessons/cpp-42.json",
+      "sha256": "d33b999c2abac820129e6fc6ae8b31f87d8ecb4d66f6199beec8061625dde4ea"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-43",
+      "file": "responses/lessons/cpp-43.json",
+      "sha256": "1a85151101f46402ac5df4c95e7fa389ddb9144713e1c68b97f799b0452b13a1"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-44",
+      "file": "responses/lessons/cpp-44.json",
+      "sha256": "0ab5d6b2a5a4d9e9d24e49df7a7cf9e6fe4fcc583b0cf4082cc6a84a0f2cde0f"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-45",
+      "file": "responses/lessons/cpp-45.json",
+      "sha256": "aa1c3710cdfdf95efab4b71007cdaa2997823a4f904ea0e58f152fce25c928b4"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-46",
+      "file": "responses/lessons/cpp-46.json",
+      "sha256": "20766e426bef82e01585ee3954ee6661c3cf30d9b818deb69052844a604b9ff1"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-47",
+      "file": "responses/lessons/cpp-47.json",
+      "sha256": "8e38561502a0061e2ab119916538531425a5a50cead1118bdfb6b14bcd828ad7"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-48",
+      "file": "responses/lessons/cpp-48.json",
+      "sha256": "5b941ac824840070f6f6d8a1fc70e7bf52f811674030052238cc8fcbd90f5ff6"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-49",
+      "file": "responses/lessons/cpp-49.json",
+      "sha256": "e347af3c3e1be01e43d6530b75cb0bbc7acf3a85e2c4af1e4d86d5755130fc06"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-50",
+      "file": "responses/lessons/cpp-50.json",
+      "sha256": "d1cd976845d3a6c24726b3c81195505f05f6cab54482a064b7b456afe97508bd"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-51",
+      "file": "responses/lessons/cpp-51.json",
+      "sha256": "ce2fedab01e9c24f9d005b5b256b4e1a3bc1881306ce86770727ac47025a305e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-52",
+      "file": "responses/lessons/cpp-52.json",
+      "sha256": "9d766a43bea1d34dcaebdaa415a2ef283c3997f2f429ce5631bc9678a1fe185e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-53",
+      "file": "responses/lessons/cpp-53.json",
+      "sha256": "8323e8b40a10831180f81c0b71e78007c2603fa0076c0e4eb2450ac7ef3c651e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-54",
+      "file": "responses/lessons/cpp-54.json",
+      "sha256": "fb14c77fb90ede90ec20b815db3b34bbdf15c06e45b5ae8eef7c0cbafcbb84e6"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-55",
+      "file": "responses/lessons/cpp-55.json",
+      "sha256": "40f2b649144711c1fdb6c3ae5334434bf114e8db3e4a5fa9110c39e35d348491"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-56",
+      "file": "responses/lessons/cpp-56.json",
+      "sha256": "3a7096bc463df867134ea1c296c79770bb37801aa9dd7bb781cb42f01f5c6a63"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-57",
+      "file": "responses/lessons/cpp-57.json",
+      "sha256": "148cfe1ff8038e4492c71ea7dcebae622572fc2097b69ddfdada8443263533c1"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-58",
+      "file": "responses/lessons/cpp-58.json",
+      "sha256": "810c74a104029ddd9fd77e40debe94e30297b29e9b5e7da5ac0a225c2da25535"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-59",
+      "file": "responses/lessons/cpp-59.json",
+      "sha256": "42f1b69bc567f5892acb790a387863ec7c60838376d97b6fd183dab720bc7ed1"
+    },
+    {
+      "endpoint": "/api/v1/lessons/cpp-60",
+      "file": "responses/lessons/cpp-60.json",
+      "sha256": "a70db8b08beaa3c7ed5e94c80147262f15fcd813ef21247398990325fbbb4e3a"
+    },
+    {
+      "endpoint": "/api/v1/courses/cpp",
+      "file": "responses/courses/cpp.json",
+      "sha256": "d7d8b10c3899a66a72d79c55de30379db7c6f1489dc1b411ff4181c03fa5d10e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-01",
+      "file": "responses/lessons/go-01.json",
+      "sha256": "ebb4d7c8847f0950f161e4aa857946c76a90dba6b37b996950d1b649817a3e3c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-02",
+      "file": "responses/lessons/go-02.json",
+      "sha256": "b5576d6ce7f307e64305cdf87e41c44ad6aed598975094f79821dc65dc2e4d88"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-03",
+      "file": "responses/lessons/go-03.json",
+      "sha256": "999092eb2c7c3fd25b89f3ecce1add2c4bc1b3b64e6fb494b59b2f8b652d2024"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-04",
+      "file": "responses/lessons/go-04.json",
+      "sha256": "2085506bc98d7df0bbdf23e550a5a7ac92a237917af1c15a524699823f17189c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-05",
+      "file": "responses/lessons/go-05.json",
+      "sha256": "2675a784dad2b5b74f98b1af9d61f42897e29602b7fd933c96302d5d09b62940"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-06",
+      "file": "responses/lessons/go-06.json",
+      "sha256": "32d52346d5c8ef11d47bf1125420d649532307db7965e9a9cc8f1e949185a030"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-07",
+      "file": "responses/lessons/go-07.json",
+      "sha256": "78fd3de65f6c88c00899d32a323963a952e026c995183ae4952fb65cef56f463"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-08",
+      "file": "responses/lessons/go-08.json",
+      "sha256": "031076ae366e57f9055016ceb4a4200c9c2e8ec93942035e49b76a434a035ee5"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-09",
+      "file": "responses/lessons/go-09.json",
+      "sha256": "055ea10a2e0ca7e9b9c0199ec66e759e260f098f071d161e3ed7d80bb1df3004"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-10",
+      "file": "responses/lessons/go-10.json",
+      "sha256": "b0cf7a594d836ebb0e8f0dc0d1793f2ec13140bfc401880aff70dcc91afe0df1"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-11",
+      "file": "responses/lessons/go-11.json",
+      "sha256": "5601cffa2a07dcf435efcd6f191d58174bb5a4615a348b380f074b45cdcf1634"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-12",
+      "file": "responses/lessons/go-12.json",
+      "sha256": "4de68bdbd44ac102cc663586065b7325b908323a5d1b28e5e7c525b54ff446c6"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-13",
+      "file": "responses/lessons/go-13.json",
+      "sha256": "c5ab6164db3cdc98a59a08fc00f93c9160912e55c6b092b833b9789eb1c0515b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-14",
+      "file": "responses/lessons/go-14.json",
+      "sha256": "c270710e1d8a5493677a19572f3ccd58261008ecbed7a237924679bc88869370"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-15",
+      "file": "responses/lessons/go-15.json",
+      "sha256": "c55c73ebb3c4c4c52e0d08bb1f6ece67547a035e5ce386c7cae44c5e34a15b75"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-16",
+      "file": "responses/lessons/go-16.json",
+      "sha256": "287c4d3aa92fb36f0ee25ae8e038c1bcae235b2175daeebc0a3c428e3a73bafc"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-17",
+      "file": "responses/lessons/go-17.json",
+      "sha256": "eac8a3fa7eafe918cb3aa70813dcabef7e988aeb86742978040cb88342e06c8d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-18",
+      "file": "responses/lessons/go-18.json",
+      "sha256": "7b051c1c1e33fcd6f322ba89c1c3db1a5f05a341c79b723ab2400aa49c31ed81"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-19",
+      "file": "responses/lessons/go-19.json",
+      "sha256": "af3b32b034821d2917b94e7f3c52c79cecd54636ce4b68f5822a1faddc8956fe"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-20",
+      "file": "responses/lessons/go-20.json",
+      "sha256": "13be944601f9b623bf0461a85e80981cf63dee54b7bca51d9e857cee27cb04e6"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-21",
+      "file": "responses/lessons/go-21.json",
+      "sha256": "8e3154d1dadd32f431270fc401d3217eac2e96af9fc7a7996de49a0130db87bb"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-22",
+      "file": "responses/lessons/go-22.json",
+      "sha256": "5a614f0f4d23ec8ce02b0c7d6b00a191b3bd23a8925abe6f574501ce1f83a379"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-23",
+      "file": "responses/lessons/go-23.json",
+      "sha256": "f6f230649859f8aac9388429ab07231636ada16dce3c160883040b2b48717d5d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-24",
+      "file": "responses/lessons/go-24.json",
+      "sha256": "1af39da5a2adbf5c957a4e3e0aaeab46f8ba68a24745bdba1aeb3b28265f251a"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-25",
+      "file": "responses/lessons/go-25.json",
+      "sha256": "0a387b969c6c6b7a7c3e1589f593e5f9f9402c1a0da28d2e4647458615ff561b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-26",
+      "file": "responses/lessons/go-26.json",
+      "sha256": "d4c7bcb29f3a7b04d0a1b694ae3f8c0884b98776917874ab2a65cdb77738b455"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-27",
+      "file": "responses/lessons/go-27.json",
+      "sha256": "aa2b0a875b581aa0ff4c38946a5d493e240fcf5d71dfb29c0cc357aa886b7f81"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-28",
+      "file": "responses/lessons/go-28.json",
+      "sha256": "77e010107185c48ced07c0b9ed3d5e4b919a9bf8cc6026c13daa1943c14a6af3"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-29",
+      "file": "responses/lessons/go-29.json",
+      "sha256": "8189437a185e85cf1d453ce5e6ee203d636ef3926906dbfb27802ab1b01c97e3"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-30",
+      "file": "responses/lessons/go-30.json",
+      "sha256": "dd96ca7d6a87c2a9c0f2881ff91b207eeef1ea1031293035eedd5507be4ce85d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-31",
+      "file": "responses/lessons/go-31.json",
+      "sha256": "9a6dae1c4605385d42e1a316183c813c41474efa7f14e2f8b4e2a6ae2f4535e7"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-32",
+      "file": "responses/lessons/go-32.json",
+      "sha256": "96130f21397b0753514aeb95d294a4a44f3e702e3c6aa8cfb2224ba4b85769a3"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-33",
+      "file": "responses/lessons/go-33.json",
+      "sha256": "8dec940045b9b1b184721dd93d5ca40c6c04a9ae783e818ce79baabf6bbcb684"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-34",
+      "file": "responses/lessons/go-34.json",
+      "sha256": "736d1ad1bcf15ec80c0a212cce3f36d3420139d6222492e696d471530ec02461"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-35",
+      "file": "responses/lessons/go-35.json",
+      "sha256": "82518bc065ec95a74a641f339a2fa76c5aa669498fedeab0a81c79d252d5c096"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-36",
+      "file": "responses/lessons/go-36.json",
+      "sha256": "a1ed7722c582bd2075cdd6e5a49b8becedb7ee1e78897491abb969778d704ac0"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-37",
+      "file": "responses/lessons/go-37.json",
+      "sha256": "77a0d887f902982c237a3dd0837cf9e06928eb03cc7f14a8920b14888b230221"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-38",
+      "file": "responses/lessons/go-38.json",
+      "sha256": "851630b0044c13afe06703390fc57ae11d25c108ffb2d9f96db36b0f87a1dce1"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-39",
+      "file": "responses/lessons/go-39.json",
+      "sha256": "b21e00491dab57bb4aebefb84fd230cbef798f8379a3ec8078e3e32504ed1733"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-40",
+      "file": "responses/lessons/go-40.json",
+      "sha256": "13f6712ba5e7eab0191a9643b1aa9ecc859716ce311c307d4a613793ea5f3bd7"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-41",
+      "file": "responses/lessons/go-41.json",
+      "sha256": "f6f1db709fdeb843b943ea9e873fe91aa6b5a5433152ae9aa2419375a7c02b7a"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-42",
+      "file": "responses/lessons/go-42.json",
+      "sha256": "2a2c93751c0a0ec12f864742853e462c28fcadd3a5cb9aa3ba83e6f1134ac2a9"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-43",
+      "file": "responses/lessons/go-43.json",
+      "sha256": "0a75258325918d991d2f1a67b66473f5794bcc8e4ea16a34f095f55d3bb48aaf"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-44",
+      "file": "responses/lessons/go-44.json",
+      "sha256": "ad1feae366769d40d732026837a1df2fdb4b7848491ae96296fc1e0637f56992"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-45",
+      "file": "responses/lessons/go-45.json",
+      "sha256": "2aebd30c44a2ecf7b3d003ad508ce88deed8cc8012477cfc576d8572e926eadb"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-46",
+      "file": "responses/lessons/go-46.json",
+      "sha256": "26ff75eb20a0ecae0699a11c399e79a9f22d286cd310329209bd723ae7ead255"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-47",
+      "file": "responses/lessons/go-47.json",
+      "sha256": "f17cfaecad6879434299653cef22760a87caa17e9b3b78228365b29487dd7e58"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-48",
+      "file": "responses/lessons/go-48.json",
+      "sha256": "bc2c50412574330ac9286a96bdd4a3a2d9f81e2e3e778965781fa444e5780c64"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-49",
+      "file": "responses/lessons/go-49.json",
+      "sha256": "991ad74b652329e33cf3a61670b9f0b8b6f39fbc38bc068479c3ac8f32364ae6"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-50",
+      "file": "responses/lessons/go-50.json",
+      "sha256": "4839cb23d8eb0fb57b48c8dbca0212fe0863db8ca680c72efe334cafc5772fdf"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-51",
+      "file": "responses/lessons/go-51.json",
+      "sha256": "5ea4d7d88f58e06b93630b409539c5374b5d971ebf45907fcb57e9d5e1ff6c4d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-52",
+      "file": "responses/lessons/go-52.json",
+      "sha256": "26a020b18e32166d44342fcf9e7048491d44026ee1829c1a382feba6e90a85d7"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-53",
+      "file": "responses/lessons/go-53.json",
+      "sha256": "9881069591ddd6e39e8c76f403e2b67dac824659abbafc0001802e4ee2ac1351"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-54",
+      "file": "responses/lessons/go-54.json",
+      "sha256": "43ad1537a2ff01fec745d46f1ede8986973a6f1543f390bd37c53b2bac37fca0"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-55",
+      "file": "responses/lessons/go-55.json",
+      "sha256": "0842cf6a8eaeffa67f2316f4ad0a0a59b3a381337cad87cc56fca690f33282c1"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-56",
+      "file": "responses/lessons/go-56.json",
+      "sha256": "904d547add08d338f179d3202fd17c5911fde8f02219ad1c59f13fb194dc675d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-57",
+      "file": "responses/lessons/go-57.json",
+      "sha256": "cc08e564b14b7831dbe122c5c44942a134d4b5c3fa272bcae38dae6bbf89aac9"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-58",
+      "file": "responses/lessons/go-58.json",
+      "sha256": "8f16e94fd754f7259128a645f5a42edb582c5da8c8a39f2c4fc3d00f6ec55f7d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-59",
+      "file": "responses/lessons/go-59.json",
+      "sha256": "5bd57691c641ae198007d363f97226fb6f6d095320a6c4ebbd899d2a5afafe26"
+    },
+    {
+      "endpoint": "/api/v1/lessons/go-60",
+      "file": "responses/lessons/go-60.json",
+      "sha256": "862a1c4aaddd494d393fa8c16e796f81eecbb2602c0cd08290d3ad52dfa1d065"
+    },
+    {
+      "endpoint": "/api/v1/courses/go",
+      "file": "responses/courses/go.json",
+      "sha256": "f907cda7a22724a2522c3d7ea50ced51174efb617477a18c6333ff67d8d36e03"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-01",
+      "file": "responses/lessons/rust-01.json",
+      "sha256": "c422e0e23d77150b8479f255b2447d47d93a83af0430f6fe34fc0dd6178d9573"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-02",
+      "file": "responses/lessons/rust-02.json",
+      "sha256": "360a068389ed993f088b1f16c568684a9d1e0d2bef9d86e89bb05a65a0557489"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-03",
+      "file": "responses/lessons/rust-03.json",
+      "sha256": "685ad52b69007e85b8683e7cfefaa1b609a14d386c40eb05096e2d1430401fa6"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-04",
+      "file": "responses/lessons/rust-04.json",
+      "sha256": "c981daa2ded6caaded6dc9a2cbfae77ec0d94f1f25276f5532b163269f349d1d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-05",
+      "file": "responses/lessons/rust-05.json",
+      "sha256": "e8b19af3257792e0b9688e7f70e7e77dc75741b2ea011054441a147a5dcece3b"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-06",
+      "file": "responses/lessons/rust-06.json",
+      "sha256": "750a8edd867434a4f3f98f2b164b944f12c44670347d642dd3727a801bb2820d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-07",
+      "file": "responses/lessons/rust-07.json",
+      "sha256": "fa6aa952534b95b8907c61204fd457e1e6ef004b276e4a18d4b9dfb8bb3b21d9"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-08",
+      "file": "responses/lessons/rust-08.json",
+      "sha256": "eb11a579a305e0ce5b3569508b1e8fcf72c51d38154e7a8dca5687e8fafc4189"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-09",
+      "file": "responses/lessons/rust-09.json",
+      "sha256": "453cce7c1b4b774eb711f6bce1671cf7249e24e48ccfd49cca81bc3163c50a42"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-10",
+      "file": "responses/lessons/rust-10.json",
+      "sha256": "1043a2eb0ad88fbc46eb4f7113615364eff96c185358cdbcdbba627707af9aca"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-11",
+      "file": "responses/lessons/rust-11.json",
+      "sha256": "d8e57b9cc4ac99007d2dc093f5bb059d6fd67e89d914848cf5cbd968507e88ed"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-12",
+      "file": "responses/lessons/rust-12.json",
+      "sha256": "ed4c22cbf485ca3d7b8ca7a01637ed2568787e23f229d25f2d23966b491feabb"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-13",
+      "file": "responses/lessons/rust-13.json",
+      "sha256": "1755c1ce967f27a9dafbb6bf7a767aae039ee76a97585a6f02fc595387a70a0c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-14",
+      "file": "responses/lessons/rust-14.json",
+      "sha256": "15ca4ac5c020f7bac5b279ae7c71c543440af67bb29e61a7e35e044e7506e243"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-15",
+      "file": "responses/lessons/rust-15.json",
+      "sha256": "8eb9286bda071fa55faf7280467fdffbd4ea15c2c324150ea7847c88abe8bbfe"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-16",
+      "file": "responses/lessons/rust-16.json",
+      "sha256": "3c220534b61fe19f33d61a97ebc3dafbb9aa994eb9416a2fe9e9e4b2199e9a1f"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-17",
+      "file": "responses/lessons/rust-17.json",
+      "sha256": "be076595bba8f29e2bc1e5ae6516b0a7cb1db800c62507c51b81a877465d641d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-18",
+      "file": "responses/lessons/rust-18.json",
+      "sha256": "c02633fc8237dbfdc329db33fe323b83976a15fed1d0edea12e4efd996bda285"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-19",
+      "file": "responses/lessons/rust-19.json",
+      "sha256": "585a9c19567679e7de69ded74c01e687ee62cf0744c34cf0a72a2f300b3ae07e"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-20",
+      "file": "responses/lessons/rust-20.json",
+      "sha256": "58745aaedef23edff9bc43edc33e0c4ca7ad5339325eb48a56b4f9d4997e3817"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-21",
+      "file": "responses/lessons/rust-21.json",
+      "sha256": "db720b8d99313d9b35b4b7902ae4e32fd81d37546ac0c00859d1732c560c948c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-22",
+      "file": "responses/lessons/rust-22.json",
+      "sha256": "137781305c7fa5e2c6d3885098fae6cca4561d3d4b93738bd3f6fe260df66aa6"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-23",
+      "file": "responses/lessons/rust-23.json",
+      "sha256": "fa1427ed5e53b48cc7f2f71fce3cbe8a982d1d27a08b93411626c566e07c44eb"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-24",
+      "file": "responses/lessons/rust-24.json",
+      "sha256": "197a6761ea4121d1d59aa639ec3d9a7d5572b20e37cc6273047625c403b33833"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-25",
+      "file": "responses/lessons/rust-25.json",
+      "sha256": "a3abb895da7357a49fafca2b09ca9ed5c28d5bdeddd5797cf7ebf32550f77508"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-26",
+      "file": "responses/lessons/rust-26.json",
+      "sha256": "627fa05368e7320b4c303714b199d15e3007dd5b191cf1987bb0ea25beeba6bc"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-27",
+      "file": "responses/lessons/rust-27.json",
+      "sha256": "bcc54f87d4e00f5d20d4f5273f1a1668cb237e27656b834b6796965b963013b7"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-28",
+      "file": "responses/lessons/rust-28.json",
+      "sha256": "502d58b0a7b52675fc4c847fd61bca2d20824c8424bdc1c382a96c7713426f16"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-29",
+      "file": "responses/lessons/rust-29.json",
+      "sha256": "977f3bb9e9a5f262acbda2d6f15885e7e345a9b51ff8d4c46b0a716d923712a9"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-30",
+      "file": "responses/lessons/rust-30.json",
+      "sha256": "0500a81f13fbf0a533f115df3c83fd24c7cfa23917486219b4f8f5e8a6a46cbe"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-31",
+      "file": "responses/lessons/rust-31.json",
+      "sha256": "46fed73f1719c9f935ee2da6b7614eb29902ffff791cba82fd4ecb4d47e9fe41"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-32",
+      "file": "responses/lessons/rust-32.json",
+      "sha256": "f3d0808d34267da3b642e2d3c5f4eb4007bb8a081c797ce4f861a8d2bfe97589"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-33",
+      "file": "responses/lessons/rust-33.json",
+      "sha256": "7a1da99ff9d519f88e38c1fdb51f77cb69204635421cd1125e039922a8b65a09"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-34",
+      "file": "responses/lessons/rust-34.json",
+      "sha256": "f28d1c9ce188c71ee8fc39f027bbb93e7d87a28f4a0f4519d27cb4ef75a0df36"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-35",
+      "file": "responses/lessons/rust-35.json",
+      "sha256": "74c0763b48aab75a944c4416223f473bb19a5d7c6247c3a8ca9685d4596d28bc"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-36",
+      "file": "responses/lessons/rust-36.json",
+      "sha256": "7724322ffbfccd62fa103fe74213abd2696bf8410e6ba78fe6ea6e9db6eda517"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-37",
+      "file": "responses/lessons/rust-37.json",
+      "sha256": "b32e6e3b678b233075e0ab296750fd5fe725224e160c34a22596747b0ff473b7"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-38",
+      "file": "responses/lessons/rust-38.json",
+      "sha256": "bcdca62f597eb70c7697364e10ce3d045ae4425af861664943879ef537d75678"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-39",
+      "file": "responses/lessons/rust-39.json",
+      "sha256": "b7d03a54ac33b05199f97e0900a66eaa9888b1ca05e89c3c0c71fe1a74832821"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-40",
+      "file": "responses/lessons/rust-40.json",
+      "sha256": "816eecce4e106bae4b7f15e4fea76134f5802031559b1521ff9d357091fb0187"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-41",
+      "file": "responses/lessons/rust-41.json",
+      "sha256": "31eb6c7471ddf613a903962b9550fdbe3d2dac3bee83fdc9e3a204d6ac201a4a"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-42",
+      "file": "responses/lessons/rust-42.json",
+      "sha256": "2e525aa43b77fa3c7eb5ddd4c9464fc895321a17092feeeda51108c8694ebb3c"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-43",
+      "file": "responses/lessons/rust-43.json",
+      "sha256": "3902fbaf62519e3463b7a6e100c7f89473424dce7a98f4072da88cffdf060a2d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-44",
+      "file": "responses/lessons/rust-44.json",
+      "sha256": "266ee496fd140666ff4c331db5096589a1751c4d1510642b5a02bf42e33352b1"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-45",
+      "file": "responses/lessons/rust-45.json",
+      "sha256": "808e1167560b2c7f898371364090d297e599c5502db299f5ddc8f4f636c07188"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-46",
+      "file": "responses/lessons/rust-46.json",
+      "sha256": "4ebe244c11ea1836a10f0007b56734eab5b43a2215d3ec786b06953f403f1ba4"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-47",
+      "file": "responses/lessons/rust-47.json",
+      "sha256": "6549cf38e295cfc4bf36436b95cfbe3c3f01ca47e59bc34f477501700d468266"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-48",
+      "file": "responses/lessons/rust-48.json",
+      "sha256": "3bf8cbb27e4190b0bfdd4f066ac1d9f8b03356b1bfd2af12e702f317b0f545a4"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-49",
+      "file": "responses/lessons/rust-49.json",
+      "sha256": "d787277069a52fcad280ac045858fac2ea05553c0a9876d71fdbbf4e24dab412"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-50",
+      "file": "responses/lessons/rust-50.json",
+      "sha256": "32a323b44767b03f35bbde646a8cb522570b6c33217f64ce9513daaeeb06f54d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-51",
+      "file": "responses/lessons/rust-51.json",
+      "sha256": "0d53f2427f8ceee5b00461098f973f99fc6d3d8f5e11e32d68e753e6a0daeca3"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-52",
+      "file": "responses/lessons/rust-52.json",
+      "sha256": "c871fcaf4bc0424481004561369ec0ac60ff7e1a130ce9f3722386388a7d09da"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-53",
+      "file": "responses/lessons/rust-53.json",
+      "sha256": "64adf3ff5deb36895324abacc97a84da3c808c0c39aeb8e1b81585dfea002671"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-54",
+      "file": "responses/lessons/rust-54.json",
+      "sha256": "c5ec6e880226f98a903a9e733d4d28751cad00cb98da841383ae567f8cac97a0"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-55",
+      "file": "responses/lessons/rust-55.json",
+      "sha256": "f8812aec815d3de0d71a50656eab61842f455722b22ecdbdd380b24ca1a2f438"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-56",
+      "file": "responses/lessons/rust-56.json",
+      "sha256": "d81157af5281045f167c6d87f8ac1271904ec61f23caf8f90a7f57aab37bec6d"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-57",
+      "file": "responses/lessons/rust-57.json",
+      "sha256": "eb54c0e585d3ce87097f754581523de619cb19d9b3943188448c75f854fb7002"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-58",
+      "file": "responses/lessons/rust-58.json",
+      "sha256": "dbd9de39eed9c6dd6b40a7be5bea8ee8895ee6cfb1649445f728ae018c31bdb0"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-59",
+      "file": "responses/lessons/rust-59.json",
+      "sha256": "7cf090c7b405d3a502705b29354b8ee14b8b33a1d63dc609535744aaa13fd73a"
+    },
+    {
+      "endpoint": "/api/v1/lessons/rust-60",
+      "file": "responses/lessons/rust-60.json",
+      "sha256": "1442f2708d87bc69a99b1e2fe4469a7ee39a5117ce7ecf308c673cbdeb171994"
+    },
+    {
+      "endpoint": "/api/v1/courses/rust",
+      "file": "responses/courses/rust.json",
+      "sha256": "e8c87ee3f1482225cbdad5a47f664c13097d2c58d61ec7a329bf0b438a9f3878"
+    },
+    {
+      "endpoint": "/api/v1/courses",
+      "file": "responses/courses/index.json",
+      "sha256": "af238276ea7e37f0bd5b111851ee775e40ed9bb4cb8cacfa7c8c7ae23b845e48"
+    }
+  ]
+}

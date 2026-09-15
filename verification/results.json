@@ -1,0 +1,349 @@
+{
+  "assertions": [
+    {
+      "label": "Dashboard: four active courses",
+      "pass": true
+    },
+    {
+      "label": "Default light theme",
+      "pass": true
+    },
+    {
+      "label": "Dark theme toggle",
+      "pass": true
+    },
+    {
+      "label": "Dark theme readable text",
+      "pass": true
+    },
+    {
+      "label": "Route renders: courses",
+      "pass": true
+    },
+    {
+      "label": "Route renders: tasks",
+      "pass": true
+    },
+    {
+      "label": "Route renders: certificates",
+      "pass": true
+    },
+    {
+      "label": "Route renders: achievements",
+      "pass": true
+    },
+    {
+      "label": "Route renders: library",
+      "pass": true
+    },
+    {
+      "label": "Route renders: settings",
+      "pass": true
+    },
+    {
+      "label": "Route renders: activity",
+      "pass": true
+    },
+    {
+      "label": "Course search",
+      "pass": true
+    },
+    {
+      "label": "Course enrollment opens lesson",
+      "pass": true
+    },
+    {
+      "label": "Lesson completion persists",
+      "pass": true
+    },
+    {
+      "label": "JavaScript worker: correct solution passes",
+      "pass": true
+    },
+    {
+      "label": "Repeated task does not duplicate XP",
+      "pass": true
+    },
+    {
+      "label": "Incorrect solution fails",
+      "pass": true
+    },
+    {
+      "label": "Infinite loop times out",
+      "pass": true
+    },
+    {
+      "label": "Bookmark saves",
+      "pass": true
+    },
+    {
+      "label": "Saved resources filter",
+      "pass": true
+    },
+    {
+      "label": "Full resource opens",
+      "pass": true
+    },
+    {
+      "label": "Profile save updates header",
+      "pass": true
+    },
+    {
+      "label": "Global search includes courses and resources",
+      "pass": true
+    },
+    {
+      "label": "Lesson python/0 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson python/1 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson python/2 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson python/3 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson python/4 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson python/5 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson js/0 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson js/1 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson js/2 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson js/3 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson js/4 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson js/5 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson algorithms/0 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson algorithms/1 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson algorithms/2 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson algorithms/3 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson algorithms/4 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson algorithms/5 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson react/0 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson react/1 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson react/2 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson react/3 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson react/4 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson react/5 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson html/0 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson html/1 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson html/2 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson html/3 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson html/4 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson html/5 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson sql/0 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson sql/1 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson sql/2 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson sql/3 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson sql/4 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson sql/5 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson ts/0 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson ts/1 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson ts/2 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson ts/3 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson ts/4 has content",
+      "pass": true
+    },
+    {
+      "label": "Lesson ts/5 has content",
+      "pass": true
+    },
+    {
+      "label": "No dashboard horizontal overflow at 1440",
+      "pass": true
+    },
+    {
+      "label": "No dashboard horizontal overflow at 1280",
+      "pass": true
+    },
+    {
+      "label": "No dashboard horizontal overflow at 1024",
+      "pass": true
+    },
+    {
+      "label": "No dashboard horizontal overflow at 768",
+      "pass": true
+    },
+    {
+      "label": "No dashboard horizontal overflow at 390",
+      "pass": true
+    },
+    {
+      "label": "No dashboard horizontal overflow at 360",
+      "pass": true
+    },
+    {
+      "label": "No mobile overflow: courses",
+      "pass": true
+    },
+    {
+      "label": "No mobile overflow: tasks",
+      "pass": true
+    },
+    {
+      "label": "No mobile overflow: certificates",
+      "pass": true
+    },
+    {
+      "label": "No mobile overflow: achievements",
+      "pass": true
+    },
+    {
+      "label": "No mobile overflow: library",
+      "pass": true
+    },
+    {
+      "label": "No mobile overflow: settings",
+      "pass": true
+    },
+    {
+      "label": "Task reference solution passes: reverse",
+      "pass": true
+    },
+    {
+      "label": "Task reference solution passes: palindrome",
+      "pass": true
+    },
+    {
+      "label": "Task reference solution passes: unique",
+      "pass": true
+    },
+    {
+      "label": "Task reference solution passes: fizzbuzz",
+      "pass": true
+    },
+    {
+      "label": "Task reference solution passes: binary",
+      "pass": true
+    },
+    {
+      "label": "Progress survives page reload",
+      "pass": true
+    },
+    {
+      "label": "Direct file launch renders dashboard",
+      "pass": true
+    },
+    {
+      "label": "JavaScript checker works from file URL",
+      "pass": true
+    },
+    {
+      "label": "No browser runtime exceptions",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

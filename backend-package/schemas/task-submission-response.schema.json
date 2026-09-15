@@ -1,0 +1,253 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Task submission response",
+  "type": "object",
+  "required": [
+    "data",
+    "meta"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "schemaVersion"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "const": "1.0"
+        },
+        "mode": {
+          "enum": [
+            "mock",
+            "http"
+          ]
+        }
+      }
+    },
+    "data": {
+      "type": "object",
+      "required": [
+        "id",
+        "status",
+        "verdict",
+        "createdAt",
+        "updatedAt",
+        "isDemo",
+        "feedback",
+        "taskId",
+        "taskVersion"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "queued",
+            "running",
+            "finished",
+            "failed",
+            "not_evaluated"
+          ]
+        },
+        "verdict": {
+          "enum": [
+            null,
+            "accepted",
+            "wrong_answer",
+            "compilation_error",
+            "runtime_error",
+            "time_limit",
+            "memory_limit",
+            "internal_error"
+          ]
+        },
+        "createdAt": {
+          "type": "string"
+        },
+        "updatedAt": {
+          "type": "string"
+        },
+        "isDemo": {
+          "type": "boolean"
+        },
+        "pollAfterMs": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "files": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "path",
+              "code"
+            ],
+            "properties": {
+              "path": {
+                "type": "string"
+              },
+              "code": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "stdin": {
+          "type": "string"
+        },
+        "feedback": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "summary": {
+              "type": "string"
+            },
+            "stdout": {
+              "type": "string"
+            },
+            "stderr": {
+              "type": "string"
+            },
+            "diagnostics": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "message"
+                ],
+                "properties": {
+                  "file": {
+                    "type": "string"
+                  },
+                  "line": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "column": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "message": {
+                    "type": "string"
+                  },
+                  "severity": {
+                    "enum": [
+                      "error",
+                      "warning",
+                      "info"
+                    ]
+                  }
+                }
+              }
+            },
+            "tests": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "name",
+                  "passed"
+                ],
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "passed": {
+                    "type": "boolean"
+                  },
+                  "message": {
+                    "type": "string"
+                  },
+                  "expectedOutput": {
+                    "type": "string"
+                  },
+                  "actualOutput": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "taskId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "taskVersion": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "allOf": [
+        {
+          "oneOf": [
+            {
+              "properties": {
+                "status": {
+                  "enum": [
+                    "queued",
+                    "running"
+                  ]
+                },
+                "verdict": {
+                  "type": "null"
+                }
+              }
+            },
+            {
+              "properties": {
+                "status": {
+                  "const": "not_evaluated"
+                },
+                "verdict": {
+                  "type": "null"
+                },
+                "isDemo": {
+                  "const": true
+                }
+              }
+            },
+            {
+              "properties": {
+                "status": {
+                  "const": "finished"
+                },
+                "verdict": {
+                  "enum": [
+                    "accepted",
+                    "wrong_answer",
+                    "compilation_error",
+                    "runtime_error",
+                    "time_limit",
+                    "memory_limit",
+                    "internal_error"
+                  ]
+                },
+                "isDemo": {
+                  "const": false
+                }
+              }
+            },
+            {
+              "properties": {
+                "status": {
+                  "const": "failed"
+                },
+                "verdict": {
+                  "const": "internal_error"
+                },
+                "isDemo": {
+                  "const": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "$comment": "not_evaluated is reserved for mock mode. Never expose hidden test inputs or expected answers. finished requires a verdict; queued/running require verdict null."
+}

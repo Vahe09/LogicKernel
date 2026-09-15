@@ -1,0 +1,8 @@
+{
+  "data":{
+    "id":"sub_example_001","lessonId":"python-01","exerciseId":"python-01-practice","status":"finished","verdict":"accepted","createdAt":"2026-09-14T12:00:00Z","updatedAt":"2026-09-14T12:00:02Z","isDemo":false,"lessonVersion":1,"exerciseVersion":1,
+    "files":[{"path":"main.py","code":"print(\"Привет, LogicKernel!\")\nprint(\"Это моя первая программа\")\n"}],"stdin":"",
+    "feedback":{"summary":"Программа выводит обе строки в нужном порядке.","stdout":"Привет, LogicKernel!\nЭто моя первая программа\n","stderr":"","diagnostics":[],"tests":[{"name":"Публичный пример","passed":true,"message":"Вывод совпал с условием."}]}
+  },
+  "meta":{"schemaVersion":"1.0"}
+}

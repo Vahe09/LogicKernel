@@ -1,0 +1,591 @@
+{
+  "data": {
+    "id": "python",
+    "slug": "python",
+    "title": "Python",
+    "subtitle": "Python, от первых шагов к инженерной практике",
+    "description": "От первой команды до небольшого приложения: данные, условия, циклы, функции и файлы. Продолжение программы включает разработку компонентов, проверку ошибок, архитектуру, производительность и проектные работы",
+    "level": "С нуля до продвинутого",
+    "category": "backend",
+    "language": "python",
+    "base": 0,
+    "hours": 101,
+    "lessons": 60,
+    "teacher": "Редакция LogicKernel",
+    "version": "2026.09.15.1",
+    "prerequisites": "Первые 12 уроков можно пройти без опыта, следующие модули опираются на предыдущие, продвинутые проекты требуют самостоятельной работы и ревью",
+    "outcomes": [
+      "Читать, писать и объяснять код Python",
+      "Проверять контракты, граничные случаи и поведение при отказе",
+      "Обосновывать структуру проекта, работу с данными и ресурсами",
+      "Измерять производительность и сохранять корректность при оптимизации",
+      "Подготовить итоговый проект и защитить инженерные решения"
+    ],
+    "modules": [
+      {
+        "id": "python-module-1",
+        "title": "Первые шаги и устройство кода",
+        "position": 0,
+        "lessons": [
+          {
+            "id": "python-01",
+            "title": "Что такое программа. Ваша первая команда",
+            "position": 0,
+            "estimatedMinutes": 35,
+            "hasPractice": true
+          },
+          {
+            "id": "python-02",
+            "title": "Как читать код: строки, комментарии и ошибки",
+            "position": 1,
+            "estimatedMinutes": 37,
+            "hasPractice": true
+          },
+          {
+            "id": "python-03",
+            "title": "Переменные: даём данным имена",
+            "position": 2,
+            "estimatedMinutes": 39,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "python-module-2",
+        "title": "Данные и управление программой",
+        "position": 1,
+        "lessons": [
+          {
+            "id": "python-04",
+            "title": "Числа, типы и вычисления",
+            "position": 3,
+            "estimatedMinutes": 41,
+            "hasPractice": true
+          },
+          {
+            "id": "python-05",
+            "title": "Строки и понятный вывод",
+            "position": 4,
+            "estimatedMinutes": 43,
+            "hasPractice": true
+          },
+          {
+            "id": "python-06",
+            "title": "Условия: выбираем действие",
+            "position": 5,
+            "estimatedMinutes": 45,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "python-module-3",
+        "title": "Коллекции и повторное использование",
+        "position": 2,
+        "lessons": [
+          {
+            "id": "python-07",
+            "title": "Списки: храним несколько значений",
+            "position": 6,
+            "estimatedMinutes": 47,
+            "hasPractice": true
+          },
+          {
+            "id": "python-08",
+            "title": "Циклы: повторяем без копирования",
+            "position": 7,
+            "estimatedMinutes": 49,
+            "hasPractice": true
+          },
+          {
+            "id": "python-09",
+            "title": "Функции: называем повторяющееся действие",
+            "position": 8,
+            "estimatedMinutes": 51,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "python-module-4",
+        "title": "Надёжность и самостоятельный проект",
+        "position": 3,
+        "lessons": [
+          {
+            "id": "python-10",
+            "title": "Словари: связываем свойства и значения",
+            "position": 9,
+            "estimatedMinutes": 53,
+            "hasPractice": true
+          },
+          {
+            "id": "python-11",
+            "title": "Файлы и ошибки: читаем данные аккуратно",
+            "position": 10,
+            "estimatedMinutes": 55,
+            "hasPractice": true
+          },
+          {
+            "id": "python-12",
+            "title": "Первый проект: отчёт об обучении",
+            "position": 11,
+            "estimatedMinutes": 57,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "python-module-5",
+        "title": "Коллекции и преобразование данных",
+        "position": 4,
+        "lessons": [
+          {
+            "id": "python-13",
+            "title": "Коллекции и преобразование данных",
+            "position": 12,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "python-14",
+            "title": "Коллекции и преобразование данных, проверки и отладка",
+            "position": 13,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "python-15",
+            "title": "Проектная работа, коллекции и преобразование данных",
+            "position": 14,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "python-module-6",
+        "title": "Итераторы и потоковые конвейеры",
+        "position": 5,
+        "lessons": [
+          {
+            "id": "python-16",
+            "title": "Итераторы и потоковые конвейеры",
+            "position": 15,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "python-17",
+            "title": "Итераторы и потоковые конвейеры, проверки и отладка",
+            "position": 16,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "python-18",
+            "title": "Проектная работа, итераторы и потоковые конвейеры",
+            "position": 17,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "python-module-7",
+        "title": "Замыкания и декораторы",
+        "position": 6,
+        "lessons": [
+          {
+            "id": "python-19",
+            "title": "Замыкания и декораторы",
+            "position": 18,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "python-20",
+            "title": "Замыкания и декораторы, проверки и отладка",
+            "position": 19,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "python-21",
+            "title": "Проектная работа, замыкания и декораторы",
+            "position": 20,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "python-module-8",
+        "title": "Модели данных и композиция",
+        "position": 7,
+        "lessons": [
+          {
+            "id": "python-22",
+            "title": "Модели данных и композиция",
+            "position": 21,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "python-23",
+            "title": "Модели данных и композиция, проверки и отладка",
+            "position": 22,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "python-24",
+            "title": "Проектная работа, модели данных и композиция",
+            "position": 23,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "python-module-9",
+        "title": "Исключения и управление ресурсами",
+        "position": 8,
+        "lessons": [
+          {
+            "id": "python-25",
+            "title": "Исключения и управление ресурсами",
+            "position": 24,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "python-26",
+            "title": "Исключения и управление ресурсами, проверки и отладка",
+            "position": 25,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "python-27",
+            "title": "Проектная работа, исключения и управление ресурсами",
+            "position": 26,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "python-module-10",
+        "title": "Модули и воспроизводимое окружение",
+        "position": 9,
+        "lessons": [
+          {
+            "id": "python-28",
+            "title": "Модули и воспроизводимое окружение",
+            "position": 27,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "python-29",
+            "title": "Модули и воспроизводимое окружение, проверки и отладка",
+            "position": 28,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "python-30",
+            "title": "Проектная работа, модули и воспроизводимое окружение",
+            "position": 29,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "python-module-11",
+        "title": "Модульные тесты и подмена зависимостей",
+        "position": 10,
+        "lessons": [
+          {
+            "id": "python-31",
+            "title": "Модульные тесты и подмена зависимостей",
+            "position": 30,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "python-32",
+            "title": "Модульные тесты и подмена зависимостей, проверки и отладка",
+            "position": 31,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "python-33",
+            "title": "Проектная работа, модульные тесты и подмена зависимостей",
+            "position": 32,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "python-module-12",
+        "title": "Типизация и протоколы",
+        "position": 11,
+        "lessons": [
+          {
+            "id": "python-34",
+            "title": "Типизация и протоколы",
+            "position": 33,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "python-35",
+            "title": "Типизация и протоколы, проверки и отладка",
+            "position": 34,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "python-36",
+            "title": "Проектная работа, типизация и протоколы",
+            "position": 35,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "python-module-13",
+        "title": "Асинхронность и отмена задач",
+        "position": 12,
+        "lessons": [
+          {
+            "id": "python-37",
+            "title": "Асинхронность и отмена задач",
+            "position": 36,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "python-38",
+            "title": "Асинхронность и отмена задач, проверки и отладка",
+            "position": 37,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "python-39",
+            "title": "Проектная работа, асинхронность и отмена задач",
+            "position": 38,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "python-module-14",
+        "title": "Потоки процессы и разделяемое состояние",
+        "position": 13,
+        "lessons": [
+          {
+            "id": "python-40",
+            "title": "Потоки процессы и разделяемое состояние",
+            "position": 39,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "python-41",
+            "title": "Потоки процессы и разделяемое состояние, проверки и отладка",
+            "position": 40,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "python-42",
+            "title": "Проектная работа, потоки процессы и разделяемое состояние",
+            "position": 41,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "python-module-15",
+        "title": "Хранилище и транзакции",
+        "position": 14,
+        "lessons": [
+          {
+            "id": "python-43",
+            "title": "Хранилище и транзакции",
+            "position": 42,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "python-44",
+            "title": "Хранилище и транзакции, проверки и отладка",
+            "position": 43,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "python-45",
+            "title": "Проектная работа, хранилище и транзакции",
+            "position": 44,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "python-module-16",
+        "title": "Клиенты внешних сервисов",
+        "position": 15,
+        "lessons": [
+          {
+            "id": "python-46",
+            "title": "Клиенты внешних сервисов",
+            "position": 45,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "python-47",
+            "title": "Клиенты внешних сервисов, проверки и отладка",
+            "position": 46,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "python-48",
+            "title": "Проектная работа, клиенты внешних сервисов",
+            "position": 47,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "python-module-17",
+        "title": "Профилирование и ограниченные кеши",
+        "position": 16,
+        "lessons": [
+          {
+            "id": "python-49",
+            "title": "Профилирование и ограниченные кеши",
+            "position": 48,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "python-50",
+            "title": "Профилирование и ограниченные кеши, проверки и отладка",
+            "position": 49,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "python-51",
+            "title": "Проектная работа, профилирование и ограниченные кеши",
+            "position": 50,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "python-module-18",
+        "title": "Наблюдаемость и структурированные события",
+        "position": 17,
+        "lessons": [
+          {
+            "id": "python-52",
+            "title": "Наблюдаемость и структурированные события",
+            "position": 51,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "python-53",
+            "title": "Наблюдаемость и структурированные события, проверки и отладка",
+            "position": 52,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "python-54",
+            "title": "Проектная работа, наблюдаемость и структурированные события",
+            "position": 53,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "python-module-19",
+        "title": "Идемпотентность и фоновые задания",
+        "position": 18,
+        "lessons": [
+          {
+            "id": "python-55",
+            "title": "Идемпотентность и фоновые задания",
+            "position": 54,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "python-56",
+            "title": "Идемпотентность и фоновые задания, проверки и отладка",
+            "position": 55,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "python-57",
+            "title": "Проектная работа, идемпотентность и фоновые задания",
+            "position": 56,
+            "estimatedMinutes": 150,
+            "hasPractice": true
+          }
+        ]
+      },
+      {
+        "id": "python-module-20",
+        "title": "Сервис обработки заказов",
+        "position": 19,
+        "lessons": [
+          {
+            "id": "python-58",
+            "title": "Сервис обработки заказов",
+            "position": 57,
+            "estimatedMinutes": 80,
+            "hasPractice": true
+          },
+          {
+            "id": "python-59",
+            "title": "Сервис обработки заказов, проверки и отладка",
+            "position": 58,
+            "estimatedMinutes": 100,
+            "hasPractice": true
+          },
+          {
+            "id": "python-60",
+            "title": "Итоговый проект, Сервис обработки заказов",
+            "position": 59,
+            "estimatedMinutes": 360,
+            "hasPractice": true
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "schemaVersion": "1.0",
+    "contentVersion": "2026.09.15.1"
+  }
+}
