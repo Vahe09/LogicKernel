@@ -16,3 +16,25 @@ body{color:var(--text)}.sr-only{position:absolute;width:1px;height:1px;padding:0
 @media(max-width:1150px){.reading-layout{grid-template-columns:minmax(0,1fr) 220px;gap:16px}.reading-article{padding:23px}.reading-article>h1{font-size:25px}.reading-prose{font-size:13px}.lesson-toc{padding:14px}.course-outline-layout{grid-template-columns:minmax(0,1fr) 220px;gap:17px}.course-introduction{padding:25px}}
 @media(max-width:1000px){.reading-layout{grid-template-columns:1fr}.reading-aside{display:none}.course-outline-layout{grid-template-columns:1fr}.course-outcomes{margin-top:0}.course-intro-logo{width:75px}.course-intro-logo>svg{width:60px;height:60px}.course-introduction h1{font-size:25px}}
 @media(max-width:700px){.reading-article{padding:21px 17px}.reading-article>h1{font-size:25px}.lesson-topline{align-items:flex-start}.lesson-topline .text-link{font-size:9px}.reading-prose{font-size:13px}.lesson-objectives{padding:17px}.lesson-objectives p{font-size:11px}.lesson-callout{padding:17px 13px;gap:10px}.lesson-callout p,.explanation-steps p{font-size:12px}.reading-prose h2{font-size:17px}.lesson-glossary>div{grid-template-columns:1fr;gap:4px;padding:13px}.reading-completion{align-items:flex-start;flex-wrap:wrap}.practice-heading h2{font-size:19px}.practice-assignment p{font-size:12px}.submission-controls{align-items:stretch;flex-direction:column;gap:12px}.submission-controls small{max-width:none}.submission-controls .button{width:100%}.workspace-tools>span{display:none}.editor-statusbar{font-size:8px;gap:5px}.editor-statusbar>span:last-child{display:none}.lesson-code-input{font-size:12px}.editor-input-area>pre{width:34px;font-size:11px}.teaching-code .code-block{font-size:11px;padding:17px}.teaching-code-header>span{font-size:10px;flex-wrap:wrap}.teaching-code-header small{display:none}.understanding-check{padding:18px 15px}.course-introduction{padding:22px 18px;gap:13px}.course-intro-logo{width:40px;height:50px}.course-intro-logo>svg{width:38px;height:38px}.course-introduction h1{font-size:22px}.course-introduction p{font-size:11px}.outline-module{padding:18px 14px}.outline-module h2{font-size:13px;gap:9px}.outline-module .badge{font-size:8px}.outline-lesson b{font-size:12px}.outline-lesson{gap:10px}.reading-article .lesson-bottom .button{font-size:10px;padding:8px 10px}.feedback-title h3{font-size:12px}.submission-feedback{padding:17px}.editor-expanded .workspace-editor{inset:3vh 3vw}.lesson-practice{scroll-margin-top:80px}.lesson-lead{font-size:12px}.practice-heading p{font-size:10px}.practice-symbol{width:39px;height:43px}.lesson-sources a{font-size:10px}.reading-completion p{font-size:10px}}
+
+/* Account forms */
+[hidden]{display:none!important}
+.auth-actions{display:flex;align-items:center;gap:8px;white-space:nowrap}
+.auth-actions .button{min-height:36px;padding:8px 13px}
+.auth-intro{color:var(--muted);margin-bottom:20px;font-size:13px;line-height:1.6}
+#auth-form .form-grid{gap:16px}
+#auth-form input{font-size:14px;min-height:42px;width:100%}
+.auth-password{position:relative;display:flex;align-items:center}
+.auth-password input{padding-right:85px}
+.auth-password-toggle{position:absolute;right:10px;font-size:11px;color:var(--muted);padding:5px}
+.auth-error{margin-top:14px;padding:12px;border-radius:7px;background:var(--surface-2);color:#bb343c;font-size:13px;border-left:3px solid currentColor}
+[data-theme=dark] .auth-error{color:#f3a0a0}
+.auth-submit{width:100%;min-height:42px}
+.auth-switch{text-align:center;color:var(--muted);margin-top:20px;font-size:12px}
+.auth-switch button{color:var(--text);font-weight:650;text-decoration:underline;text-underline-offset:3px;padding:4px}
+.auth-required .button{margin:16px 8px 0 0}
+.profile-menu>button{display:flex;align-items:center;gap:12px;padding:13px;background:var(--surface-2);border-radius:7px;text-align:left}
+.profile-menu>button:hover{background:var(--tint)}
+@media(min-width:701px) and (max-width:950px){.topbar:has(.auth-actions:not([hidden])){gap:18px}.topbar:has(.auth-actions:not([hidden])) .search-trigger>span:nth-child(2),.topbar:has(.auth-actions:not([hidden])) .search-trigger kbd{display:none}.topbar:has(.auth-actions:not([hidden])) .header-actions{gap:12px}}
+@media(max-width:700px){.auth-actions{gap:5px}.auth-actions .button{min-height:32px;font-size:10px;padding:6px 8px}.topbar:has(.auth-actions:not([hidden])){gap:7px}.topbar:has(.auth-actions:not([hidden])) .theme-button{display:none}.auth-intro{font-size:12px}}
+@media(max-width:380px){.topbar:has(.auth-actions:not([hidden])) .brand{font-size:18px}.auth-actions .button{padding:6px;font-size:9px}}

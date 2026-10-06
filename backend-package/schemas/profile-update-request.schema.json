@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PATCH /api/v1/me",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "surname",
+    "bio"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 30
+    },
+    "surname": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40
+    },
+    "bio": {
+      "type": "string",
+      "maxLength": 300
+    }
+  }
+}

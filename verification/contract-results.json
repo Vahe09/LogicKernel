@@ -1,8 +1,16 @@
 {
-  "passed": 1375,
+  "passed": 1383,
   "errors": [],
   "checks": [
     "OpenAPI operations",
+    "OpenAPI reference ./schemas/session-response.schema.json",
+    "OpenAPI reference ./schemas/auth-register-request.schema.json",
+    "OpenAPI reference ./schemas/session-response.schema.json",
+    "OpenAPI reference ./schemas/auth-login-request.schema.json",
+    "OpenAPI reference ./schemas/session-response.schema.json",
+    "OpenAPI reference ./schemas/session-response.schema.json",
+    "OpenAPI reference ./schemas/profile-update-request.schema.json",
+    "OpenAPI reference ./schemas/session-response.schema.json",
     "OpenAPI reference ./schemas/content.schema.json",
     "OpenAPI reference ./schemas/content.schema.json#/$defs/courseSummary",
     "OpenAPI reference ./schemas/content.schema.json",

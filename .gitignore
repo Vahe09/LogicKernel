@@ -4,3 +4,7 @@ node_modules/
 .env.*
 !.env.example
 *.log
+.venv/
+public/
+.local-backend/
+__pycache__/

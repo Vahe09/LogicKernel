@@ -7,10 +7,20 @@ const error={type:'object',required:['error'],properties:{error:{type:'object',r
 const errors={default:jsonResponse('Ошибка API; см. error.code и error.message',error)};
 const parameter=(name,location='path')=>({name,in:location,required:true,schema:{type:'string',minLength:1}});
 const submission={$ref:'./schemas/submission-response.schema.json'};
+const session={$ref:'./schemas/session-response.schema.json'};
+const csrf=parameter('X-CSRF-Token','header');
+const requestBody=file=>({required:true,content:{'application/json':{schema:{$ref:'./schemas/'+file}}}});
+const cookieSession=[{sessionCookie:[]}];
 const doc={
-  openapi:'3.1.0',info:{title:'LogicKernel Content and Submissions API',version:'1.0',description:'Контракт текущего фронтенда. Полное руководство: BACKEND.md. Авторизация и синхронизация профиля/прогресса требуют отдельной интеграции.'},
+  openapi:'3.1.0',info:{title:'LogicKernel API',version:'1.0',description:'Контракт фронтенда: материалы, регистрация, cookie-сессии, профиль и попытки. Учебные примеры Python и порядок реализации — в BACKEND.md.'},
+  components:{securitySchemes:{sessionCookie:{type:'apiKey',in:'cookie',name:'lk_session',description:'Серверная сессия, HttpOnly cookie. GET /auth/session создаёт также гостевую сессию.'}}},
   servers:[{url:'/api/v1',description:'Same-origin API'},{url:'http://127.0.0.1:4180/api/v1',description:'Локальный пример API материалов'}],
   paths:{
+    '/auth/session':{get:{operationId:'getSession',summary:'Восстановить пользователя и получить CSRF-токен; для гостя user null',responses:{200:jsonResponse('Сессия; при необходимости сервер устанавливает cookie',session),...errors}}},
+    '/auth/register':{post:{operationId:'register',summary:'Создать пользователя и сразу войти',parameters:[csrf],security:cookieSession,requestBody:requestBody('auth-register-request.schema.json'),responses:{201:jsonResponse('Новая сессия и пользователь',session),...errors}}},
+    '/auth/login':{post:{operationId:'login',summary:'Войти по почте и паролю, заменить cookie сессии',parameters:[csrf],security:cookieSession,requestBody:requestBody('auth-login-request.schema.json'),responses:{200:jsonResponse('Сессия вошедшего пользователя',session),...errors}}},
+    '/auth/logout':{post:{operationId:'logout',summary:'Удалить старую сессию и вернуть гостевую',parameters:[csrf],security:cookieSession,responses:{200:jsonResponse('user null и новый CSRF-токен',session),...errors}}},
+    '/me':{patch:{operationId:'updateProfile',summary:'Сохранить имя, фамилию и описание вошедшего пользователя',parameters:[csrf],security:cookieSession,requestBody:requestBody('profile-update-request.schema.json'),responses:{200:jsonResponse('Обновлённый пользователь и текущий CSRF-токен',session),...errors}}},
     '/courses':{get:{operationId:'listCourses',summary:'Весь каталог без пагинации',responses:{200:jsonResponse('Все карточки курсов',contentResponse({type:'array',items:{$ref:content+'#/$defs/courseSummary'}})),...errors}}},
     '/courses/{courseId}':{get:{operationId:'getCourse',summary:'Программа курса с модулями',parameters:[parameter('courseId')],responses:{200:jsonResponse('Курс',contentResponse({$ref:content+'#/$defs/course'})),...errors}}},
     '/lessons/{lessonId}':{get:{operationId:'getLesson',summary:'Полный урок с упражнением',parameters:[parameter('lessonId')],responses:{200:jsonResponse('Урок',contentResponse({$ref:content+'#/$defs/lesson'})),...errors}}},
@@ -23,4 +33,10 @@ const doc={
     '/task-submissions/{submissionId}':{get:{operationId:'getTaskSubmission',summary:'Результат отдельной задачи',parameters:[parameter('submissionId')],responses:{200:jsonResponse('Попытка проверки задачи',{$ref:'./schemas/task-submission-response.schema.json'}),...errors}}}
   }
 };
+for(const route of ['/submissions','/submissions/{submissionId}','/task-submissions','/task-submissions/{submissionId}']){
+  for(const [method,operation] of Object.entries(doc.paths[route])){
+    operation.security=cookieSession;
+    if(method==='post')operation.parameters=[...(operation.parameters||[]).filter(p=>p.name!=='X-CSRF-Token'),csrf];
+  }
+}
 await writeFile(new URL('../backend-package/openapi.json',import.meta.url),JSON.stringify(doc,null,2)+'\n');

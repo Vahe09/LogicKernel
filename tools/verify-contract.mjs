@@ -32,7 +32,7 @@ try{
     }
     for(const child of Object.values(value))await resolveRefs(child);
   }
-  check(openapi.openapi==='3.1.0'&&Object.keys(openapi.paths).length===7,'OpenAPI operations');
+  check(openapi.openapi==='3.1.0'&&Object.keys(openapi.paths).length===12,'OpenAPI operations');
   await resolveRefs(openapi.paths);
   const httpAdapter=adapter('http'),api=httpAdapter.init();
   for(const entry of manifest.files){

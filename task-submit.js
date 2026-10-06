@@ -26,6 +26,7 @@ window.LKTask = (() => {
       show('Проект ещё в разработке, отправка решений появится после подключения бэкенда, черновик остаётся в редакторе');
       return;
     }
+    if (!LKAuth.user) { LKAuth.open('login'); return; }
     if (!editor.value.trim()) { show('Сначала напишите решение'); return; }
     if (new TextEncoder().encode(editor.value).length > 65536) { show('Размер кода превышает 64 КБ'); return; }
 

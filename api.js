@@ -1,6 +1,7 @@
 /* Transport boundary: mock and HTTP return the same versioned DTO envelopes. */
 window.LKApi = (() => {
   const config=window.LK_CONFIG;
+  let csrfToken=null;
   let mockReady;
   let nextFailure=null;
   const log=[];
@@ -12,10 +13,11 @@ window.LKApi = (() => {
     if(signal?.aborted)throw new DOMException('Aborted','AbortError');
     if(config.mode==='http'){
       const controller=new AbortController();const onAbort=()=>controller.abort(signal?.reason);signal?.addEventListener('abort',onAbort,{once:true});const timer=setTimeout(()=>controller.abort(),config.requestTimeoutMs);
-      try{const headers={Accept:'application/json'};if(body)headers['Content-Type']='application/json';if(idempotencyKey)headers['Idempotency-Key']=idempotencyKey;const csrf=document.querySelector('meta[name="csrf-token"]')?.content;if(method!=='GET'&&csrf)headers['X-CSRF-Token']=csrf;
-        const response=await fetch(config.baseUrl+path,{method,headers,body:body?JSON.stringify(body):undefined,credentials:'same-origin',signal:controller.signal});let json;try{json=await response.json()}catch{throw new ApiError('INVALID_RESPONSE','Ответ сервера не является JSON.',response.status)}if(!response.ok)throw new ApiError(json.error?.code||'HTTP_ERROR',json.error?.message||'Не удалось выполнить запрос.',response.status,json.error?.details);return validateEnvelope(json);
+      try{const headers={Accept:'application/json'};if(body)headers['Content-Type']='application/json';if(idempotencyKey)headers['Idempotency-Key']=idempotencyKey;const csrf=csrfToken||document.querySelector('meta[name="csrf-token"]')?.content;if(method!=='GET'&&csrf)headers['X-CSRF-Token']=csrf;
+        const response=await fetch(config.baseUrl+path,{method,headers,body:body?JSON.stringify(body):undefined,credentials:'same-origin',signal:controller.signal});let json;try{json=await response.json()}catch{throw new ApiError('INVALID_RESPONSE','Ответ сервера не является JSON.',response.status)}if(!response.ok){if(response.status===401&&!path.startsWith('/auth/'))window.dispatchEvent(new Event('lk:session-expired'));throw new ApiError(json.error?.code||'HTTP_ERROR',json.error?.message||'Не удалось выполнить запрос.',response.status,json.error?.details)}return validateEnvelope(json);
       }catch(error){if(signal?.aborted)throw new DOMException('Aborted','AbortError');if(error.name==='AbortError')throw new ApiError('TIMEOUT','Сервер не ответил вовремя. Сохранённый код не потерян.');if(error instanceof ApiError)throw error;throw new ApiError('NETWORK_ERROR','Нет связи с сервером. Проверьте подключение и повторите.');}finally{clearTimeout(timer);signal?.removeEventListener('abort',onAbort)}
     }
+    if(path.startsWith('/auth/')||path==='/me')throw new ApiError('BACKEND_REQUIRED','Вход и регистрация заработают после запуска Python-бэкенда по README.',503);
     await loadMock();await new Promise(resolve=>setTimeout(resolve,config.mockLatencyMs));if(signal?.aborted)throw new DOMException('Aborted','AbortError');if(nextFailure){const failure=nextFailure;nextFailure=null;throw new ApiError(failure,'Демонстрационная ошибка связи. Попробуйте ещё раз.',503)}
     const meta={schemaVersion:'1.0',mode:'mock'};let result;
     if(method==='GET'&&window.LK_MOCK_BUNDLE.endpoints[path])result=structuredClone(window.LK_MOCK_BUNDLE.endpoints[path]);
@@ -24,5 +26,12 @@ window.LKApi = (() => {
     else throw new ApiError('NOT_FOUND','Материал не найден',404);
     safeLog(method,path,body,result);return validateEnvelope(result);
   }
-  return Object.freeze({mode:config.mode,ApiError,listCourses:options=>request('GET','/courses',null,options),getCourse:(id,options)=>request('GET','/courses/'+encodeURIComponent(id),null,options),getLesson:(id,options)=>request('GET','/lessons/'+encodeURIComponent(id),null,options),submit:(body,options)=>request('POST','/submissions',body,options),submitTask:(body,options)=>request('POST','/task-submissions',body,options),getTaskSubmission:(id,options)=>request('GET','/task-submissions/'+encodeURIComponent(id),null,options),getSubmission:(id,options)=>request('GET','/submissions/'+encodeURIComponent(id),null,options),listSubmissions:(lessonId,options)=>request('GET','/submissions?lessonId='+encodeURIComponent(lessonId),null,options),debug:Object.freeze({getLog:()=>structuredClone(log),failNext:code=>{if(config.mode==='mock')nextFailure=code||'NETWORK_ERROR';}})});
+  return Object.freeze({mode:config.mode,ApiError,
+    setCSRFToken:token=>{csrfToken=token||null},
+    getSession:options=>request('GET','/auth/session',null,options),
+    register:(body,options)=>request('POST','/auth/register',body,options),
+    login:(body,options)=>request('POST','/auth/login',body,options),
+    logout:options=>request('POST','/auth/logout',{},options),
+    updateProfile:(body,options)=>request('PATCH','/me',body,options),
+    listCourses:options=>request('GET','/courses',null,options),getCourse:(id,options)=>request('GET','/courses/'+encodeURIComponent(id),null,options),getLesson:(id,options)=>request('GET','/lessons/'+encodeURIComponent(id),null,options),submit:(body,options)=>request('POST','/submissions',body,options),submitTask:(body,options)=>request('POST','/task-submissions',body,options),getTaskSubmission:(id,options)=>request('GET','/task-submissions/'+encodeURIComponent(id),null,options),getSubmission:(id,options)=>request('GET','/submissions/'+encodeURIComponent(id),null,options),listSubmissions:(lessonId,options)=>request('GET','/submissions?lessonId='+encodeURIComponent(lessonId),null,options),debug:Object.freeze({getLog:()=>structuredClone(log),failNext:code=>{if(config.mode==='mock')nextFailure=code||'NETWORK_ERROR';}})});
 })();

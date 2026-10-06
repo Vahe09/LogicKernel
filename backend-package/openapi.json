@@ -1,9 +1,19 @@
 {
   "openapi": "3.1.0",
   "info": {
-    "title": "LogicKernel Content and Submissions API",
+    "title": "LogicKernel API",
     "version": "1.0",
-    "description": "Контракт текущего фронтенда. Полное руководство: BACKEND.md. Авторизация и синхронизация профиля/прогресса требуют отдельной интеграции."
+    "description": "Контракт фронтенда: материалы, регистрация, cookie-сессии, профиль и попытки. Учебные примеры Python и порядок реализации — в BACKEND.md."
+  },
+  "components": {
+    "securitySchemes": {
+      "sessionCookie": {
+        "type": "apiKey",
+        "in": "cookie",
+        "name": "lk_session",
+        "description": "Серверная сессия, HttpOnly cookie. GET /auth/session создаёт также гостевую сессию."
+      }
+    }
   },
   "servers": [
     {
@@ -16,6 +26,360 @@
     }
   ],
   "paths": {
+    "/auth/session": {
+      "get": {
+        "operationId": "getSession",
+        "summary": "Восстановить пользователя и получить CSRF-токен; для гостя user null",
+        "responses": {
+          "200": {
+            "description": "Сессия; при необходимости сервер устанавливает cookie",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "./schemas/session-response.schema.json"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Ошибка API; см. error.code и error.message",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "error"
+                  ],
+                  "properties": {
+                    "error": {
+                      "type": "object",
+                      "required": [
+                        "code",
+                        "message"
+                      ],
+                      "properties": {
+                        "code": {
+                          "type": "string"
+                        },
+                        "message": {
+                          "type": "string"
+                        },
+                        "details": {},
+                        "requestId": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/auth/register": {
+      "post": {
+        "operationId": "register",
+        "summary": "Создать пользователя и сразу войти",
+        "parameters": [
+          {
+            "name": "X-CSRF-Token",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        ],
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "./schemas/auth-register-request.schema.json"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Новая сессия и пользователь",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "./schemas/session-response.schema.json"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Ошибка API; см. error.code и error.message",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "error"
+                  ],
+                  "properties": {
+                    "error": {
+                      "type": "object",
+                      "required": [
+                        "code",
+                        "message"
+                      ],
+                      "properties": {
+                        "code": {
+                          "type": "string"
+                        },
+                        "message": {
+                          "type": "string"
+                        },
+                        "details": {},
+                        "requestId": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/auth/login": {
+      "post": {
+        "operationId": "login",
+        "summary": "Войти по почте и паролю, заменить cookie сессии",
+        "parameters": [
+          {
+            "name": "X-CSRF-Token",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        ],
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "./schemas/auth-login-request.schema.json"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Сессия вошедшего пользователя",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "./schemas/session-response.schema.json"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Ошибка API; см. error.code и error.message",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "error"
+                  ],
+                  "properties": {
+                    "error": {
+                      "type": "object",
+                      "required": [
+                        "code",
+                        "message"
+                      ],
+                      "properties": {
+                        "code": {
+                          "type": "string"
+                        },
+                        "message": {
+                          "type": "string"
+                        },
+                        "details": {},
+                        "requestId": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/auth/logout": {
+      "post": {
+        "operationId": "logout",
+        "summary": "Удалить старую сессию и вернуть гостевую",
+        "parameters": [
+          {
+            "name": "X-CSRF-Token",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        ],
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "user null и новый CSRF-токен",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "./schemas/session-response.schema.json"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Ошибка API; см. error.code и error.message",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "error"
+                  ],
+                  "properties": {
+                    "error": {
+                      "type": "object",
+                      "required": [
+                        "code",
+                        "message"
+                      ],
+                      "properties": {
+                        "code": {
+                          "type": "string"
+                        },
+                        "message": {
+                          "type": "string"
+                        },
+                        "details": {},
+                        "requestId": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/me": {
+      "patch": {
+        "operationId": "updateProfile",
+        "summary": "Сохранить имя, фамилию и описание вошедшего пользователя",
+        "parameters": [
+          {
+            "name": "X-CSRF-Token",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        ],
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "./schemas/profile-update-request.schema.json"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Обновлённый пользователь и текущий CSRF-токен",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "./schemas/session-response.schema.json"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Ошибка API; см. error.code и error.message",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "error"
+                  ],
+                  "properties": {
+                    "error": {
+                      "type": "object",
+                      "required": [
+                        "code",
+                        "message"
+                      ],
+                      "properties": {
+                        "code": {
+                          "type": "string"
+                        },
+                        "message": {
+                          "type": "string"
+                        },
+                        "details": {},
+                        "requestId": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/courses": {
       "get": {
         "operationId": "listCourses",
@@ -316,7 +680,12 @@
               }
             }
           }
-        }
+        },
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ]
       },
       "post": {
         "operationId": "submit",
@@ -334,9 +703,10 @@
           {
             "name": "X-CSRF-Token",
             "in": "header",
-            "required": false,
+            "required": true,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "minLength": 1
             }
           }
         ],
@@ -395,7 +765,12 @@
               }
             }
           }
-        }
+        },
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ]
       }
     },
     "/submissions/{submissionId}": {
@@ -458,7 +833,12 @@
               }
             }
           }
-        }
+        },
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ]
       }
     },
     "/task-submissions": {
@@ -468,6 +848,15 @@
         "parameters": [
           {
             "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          {
+            "name": "X-CSRF-Token",
             "in": "header",
             "required": true,
             "schema": {
@@ -531,7 +920,12 @@
               }
             }
           }
-        }
+        },
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ]
       }
     },
     "/task-submissions/{submissionId}": {
@@ -594,7 +988,12 @@
               }
             }
           }
-        }
+        },
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ]
       }
     }
   }

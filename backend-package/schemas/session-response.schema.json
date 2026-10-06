@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Account session response",
+  "type": "object",
+  "required": [
+    "data",
+    "meta"
+  ],
+  "properties": {
+    "data": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "user",
+        "csrfToken"
+      ],
+      "properties": {
+        "user": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "name",
+                "surname",
+                "email",
+                "bio"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 30
+                },
+                "surname": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 40
+                },
+                "email": {
+                  "type": "string",
+                  "format": "email",
+                  "maxLength": 254
+                },
+                "bio": {
+                  "type": "string",
+                  "maxLength": 300
+                }
+              }
+            }
+          ]
+        },
+        "csrfToken": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "meta": {
+      "type": "object",
+      "required": [
+        "schemaVersion"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "const": "1.0"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+fastapi==0.142.2
+uvicorn==0.54.0
+argon2-cffi==25.1.0
+email-validator==2.3.0
